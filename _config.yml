@@ -1,0 +1,6 @@
+title: 이야기가 필요해
+description: 팟캐스트 <이야기가 필요해> 회차별 대본·질문 흐름·운영 기록
+lang: ko
+exclude:
+  - sync.sh
+  - .staticrypt.json
