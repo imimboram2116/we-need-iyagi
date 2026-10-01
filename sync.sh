@@ -51,9 +51,10 @@ rm -rf "$TMP"
   for f in "$DST"/*.md; do n=$(basename "$f"); [ "$n" = index.md ] || echo "- [${n%.md}]($n)"; done
   for n in "${PRIVATE[@]}"; do echo "- [$n]($n.html) (비밀번호 필요)"; done
   for d in scripts transcripts; do
-    [ -d "$DST/$d" ] || continue
+    files=("$DST/$d"/*.md)
+    [ ${#files[@]} -gt 0 ] || continue
     echo; echo "## $d"; echo
-    for f in "$DST/$d"/*.md; do n=$(basename "$f"); echo "- [${n%.md}]($d/$n)"; done
+    for f in "${files[@]}"; do n=$(basename "$f"); echo "- [${n%.md}]($d/$n)"; done
   done
 } > "$DST/index.md"
 

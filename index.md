@@ -14,9 +14,6 @@
 - [Ep13-15-분석](Ep13-15-분석.html) (비밀번호 필요)
 - [scripts/Ep17-코스피특집](scripts/Ep17-코스피특집.html) (비밀번호 필요)
 
-## scripts
-
-
 ## transcripts
 
 - [Ep13-서울국제도서전-특집](transcripts/Ep13-서울국제도서전-특집.md)
