@@ -55,7 +55,7 @@ done
   echo
   for f in "$DST"/*.md; do n=$(basename "$f"); [ "$n" = index.md ] || [ "$n" = docs.md ] || [ "$n" = webapp-prd.md ] || [ "$n" = stitch-brief.md ] || echo "- [${n%.md}]($n)"; done
   for n in "${PRIVATE[@]}"; do echo "- [$n]($n.html) (비밀번호 필요)"; done
-  for d in scripts transcripts; do
+  for d in scripts transcripts research; do
     files=("$DST/$d"/*.md)
     [ ${#files[@]} -gt 0 ] || continue
     echo; echo "## $d"; echo

@@ -27,3 +27,7 @@
 - [Ep18-화자분리](transcripts/Ep18-화자분리.md)
 - [Ep19-풀대본](transcripts/Ep19-풀대본.md)
 - [Ep19-화자분리](transcripts/Ep19-화자분리.md)
+
+## research
+
+- [Ep20-가능한-사랑-자료](research/Ep20-가능한-사랑-자료.md)
