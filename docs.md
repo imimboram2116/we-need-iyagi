@@ -13,6 +13,7 @@
 - [에피소드-아이디어](에피소드-아이디어.html) (비밀번호 필요)
 - [Ep13-15-분석](Ep13-15-분석.html) (비밀번호 필요)
 - [scripts/Ep17-코스피특집](scripts/Ep17-코스피특집.html) (비밀번호 필요)
+- [research/Ep20-출연진-감상](research/Ep20-출연진-감상.html) (비밀번호 필요)
 
 ## transcripts
 
