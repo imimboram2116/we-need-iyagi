@@ -17,7 +17,7 @@ PW=$(security find-generic-password -s we-need-iyagi-admin -w 2>/dev/null) || {
   exit 1
 }
 
-EXCLUDES=(--exclude '.git' --exclude 'sync.sh' --exclude '_config.yml' --exclude 'index.md' --exclude '.staticrypt.json' --exclude 'webapp-prd.md' --exclude 'stitch-brief.md' --exclude '_src' --exclude 'ep')
+EXCLUDES=(--exclude '.git' --exclude 'sync.sh' --exclude '_config.yml' --exclude 'index.md' --exclude 'index.html' --exclude 'docs.md' --exclude '.staticrypt.json' --exclude 'webapp-prd.md' --exclude 'stitch-brief.md' --exclude '_src' --exclude 'ep')
 for n in "${PRIVATE[@]}"; do EXCLUDES+=(--exclude "/$n.md" --exclude "/$n.html"); done
 rsync -a --delete "${EXCLUDES[@]}" "$SRC/" "$DST/"
 
@@ -46,14 +46,14 @@ done
 
 # 첫 화면: 폴더별 파일 목록
 {
-  echo "# 이야기가 필요해"
+  echo "# 전체 문서"
   echo
   echo "팟캐스트 <이야기가 필요해> 회차별 대본·질문 흐름·운영 기록."
   echo "대본은 자동 받아쓰기를 정리한 것이라 고유명사 오류가 있을 수 있습니다."
   echo
   echo "## 분석·운영"
   echo
-  for f in "$DST"/*.md; do n=$(basename "$f"); [ "$n" = index.md ] || [ "$n" = webapp-prd.md ] || [ "$n" = stitch-brief.md ] || echo "- [${n%.md}]($n)"; done
+  for f in "$DST"/*.md; do n=$(basename "$f"); [ "$n" = index.md ] || [ "$n" = docs.md ] || [ "$n" = webapp-prd.md ] || [ "$n" = stitch-brief.md ] || echo "- [${n%.md}]($n)"; done
   for n in "${PRIVATE[@]}"; do echo "- [$n]($n.html) (비밀번호 필요)"; done
   for d in scripts transcripts; do
     files=("$DST/$d"/*.md)
@@ -61,7 +61,10 @@ done
     echo; echo "## $d"; echo
     for f in "${files[@]}"; do n=$(basename "$f"); echo "- [${n%.md}]($d/$n)"; done
   done
-} > "$DST/index.md"
+} > "$DST/docs.md"
+
+# 첫 화면(질문 아카이브)
+(cd "$DST/_src" && python3 build_home.py)
 
 cd "$DST"
 git add -A

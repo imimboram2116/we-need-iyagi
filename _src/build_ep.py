@@ -173,10 +173,10 @@ fontSize:{{"headline-hero":["2.5rem",{{lineHeight:"3.5rem",letterSpacing:"-0.02e
 <body class="bg-surface text-on-surface antialiased font-body-md md:pl-14 xl:pr-[380px]">
 <header class="sticky top-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
 <div class="h-14 max-w-[45rem] mx-auto px-margin md:px-margin-tablet flex items-center justify-between">
-<a class="font-headline-sm text-headline-sm hover:text-primary" href="../index.html">&lt;이야기가 필요해&gt;</a>
+<a class="font-headline-sm text-headline-sm hover:text-primary" href="../">&lt;이야기가 필요해&gt;</a>
 <nav class="flex items-center gap-space-md font-label-md text-label-md text-on-surface-variant">
 <button type="button" class="hover:text-on-surface md:hidden" onclick="document.getElementById('ep-side').classList.toggle('open')">회차 목록</button>
-<a class="hover:text-on-surface hidden md:inline" href="../index.html">전체 문서</a>
+<a class="hover:text-on-surface hidden md:inline" href="../docs.html">전체 문서</a>
 <a class="hover:text-on-surface" href="{channel}" target="_blank" rel="noopener noreferrer">유튜브</a></nav></div></header>
 
 <aside id="ep-side" class="fixed left-0 top-14 bottom-0 z-40 bg-surface-container-low overflow-hidden transition-all duration-200">
@@ -209,7 +209,7 @@ fontSize:{{"headline-hero":["2.5rem",{{lineHeight:"3.5rem",letterSpacing:"-0.02e
 <div class="mt-space-sm">{notes}</div></details>
 
 <nav class="flex flex-col sm:flex-row gap-space-md my-space-lg">{prev}{next}</nav>
-<div class="text-center my-space-lg"><a class="font-label-md text-label-md text-secondary hover:text-primary" href="../index.html">← 회차 목록으로</a></div>
+<div class="text-center my-space-lg"><a class="font-label-md text-label-md text-secondary hover:text-primary" href="../">← 회차 목록으로</a></div>
 </main>
 <footer class="bg-surface-container-low mt-space-xl"><div class="max-w-[45rem] mx-auto px-margin md:px-margin-tablet py-space-xl flex flex-col gap-space-xs">
 <span class="font-headline-sm text-headline-sm">&lt;이야기가 필요해&gt;</span>
