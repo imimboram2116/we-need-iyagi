@@ -17,7 +17,7 @@ PW=$(security find-generic-password -s we-need-iyagi-admin -w 2>/dev/null) || {
   exit 1
 }
 
-EXCLUDES=(--exclude '.git' --exclude 'sync.sh' --exclude '_config.yml' --exclude 'index.md' --exclude '.staticrypt.json')
+EXCLUDES=(--exclude '.git' --exclude 'sync.sh' --exclude '_config.yml' --exclude 'index.md' --exclude '.staticrypt.json' --exclude 'webapp-prd.md' --exclude 'stitch-brief.md' --exclude '_src' --exclude 'ep')
 for n in "${PRIVATE[@]}"; do EXCLUDES+=(--exclude "/$n.md" --exclude "/$n.html"); done
 rsync -a --delete "${EXCLUDES[@]}" "$SRC/" "$DST/"
 
@@ -39,6 +39,11 @@ for n in "${PRIVATE[@]}"; do
 done
 rm -rf "$TMP"
 
+# 회차 대본 페이지(ep/*.html) 다시 만들기 — 풀대본이 연결된 회차만
+for n in $(python3 -c "import json;print(' '.join(str(e['ep']) for e in json.load(open('$DST/_src/episodes.json')) if e.get('transcript')))"); do
+  python3 "$DST/_src/build_ep.py" "$n"
+done
+
 # 첫 화면: 폴더별 파일 목록
 {
   echo "# 이야기가 필요해"
@@ -48,7 +53,7 @@ rm -rf "$TMP"
   echo
   echo "## 분석·운영"
   echo
-  for f in "$DST"/*.md; do n=$(basename "$f"); [ "$n" = index.md ] || echo "- [${n%.md}]($n)"; done
+  for f in "$DST"/*.md; do n=$(basename "$f"); [ "$n" = index.md ] || [ "$n" = webapp-prd.md ] || [ "$n" = stitch-brief.md ] || echo "- [${n%.md}]($n)"; done
   for n in "${PRIVATE[@]}"; do echo "- [$n]($n.html) (비밀번호 필요)"; done
   for d in scripts transcripts; do
     files=("$DST/$d"/*.md)

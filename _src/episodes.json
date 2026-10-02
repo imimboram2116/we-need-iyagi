@@ -1,0 +1,58 @@
+[
+  {
+    "ep": 13,
+    "title": "서울국제도서전 특집 — 문해력이 낮다면서 누가 책을 이렇게 사는데요?",
+    "youtube_id": "QBzGiZUNDjY"
+  },
+  {
+    "ep": 14,
+    "title": "롱리스너 특집 — 끝까지 들으시겠습니까?",
+    "youtube_id": "lCZZRno1-NY"
+  },
+  {
+    "ep": 15,
+    "title": "소문난 잔치 특집 — 진짜 먹을 게 있었나?",
+    "youtube_id": "dZPinoq5R9c"
+  },
+  {
+    "ep": 16,
+    "title": "남일구경 특집 — 일 하는 거 보는 게 재밌어?",
+    "youtube_id": "O3obkZGP_Vk"
+  },
+  {
+    "ep": 17,
+    "title": "코스피 특집",
+    "main_question": "돈 얘기, 보면 볼수록 불안하지 않아요?",
+    "question_time": "44:55",
+    "youtube_id": "7XlyYOQogbs"
+  },
+  {
+    "ep": 18,
+    "ep_estimated": true,
+    "title": "영화 오디세이 뒷북 후기",
+    "main_question": "개고생 얘기가 왜 3천 년이 갔을까?",
+    "question_time": "44:55",
+    "question_note": "클로징에서 세영이 다시 꺼낸, 이날의 오프닝 질문",
+    "works": [
+      "영화 <오디세이> (크리스토퍼 놀란)"
+    ],
+    "cast": [
+      "세영",
+      "혜진",
+      "보람"
+    ],
+    "youtube_id": "2n6xMHTjVA0",
+    "uploaded": "2026-09-14",
+    "duration": "47:29",
+    "transcript": "transcripts/Ep18-풀대본.md",
+    "section_titles": {
+      "0:00": "오프닝",
+      "0:39": "자기소개"
+    }
+  },
+  {
+    "ep": 19,
+    "title": "더 커뮤니티 시즌 2 리뷰 — 사상보다 실리가 중요한가?",
+    "youtube_id": "12rh3eW3RNU"
+  }
+]

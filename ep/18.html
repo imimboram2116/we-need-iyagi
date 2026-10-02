@@ -1,0 +1,872 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ep18 영화 오디세이 뒷북 후기 — 이야기가 필요해 대본집</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{
+colors:{"primary":"#973313","primary-container":"#b84a29","primary-fixed":"#ffdbd1","tertiary":"#005c76","surface":"#fcf9f3","surface-container-low":"#f6f3ed","surface-container":"#f0eee8","surface-container-high":"#ebe8e2","on-surface":"#1c1c18","on-surface-variant":"#57423c","secondary":"#615e5a","outline":"#8b716b","outline-variant":"#dec0b8"},
+spacing:{"margin":"1.25rem","margin-tablet":"2.5rem","space-xs":"0.25rem","space-sm":"0.5rem","space-md":"1rem","space-lg":"1.75rem","space-xl":"3rem"},
+fontFamily:{"headline-hero":["Noto Serif KR","serif"],"headline-sm":["Noto Serif KR","serif"],"speaker-title":["Noto Serif KR","serif"],"body-md":["Pretendard Variable","Pretendard","sans-serif"],"label-sm":["Manrope","sans-serif"],"label-md":["Manrope","sans-serif"],"timestamp-num":["Manrope","sans-serif"]},
+fontSize:{"headline-hero":["2.5rem",{lineHeight:"3.5rem",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-hero-mobile":["1.75rem",{lineHeight:"2.625rem",fontWeight:"700"}],"headline-sm":["1.25rem",{lineHeight:"1.875rem",fontWeight:"600"}],"speaker-title":["0.9375rem",{lineHeight:"1.375rem",fontWeight:"700"}],"body-md":["1.0625rem",{lineHeight:"1.875rem"}],"label-sm":["0.75rem",{lineHeight:"1rem",letterSpacing:"0.05em",fontWeight:"500"}],"label-md":["0.8125rem",{lineHeight:"1.125rem",fontWeight:"500"}],"timestamp-num":["0.8125rem",{lineHeight:"1.125rem",letterSpacing:"0.06em",fontWeight:"600"}]}
+}}}</script>
+<style>
+#ep-side{width:3.5rem} #ep-side .side-label{opacity:0;transition:opacity .15s}
+#ep-side:hover,#ep-side.open{width:18rem;box-shadow:4px 0 16px rgba(0,0,0,.06)} #ep-side:hover .side-label,#ep-side.open .side-label{opacity:1}
+@media (max-width:767px){#ep-side{display:none} #ep-side.open{display:block}}
+.diamond-chip{border-radius:2px;transform:rotate(45deg) scale(.95)} .diamond-chip>span{transform:rotate(-45deg) scale(1.05)}
+::selection{background:#e6dccb;color:inherit}
+.mark-note{color:#8b716b;font-size:.8em} .notes table{display:block;overflow-x:auto;font-size:.85rem;margin:.75rem 0} .notes td,.notes th{border:1px solid #dec0b8;padding:4px 8px;vertical-align:top} .notes h2,.notes h3{font-weight:700;margin:1rem 0 .5rem} .notes ul{list-style:disc;padding-left:1.25rem} .notes p{margin:.5rem 0}</style>
+</head>
+<body class="bg-surface text-on-surface antialiased font-body-md md:pl-14 xl:pr-[380px]">
+<header class="sticky top-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+<div class="h-14 max-w-[45rem] mx-auto px-margin md:px-margin-tablet flex items-center justify-between">
+<a class="font-headline-sm text-headline-sm hover:text-primary" href="../index.html">&lt;이야기가 필요해&gt;</a>
+<nav class="flex items-center gap-space-md font-label-md text-label-md text-on-surface-variant">
+<button type="button" class="hover:text-on-surface md:hidden" onclick="document.getElementById('ep-side').classList.toggle('open')">회차 목록</button>
+<a class="hover:text-on-surface hidden md:inline" href="../index.html">전체 문서</a>
+<a class="hover:text-on-surface" href="https://www.youtube.com/channel/UCRQXu1PqRn_JZzDO_Os9jNA" target="_blank" rel="noopener noreferrer">유튜브</a></nav></div></header>
+
+<aside id="ep-side" class="fixed left-0 top-14 bottom-0 z-40 bg-surface-container-low overflow-hidden transition-all duration-200">
+<div class="px-2 pt-space-md pb-space-sm font-label-sm text-label-sm text-secondary flex items-center gap-space-sm"><span class="w-10 text-center material-symbols-outlined text-[18px]">menu_book</span><span class="side-label">회차 목록</span></div>
+<ul class="px-1 flex flex-col gap-0.5 text-sm overflow-y-auto h-full pb-24"><li><span class='flex items-center gap-space-sm h-14 px-2 text-outline' title='대본 준비 중'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>19</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>더 커뮤니티 시즌 2 리뷰 — 사상보다 실리가 중요한가?</span></span></li>
+<li><span class='flex items-center gap-space-sm h-14 px-2 rounded-md bg-primary/10 text-primary font-semibold' aria-current='page'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>18</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>개고생 얘기가 왜 3천 년이 갔을까?</span></span></li>
+<li><span class='flex items-center gap-space-sm h-14 px-2 text-outline' title='대본 준비 중'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>17</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>돈 얘기, 보면 볼수록 불안하지 않아요?</span></span></li>
+<li><span class='flex items-center gap-space-sm h-14 px-2 text-outline' title='대본 준비 중'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>16</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>남일구경 특집 — 일 하는 거 보는 게 재밌어?</span></span></li>
+<li><span class='flex items-center gap-space-sm h-14 px-2 text-outline' title='대본 준비 중'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>15</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>소문난 잔치 특집 — 진짜 먹을 게 있었나?</span></span></li>
+<li><span class='flex items-center gap-space-sm h-14 px-2 text-outline' title='대본 준비 중'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>14</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>롱리스너 특집 — 끝까지 들으시겠습니까?</span></span></li>
+<li><span class='flex items-center gap-space-sm h-14 px-2 text-outline' title='대본 준비 중'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>13</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>서울국제도서전 특집 — 문해력이 낮다면서 누가 책을 이렇게 사는데요?</span></span></li></ul></aside>
+<main class="max-w-[45rem] mx-auto px-margin md:px-margin-tablet py-space-xl">
+<div class="flex items-center justify-between flex-wrap gap-space-sm font-label-sm text-label-sm text-secondary">
+<div class="flex items-center gap-space-xs tracking-wider"><span class="text-primary font-semibold">Ep18</span> <span class='text-outline'>(회차 번호 추정)</span><span>·</span><span>2026.09.14</span><span>·</span><span class="font-timestamp-num">47:29</span></div>
+<a class="flex items-center gap-1 text-primary font-semibold" href="https://youtu.be/2n6xMHTjVA0" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined text-[17px]">play_circle</span>전체 영상 보기</a></div>
+
+<section class="my-space-xl flex flex-col items-center text-center">
+<div class="w-8 h-0.5 bg-primary mb-space-md opacity-80"></div>
+<span class="font-label-sm text-label-sm tracking-widest text-primary font-semibold mb-space-sm">오늘의 질문</span>
+<h1 class="font-headline-hero text-headline-hero-mobile sm:text-headline-hero max-w-[42rem]"><span class="text-outline-variant mr-1">“</span>개고생 얘기가 왜 3천 년이 갔을까?<span class="text-outline-variant ml-1">”</span></h1>
+<div class="w-8 h-0.5 bg-outline-variant mt-space-md"></div></section>
+
+<div class="flex flex-col gap-space-sm">
+<div class="bg-surface-container-low px-5 py-4 rounded-lg text-[15px] leading-6 text-on-surface-variant flex flex-col gap-1.5">
+<div><span class="font-semibold text-on-surface">함께 나눈 콘텐츠</span> — 영화 &lt;오디세이&gt; (크리스토퍼 놀란)</div>
+<div><span class="font-semibold text-on-surface">대화하는 사람들</span> — 세영 · 혜진 · 보람</div></div></div>
+
+<details class="xl:hidden my-space-lg bg-surface-container-low rounded-lg px-space-md py-space-sm">
+<summary class="cursor-pointer font-label-md text-label-md font-semibold">목차 · 17개 구간</summary>
+<ol class="mt-space-sm flex flex-col gap-space-sm text-sm"><li><a class='flex gap-space-sm hover:text-primary' href='#s0'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>0:00</span><span>오프닝</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s1'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>0:39</span><span>자기소개</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s2'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>1:07</span><span>첫인상 — 고급지고 압도적인데 이해가 안 된다</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s3'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>2:17</span><span>각자의 그리스 로마 신화 사전 지식</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s4'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>4:39</span><span>돈값한 장면 — 목마, 트로이 성문, 외눈박이 거인</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s5'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>8:05</span><span>놀란의 재해석 — 이긴 다음의 이야기, 반전 영화</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s6'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>10:28</span><span>제우스의 율법과 바다의 민족 — 승자는 약탈자였다</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s7'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>13:58</span><span>한국은 왜 그리스 로마 신화를 좋아하나</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s8'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>17:09</span><span>모르고 보면 헷갈리는 지점 — 아가멤논, 10년 전쟁, 칼립소</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s9'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>21:14</span><span>트로이 전쟁은 어떻게 시작됐나 — 세영의 신화 설명</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s10'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>26:18</span><span>파리스의 선택은 뇌물 비교였다 — 신들의 욕망</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s11'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>29:05</span><span>영화 &lt;트로이&gt; — 같이 묶어 보기</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s12'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>31:45</span><span>일진 게임 — 아킬레우스와 오디세우스, 누구랑 싸우고 누구 밑에 갈까</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s13'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>36:19</span><span>오디세우스는 중간관리자다 — 책임지려는 것도 오만</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s14'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>39:20</span><span>결함 있는 인물이 오래 남는 이유</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s15'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>42:19</span><span>외전을 만든다면 — 페넬로페와 아가멤논</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s16'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>44:55</span><span>클로징 — 개고생 얘기가 왜 3천 년을 갔나</span></a></li></ol></details>
+
+<div class="flex flex-col gap-space-xl my-space-xl"><section id='s0' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>오프닝</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='0' href='https://youtu.be/2n6xMHTjVA0?t=0' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>0:00<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>오디세우스는 부하 직원들 한 명도 살아서 돌아오게 하지 못한다. 리더로서 전쟁은 전투만 있는 것이 아니라 귀환하는 것까지가 프로젝트의 끝이라고 하면 프로젝트를 실패한 리더입니다. 반면에 트로이에서 아킬레우스는 나를 지켜주는 리더인 거예요. 생존 확률은 아킬레우스 밑에 있을 때가 더 높을 것 같다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 저는 어쨌든 2026년에 사람이니까 지략전이 더 고차원적이라는 생각이 들어가지고 승률이 뭔가 오디세우스한테 있을 것 같다는 생각이 들어요. 그래서 내 편할 사람은 오디세우스. 집에 돌아가는 것은 제가 한번 잘해보겠습니다.</p></article>
+</section>
+<section id='s1' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>자기소개</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='39' href='https://youtu.be/2n6xMHTjVA0?t=39' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>0:39<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>살다 보면 마음에 남는 질문이 있습니다. 그 질문에 콘텐츠로 답해보는 팟캐스트, 이야기가 필요해입니다. 저는 그리스 로마 신화를 좋아해서 다녀온 그리스 로마 신화 덕후 강세영입니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>오디세이 보고 뒤늦게 그리스 로마 신화를 파보고 있는 손혜진입니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>개봉날 가서 영화 보고 왔는데 아직까지 내용을 이해하지 못하는 임보람입니다. 나만 그래?</p></article>
+</section>
+<section id='s2' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>첫인상 — 고급지고 압도적인데 이해가 안 된다</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='67' href='https://youtu.be/2n6xMHTjVA0?t=67' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>1:07<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>2026년에 극장가를 정말 강타한 영화가 있죠. 크리스토퍼 놀란 감독의 오디세이. 정말 뜨거운 영화인데 영화 어땠는지, 어떻게 봤는지 얘기를 해볼까요? 그 전에 그리스 로마 신화가 왜 재밌는지 그 얘기를 좀 하고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리스 로마 신화 얘기부터 할까요? <span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 도대체 이거 천만씩이나 볼려고 다들 그리스 로마 신화 알고 보는 건지, 나만 모르는지. 다들 어릴 때 읽었나 봐. <span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 보람님 얘기를 먼저 좀 해주세요. 저는 이 영화를 일찍 봤으니까 다들 물어보잖아요. 재미가 있었어요. 그리고 영화 자체가 되게 고급지다라는 생각을 했고, 저는 시네필이 아닌데도 불구하고 이 영화가 가지고 있는 압도감, 그리고 대단히 디테일하고 어떤 촬영 기법, 그런 규모감, 중압감 다 너무 좋았거든요. 근데 이해를 못하겠는 거예요, 이 내용을. 뭐가 먼저고? 난 따라간다고 생각했는데 갑자기 다른 얘기가 나오고. 그러니까 더 몰입이 깨지는 거예요. 그래서 참... 어려운 영화였습니다, 저한테.</p></article>
+</section>
+<section id='s3' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>각자의 그리스 로마 신화 사전 지식</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='137' href='https://youtu.be/2n6xMHTjVA0?t=137' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>2:17<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그럼 보람님은 어렸을 때 그리스 로마 신화나 이런 것을 거의 접해 보지 않았어요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>네. 요즘에 친구들은 그리스 로마 신화를 만화로 본다고 하더라고요. 근데 저 때는 투니버스가 없었어요. 디즈니 만화 동산 세대이기 때문에.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그럼 혜진님은 그리스 로마 신화에 대한 그런 사전 지식이 어느 정도였어요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 신화의 이해라는 수업을 들었어요, 대학교 때. 그래서 최소의 계보, 제일 중요한 핵심 사건들, 제일 중요한 신들 이 정도는 알고 있는. 그 다음에 어쨌든 문학을 공부하다 보면 접할 기회가 좀 있어요, 그 정도. 그래서 되게 유명한 짤 있잖아요. "흥을 깨버렸으니 다 책임져요." 그리스 로마 신화의 만화 영화의 한 장면인데, 디오니소스 짤 얘기하는 것입니다. 유명해졌을 때 저는 거기에 참을<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 못하겠는 거예요. 왜 즐거운지 모르겠는 거예요. 그 그리스 로마 신화의 애니메이션을 보고 자란 세대와 느끼는 감성은 달랐겠죠.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 어렸을 때 투니버스에서 해주는 그리스 로마 신화 만화 영화를 자주 봤어요. 저도 완전 어렸을 땐 아니고, 저보다 아랫세대 친구들이 더 많이 봤던 것 같은데 저는 중학생인데도 봤습니다. 뭔가 늘 틀면 나왔던 것 같아요, 그 만화가. 그리고 그림체가 굉장히 예뻤고, 그 스토리들이 매번 되게 재밌어가지고 되게 긍정적인 기억들이 저한테는 남아있는 상태였고, 뭐 제우스, 포세이돈, 헤라, 아테네 이런 신들은 저한테 되게 익숙한 신들이었어요. 그러다가 최근 한 5년 전쯤부터 이런 신화랑 인간의 문명의 태초에 대해서 급 관심이 생긴 거예요. 제가 뭔가 뿌리가 어딜까? 나는 어디서 와서 어디로 가는가에 대한 그냥 답 없는 생각? 너무 철학적이다. 하다 보니까 만나게 된 게 이집트와 그리스인 거예요. 그러면서 이집트 여행을 가고, 그다음에 신혼여행을 그리스로 다녀왔습니다. 그래서 아테네 신전을 가보고 그런 거를 좋아하는 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그래서 이 영화가 더 재밌게 느껴졌어요?</p></article>
+</section>
+<section id='s4' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>돈값한 장면 — 목마, 트로이 성문, 외눈박이 거인</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='279' href='https://youtu.be/2n6xMHTjVA0?t=279' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>4:39<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아요. 그래서 저는 트로이 전쟁을 다룬 데, 오디세이를 만든 데가 크리스토퍼 놀란 감독이라고 했을 때 너무 기대를 한 거예요. 이걸 어떻게 또 비주얼화를 했을까. 왜냐하면 이거는 정말 글로 남아있는 이야기고, 어떻게 비주얼화를 하느냐는 만화처럼 그릴 수도 있고 트로이 영화처럼 만들 수도 있고. 크리스토퍼 놀란, 헐리우드 시스템으로 얘를 어떻게 구현해낼까가 너무 궁금하고 기다려졌었어요. 그러면 이제 스토리로 들어가 보면서 제일 돈값했다 싶은 장면들 있었는지도 궁금해요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 그 목마의 형태나 이런 것도 되게 새로운 해석이라고 생각했고요. 요정이나 거인이나 이런 등장인물들이 아주 자연스러워. 맞아 맞아. 바다가 내내 배경인데 여정이나 스케일감 이런 것도 다 너무 좋고, 이제 극장에서는 이런 영화 보는 거다라는 생각이 들어서 돈값하는 느낌이었어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 진짜 그런 괴물, 마녀, 마술 이런 것도 나오잖아요. 그게 너무 자연스러운 게 저는 진짜 좀 놀랍긴 했어요. 이질감이 없이 너무나 있을 법하게 그려낸 게 진짜 신기하다고 생각했고. 저는 이 영화에서 제일 좋았던 장면이 뭐냐, 하나만 뽑는다고 하면 트로이 성문이 열리고 군인들이 와다다다 나왔을 장면이 되게 임팩트가 있었거든요, 저한테. 근데 그 임팩트가 어떤 임팩트냐면, 정말 10년간 열리지 않을 것 같은 그 문이 열리면서 그리스 연합군이 확 간단 말이에요. 그걸 진짜 땅에서 땅이 울리는 느낌을 받은 거예요. 뭐라 그랬지? 되게 실제가 오는 것 같다? 정말 사람이, 남자들이 달려서 와다다다다다 오는 것 같은 느낌을 받아서 훨씬 압도적인 느낌을 받았어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>진짜 넓고 끝이 없는 그런 CG들이 몰려오는 것보다</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>정말</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>사람이 많이</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>몰려오고 있구나. 맞아요. 진짜 인간이 오고 있다. 무당탕탕탕탕 오는 게 무서웠어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그럼 CG와 CG가 아닌 것에 차이를 느낀다는 거잖아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그렇다기보다는 촬영 기법일 것 같은데, 그 규모감을 그냥 정말 10만 대군이 몰려오는 것처럼 찍을 수도 있잖아요. 저 높이 하늘에서 보는 것처럼 찍을 수도 있었는데, 그냥 눈앞에서 찍었던 그 장면이 인상 깊었던 것 같아요. 보람님 인상 깊은 장면이 있었어요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>외눈박이, 거의 외눈박이 거인 인상 깊었는데 그게 CG가 아닌 게 더 놀라웠어요. <span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> CG가 아니라고요? 아니라던데요? 그 외눈박이 거인을 실제 구조물을 만들어서 했다는 얘기를 보고 너무 놀랐어요. 보통 그런 되게 사람보다 큰 형상들은 당연히 CG일 가능성이 높잖아요. 전 당연히 CG일 줄 알고 봤거든요. 근데 이게 우리가 호프에서 그 괴물, 인간을 능가하는 어떤 거대한 형체가 나온다면 당연히 CG일 텐데, 그게 아니라 구조물로 만들어서 원근감이나 이런 것들을 실제 사람과 했다는 것들을 들으니 와, 정말 대단한 감독이구나 라는. 아</p></article>
+</section>
+<section id='s5' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>놀란의 재해석 — 이긴 다음의 이야기, 반전 영화</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='485' href='https://youtu.be/2n6xMHTjVA0?t=485' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>8:05<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그렇겠다. 그게 실제로 만들어서 그 어마어마한 높이의 그런 원근감, 그 차이 이런 것들을 따로 조작하지 않고 정말 자연스럽게 찍힐 때니까 우리가 이질감 없이 볼 수 있는 거네요. 그렇겠다. 또 상영 시간이 되게 긴 걸로도 이슈가 됐잖아요. 총 173분 정도의 시간인데, 마지막 한 30분쯤부터 심장이 너무 뛰기 시작하는 거예요. 그게 왜 그랬냐면, 아 이게 완전히 크리스토퍼 놀란 감독의 재해석한, 재창조한 이야기구나 라는 게, 그 창작자의 의도가 막 저한테 다가오면서 너무 좋았어. 트로이 전쟁이 제 기억에 남겨져 있는 맥락은, 지혜를 잘 쓰면 어떤 계략으로 전쟁에서 이길 수 있느냐에 대한 줄기로 저는 이해하고 있었거든요. 그러니까 속이고 침투해서 "힝 속았지" 라고 하면서 이겨버리는. 그래서 어떻게 하면 이런 힘으로 이기는 게 아니고 머리를 써서 지략으로 이길 수 있는지에 대한 스토리 중 하나로 저한테 남아있었어요. 근데 이 크리스토퍼 놀란 감독의 영화에서는 이긴 거 그 다음에 이야기를 엄청 하는 거예요. 이겨서 우리한테 뭐가 남았냐. 승자들은 무엇을 가졌냐에 대한 이야기를 하는데, 결국 승자들도 가진 것이 없는 거고, 승자들도 여전히 집에 돌아가지 못하고 길을 헤매고, 집에 돌아가서도 또 다른 비극을 맞이하고, 결국엔 문명 전체를 파괴하는 일까지 이어진다는 것을 보고. 감독의 2026년 버전의 해석이 "우리가 싸워서 얻는 게 무엇이냐. 싸우지 말자." 반전 영화였는데 까지 가는 것을 보고 아, 너무 큰 감명을 받았습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저도 비슷했는데요. 오디세우스가 뛰어난 장수가 아니라 신의 영역에 도전하는 아주 오만한 사람. 그래서 그런 오만함이 어떤 불행까지 갈 수 있는지를 보여주고 싶었나? 인간의 오만함에 대한 지적을 하나? 이런 생각을 전했거든요.</p></article>
+</section>
+<section id='s6' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>제우스의 율법과 바다의 민족 — 승자는 약탈자였다</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='628' href='https://youtu.be/2n6xMHTjVA0?t=628' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>10:28<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그 영화 내내 나오는 얘기가 제우스의 율법 얘기가 계속 나와요. 그러니까 길에 거지가 와도 그 거지가 위장한 신일지도 모르니 살갑게 대하라. 잘 대접해줘라. 잘 대접해줘라. 그러니까 현대 종교로 생각하면 "이웃을 사랑하라" 같은 느낌의 제우스의 율법이 있고, 그것은 국경과 상관없이 모두가, 트로이든 그리스 연합군이든 공유하고 있는 공통의 가치였단 말이죠. 근데 이 오디세우스가 전쟁에서 이기기 위해서 이 율법을 악용을 해요. 전쟁에서 졌지만 신에게 바치는 재물이니 남겨두고 간다라는 느낌으로 트로이라는 목마를 만들어서 얘를 남겨두고. 트로이 왕국의 사람들은 전쟁의 상대의 진영이 남기고 간 재물이지만 같은 신을 섬기는 재물이니 얘를 불태우거나 파괴하지 않고 자기의 신전으로 들인단 말이죠. 그러면서 이제 전쟁에서 지게 되고 파국을 맞이하는 건데, 그 말인 즉슨 제우스의 율법을 악용해서, 역이용해서 이겨버린 상황을 만든 거고, 결국에 우리가 서로서로 도와야지만 지켜질 수 있었던 이 가치 자체를 파괴해버리는 상황이 된 거고, 아무도 이제 주위 사람을 도와야 되는 이유가 없어진 거죠. 그런 관점을 보는 게 되게 재밌었어요. 그리고 실제로 이 트로이 전쟁 이후에 역사적인 기록 자체가 한 몇백 년 동안 남아있지 않았다고 하거든요. 그래서 그 시기를 그리스의 암흑이라고 하는데, 그때 바다의 민족이 몰려와서 다 침략이 됐다, 기근이 있었다, 이런 식으로 전해지는데, 이 영화에서는 그걸 어떻게 해석하냐면 그 바다의 민족이 곧 그리스 연합군인 거예요. 스스로였던 거예요. 왜냐하면 그 헤매는 동안에 한 거의 12개 정도의 섬을 계속 가잖아요. 가면서 침략하고 뺏고 약탈하고 한단 말이죠. 그들에게는 그리스 연합군이 바다의 민족이었던 거예요. 바다에서 온 사람들.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그걸 그렇게 해석하나요? 저는 진짜로 예세가<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 철기 문화가 오고 있다는 느낌을 온다라는 것을 저렇게 표현하네 라고 생각했는데.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그게 우리가 일반적으로 해석하는 해석권<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>. 근데 영화에서 보여준 것은 그 바다의 민족이 곧 오디세우스예요. 일단 키르케 섬에 갔을 때부터 위협적으로 들어가거든요. 부하들이 그냥 냅다 다 무장하고 집에 들어가는</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그런 것도 사실은 진짜 오디세우스가 어떤 전쟁을 일삼는 약탈꾼과 침략자로 볼 수 있네요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그렇죠. 상대 진영에서는 그렇게 생각하는 거죠. 그리고 제우스의 율법에 따라서 나를 챙겨줘라고 하는 것도 어떻게 보면 악용일 수 있는 거예요. 키르케 입장에서는 무더기로 집에 쳐들어왔고, 내가 마술을 안 부렸으면 사실 나를 약탈하고 겁탈하고 했을 수 있다라는 것도 얘기하잖아요. 그렇게 볼 수 있죠. 위협적인 존재로, 상대 진영에서는.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그렇구나. 그러네. 그런 관점으로 보면 신화를 빌미로 어떤 전쟁에 대한 약탈을 얘기하는 걸 수도 있겠다. 진짜</p></article>
+</section>
+<section id='s7' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>한국은 왜 그리스 로마 신화를 좋아하나</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='838' href='https://youtu.be/2n6xMHTjVA0?t=838' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>13:58<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>재밌는 관점이네요. 조금 처음에 보람님 질문으로 돌아가서, 왜 이렇게 인기가 있었나 이런 얘기도 해보면 좋을 것 같은데. 한국을 보면 사람들이 되게 좋아하는 것 같아요, 그리스 로마 신화를. 그러니까요. 진짜 이 관심이 너무 신기해요. 그리스 로마 신화 만화가 얼마나 인기가 있었나 궁금해가지고 좀 파잡았거든요<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>. 근데 공식 판매량이 천만 부를 돌파했고, 비공식 집계로는 2천만 부 넘게 팔렸다, 이런 기사가 있더라고요. 그러니까 그 당시에 모든 집에는 위인전 전집처럼 그리스 로마 신화 전집이 각각 집에 있었던 거예요. 우리한테 먼 나라 이웃나라가 되게 익숙한 것처럼, 이 특정 시기에 모든 대한민국 어린이라면 다 이 만화에 노출됐었다. 그 정도로 우리에게 굉장히 친숙한 신화고, 특히 어릴 때 봤던 거에 대한 거는 다 기억에 되게 좋게 오래 남아 있잖아요. 그런 것도 일정<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>에 영향이 있지 않나라는 생각이 들어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'><span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 영화관에 가는 많은 세대들이 추억의 스토리로 가지고 있다면 너무 궁금했을 것 같거든요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러네요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 저 개인적으로는 또 나이 들어서도 다시 봤을 때 너무 흥미로웠는데, 이게 하나하나 팔수록 현대에도 영향을 미치고 있는 게 너무나 많은 거예요. 이를테면 굉장히 많은 브랜드의 이름들이 그리스 로마 신화에서 온 거예요. 올림푸스 카메라도 여기는 여기서 왔고, 헤라, 이런 아름다움을 상징하는 것들도 헤라 신에서 따온 거고, 스타벅스 로고도 사이렌을 모티브로 해서 가져온 거잖아요. 되게 많은 상징과 은유들이 거기 안에 있고, 그런 것들을 따오면 많은 맥락들이 설명된다. 많은 추구미들이 설명된다. 라는 점에서 전 세계가 같이 즐기는 문화다, 라는 생각이 들고. 그리고 신도 많고 이야기들이 끝도 없이 퍼지거든요. 사연이 없는 등장인물들이 하나도 없어요. 이야기를 따라가면 따라갈수록 더 좁게<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 되는, 아주 덕질할 것이 많은 그런 이야기들이라는 점에서도 되게 좀 빠져들기 쉽다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 그리스 로마 신화 이런 거 공부하고 이럴 때 헷갈리는 게, 예를 들면 이 사람이 전쟁의 신이면 그 역할 하나만 했으면 좋겠다. 여러 개를 해요. 비슷하면 또 이해하겠는데, 말하자면 전쟁이랑 아름다움 같은 거 가지고. 그 둘은 전혀 상관이 없는 것 같은데. 그래서 갖는 거리감 같은 게 있어요. 그래서</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>요즘 친구들이 좋아하나 봐요. 멀티페르소나 같은 거지. 근데 한국의 신화나 이런 것들은 평평하잖아요. 이 사람의 서사를 따라가다 보면 종국에는 어떤 결정을 하게 될지가 다 설득되잖아요. 근데 얘는 설득되지 않은 여러 개를 혼합적으로 갖고 있으니까 거기서의 어떤 의외성이 이야기로 되는 것 같아요. 재밌는 이야기로. 그럴 수 있겠다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>여기서의 신들은 굉장히 다혈질이에요. 그리고 인간을 질투하기도 하고. 예를 들어 오디세우스도 집에 돌아가기 힘들었던 이유가 포세이돈의 분노를 샀기 때문에 되게 돌아가기 어려웠는데, 자기 아들을 건드린 이 오디세우스가 괘씸해가지고 계속 벌을 내리고. 신이 인간을 괴롭히는, 신도 인간을 미워하고 질투하는 되게 복합적인 감정을 가진 신들이어가지고 재밌는 요소들이 거기서 많이 발생하는 것 같아요.</p></article>
+</section>
+<section id='s8' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>모르고 보면 헷갈리는 지점 — 아가멤논, 10년 전쟁, 칼립소</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1029' href='https://youtu.be/2n6xMHTjVA0?t=1029' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>17:09<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>정보가 많이 없이 본 보람님 입장에서 조금 더 알고 봤으면 더 재밌었을 것 같나요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그랬을 것 같아요. 갑자기 이 장면은 왜 나오는 거지? 이게 아까 뭐였더라? 내가 놓쳤나? 약간 이런 부분들이 몇 번 있었어요. 그리고 정말 그 안에서 제가 알고 있는 거는... 그러니까 좀 더 어렵더라고요. 맥락을 모르니까.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>눈물도<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 많기도 하고. 저도 헷갈렸던 게, 아가멤논이 왜 죽었어? 언제 죽은 거야? 맞아요. 되게 헷갈렸고. 그리고 이 전쟁은 왜 났는지에 대한 것도 사실 모르고 다 가는 거예요. 맞아요. 헬레네는 파리스가 데려갔어. 여자 하나 데려갔다고 이런 전쟁이 난다고? 이런 의문들이 생기는 거예요. 근데 이제 여러 가지 콘텐츠들을 보고, 저 트로이 영화도 보고 하니까, 아 헬레네는 명분이고 이거는 패권 싸움으로 볼 수 있겠구나, 이런 해석이 나중에 된 거지. 어떻게 20년이 걸리는지 모르겠고, 돌아오고. 10년 동안 전쟁은 어떻게 하는 걸까? 무슨 생각이냐면, 트로이 성벽을 못 무너뜨려서 전쟁이 길어지잖아요. 성 안은 고립된 상태인데 10년은 그럼 어떻게 된 거지? 성이 고립되면 몇 달 안에 끝나야 되거든요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>티<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>의 관점으로 보셨네요. 내가 제일 이해 안 됐던 건, 그 어떤 섬에서 어떤 여자분이 그 꽃을 먹여가지고 7년을 데리고 살잖아요. 근데 그만큼 집착적인 사람이었다고 저는 이해했거든요. 근데 벼랑간<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 보내잖아요. 7년 동안은 왜 내 거 있었어<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>. 그럼 진작 보내주지. 그래서 10년 중에 7년을 그 여자랑 있었다는 걸로 저는 이해했거든요. 맞아요 맞아요. <span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 추년이라 대꽃을<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 안 쓰면 계속 먹이지. 그래서 그 장면이 제일 저는 애프로서<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 이해가 되지 않았다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>칼립소가 어떤 섬에 갇혀있는 신이고, 거기에 오디세우스가 와서 먹이고 재우고 하면 사랑에 빠져요. 그러면서 이제 얘랑 영생을 하려고 하는데, 신들이 오디세우스는 집으로 돌려보내야 된다고 합의된 내용이었어요. 그러니까 이 칼립소한테 보내라, 보내줘라 라고 하니까, 얘가 "왜 이들은 그렇게 좋아하는 여자들이랑 다 살면서 왜 나는 안 되냐" 라고 하다가 좀 한번 보내고, 보내주는 게 소설 속 내용.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아, 원작은 그렇군요. 자식도</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>있고. 완전 맞아요. 극중에서 없었<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>. 자식을 낳아요. 여기서 7년 사실 행복하게</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>지내고 간. 기억을 잃게 만들었음에도 불구하고 계속 그걸 갈망하는 거예요. 7년을 기억을 잃게 했는데도 저렇게 원하니? 보내줘야겠다 라는 것으로 저는 해석을 했고. 아까 지루한 부분은 없었냐고 했을 때는 그런 부분은 없었는데 라고 생각했는데, 지금 이 얘기가 나오니까 꽃 먹이면서 몽환적으로 해변을 거니는 그 모습들은 맥락을 몰랐을 때는 지루했고. 왜 안 보내줘.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>나도 처음에 나쁜 사람인 줄 알았어, 나는.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>충분히 나쁘다고 생각해. 근데 이거는 칼립소를 모르면 아예 이해가 안 될 것 같은데? 영화로 그냥 보면. 저도 나중에 알았는데 얘는 지금</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>여기에 저 여자 때문에 약간 갇혀있는 형태를 저도 좀 느낄 때 나왔어요. 그렇게 생각하면 여기 너무 끊기는 게 많아요.</p></article>
+</section>
+<section id='s9' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>트로이 전쟁은 어떻게 시작됐나 — 세영의 신화 설명</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1274' href='https://youtu.be/2n6xMHTjVA0?t=1274' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>21:14<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저희가 관련된 콘텐츠가 되게 많다고 이야기를 했는데, 대표적으로 영화 트로이 얘기를 같이 묶어서 좀 하면 좋을 것 같아요. 트로이 영화는 아킬레우스가 주인공인 영화이고, 오디세우스는 그 이후에 집에 돌아가게 되는 내용이라서 어떻게 보면 겹치는 부분들이 되게 많거든요. 그러면 제가 트로이 전쟁이 어떻게 일어나게 됐는지, 이 신화적인 내용을 조금 재미있게, 오, 좋아요. 한번 설명을 해보겠습니다. 도전! 바다의 여신 테티스가 있는데요. 테티스도 굉장히 아름다운 여신이에요. 그래서 제우스가 그녀를 탐냅니다. 그런데 제우스에게 예언이 들려요. 그 여자가 낳는 아들은 아버지를 능가한다, 라는 얘기를 듣고 제우스가 자기의 위치가 위험해질 것이 두려워서 테티스를 인간 남자와 결혼을 시킵니다. 신과 신끼리 결혼하면 강한 신이 나타날 수 있기 때문에. 그래서 테티스가 인간 남자와 결혼을 하게 되는데, 이 결혼식이 굉장히 성대하게 열려요. 그래서 모든 신이 가서 그 신들이 막 축하를 합니다. 근데 여기서 딱 신 한 명이 초대가 되지 않는데, 그게 불화의 신 에리스. 근데 당연히 결혼식이니까 불화의 신을 초대할 수 없죠. 너무 당연한 얘기인데. 너무 많네요. "나를 초대 안 했어?" 라고 하면서 불화를 만듭니다. 그래서 그 결혼식장에 황금 사과 하나를 놓고 가는데, 그 황금 사과에 이렇게 딱 써요. "가장 아름다운 여신에게" 라고 쓰고. 그러면 이 신들이 그걸 보고 가장 아름다운 여신이 누구냐, 누구의 사과이냐 라고 하면서 분쟁이 일어납니다. 여기서 자기의 거라고 주장하는 3명의 신이 있죠.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>헤라, 그리고 아테나, 그리고 아프로디테. 미의 여신으로 되게 잘 알려져 있어요. 그래서 저는 이 얘기를 처음 들었을 때 아프로디테가 당연히 이런 거 아니야? 미의 여신인데? 라고 생각했습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>권력, 명예, 사랑 중에 사랑입니까?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아름다운 미녀를 주겠다라고 하잖아요, 아프로디테는. 미녀를 주겠다는 것이 사랑을 주겠다는 얘기와는 좀 다르다고 생각합니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아름다움의 기준이 그러면 사람마다 다를 수 있겠다. 누군가는 내 아름다움의 기준은 명예일 수도 있잖아. 명예라고? 아름다운 명예? 나는 승진이 나에게 가장 아름다운 거야.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>최고의 가치일 수 있지만.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 정확하게 "세상에서 가장 아름다운 여자를 주겠다" 라고 하는 게 공약이에요. 미모의 여자는. 아무튼 그래서 선택권을 갖게 된 트로이의 왕자 파리스는 이 세 명 중에 가장 아름다운 여자를 주겠다는 아프로디테를 선택하게 됩니다. 그러면서 가장 아름다운 여자를 선물로 받게 되는데, 그 여자가 바로 헬레네예요. 그런데 공교롭게 헬레네는 유부녀였습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아름다운 싱글을 주겠다 이랬으면 해결이 되는데, 아름다운 여자를 준다고 한 바람에 이미 결혼한 헬레네가 당첨이 된 거죠.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그래서 헬레네를 데리고 트로이로 돌아가게 됩니다. 헬레네가 누구의 와이프였냐면 스파르타 왕국의 왕비였어요. 그래서 스파르타 왕국의 왕은 와이프를 뺏겨서 열이 받아서 그리스 연합군을 만듭니다. 그리고 그 왕의 이름이 메넬라오스인데, 메넬라오스의 형이 아가멤논이거든요. 굉장히 권력을 가진 형이 "내 동생의 와이프를 건들다니" 그리스 연합군을 만들어서 트로이를 쳐들어가게 됩니다. 그래서 거기에서 일어난 트로이 전쟁이고. 또 재미있는 게, 아까 앞서서 테티스와 일반 인간이 결혼했다고 했잖아요. 그 사이에서 태어난 아들이 아킬레우스입니다. 아킬레우스는 정말 예언대로 강한 장군이 되고, 아킬레우스도 그리스 연합군의 한 장군으로 전쟁에 참여하게 됩니다. 굉장히 아이러니하게, 이 전쟁 중에 아킬레우스는 트로이의 첫째 아들 헥토르를 죽이게 되고, 그거에서 원한을 산 파리스, "내 형을 죽이다니" 라고 하면서 파리스가 아킬레우스에게 화살을 당겨서 아킬레스건을 맞춰서 아킬레우스가 그 전쟁에서 죽게 되는 내용이고. 영화 트로이에는 그 내용이 담겨 있고. 사실 신화에서는 트로이 전쟁 이전에 죽는 것이 정설로 알고 있는데, 영화에서는 좀 극적이게 만들기 위해서 트로이 전쟁을 하면서 죽게 되는. 그러니까 정확하게는</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'><span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 목마 사건 이전에 죽는 걸로 되어 있는데, 이 트로이라는 영화에서는 목마 사건 이후에 아킬레우스가 죽는 설정으로 나옵니다. 그래서</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이렇게 세계관이 연결되어 있다, 라고 하면서 영화 트로이 얘기까지 좀 넘어가서 이야기를 해보고 싶습니다. 이 얘기 어떤...</p></article>
+</section>
+<section id='s10' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>파리스의 선택은 뇌물 비교였다 — 신들의 욕망</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1578' href='https://youtu.be/2n6xMHTjVA0?t=1578' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>26:18<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'><span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 이해가 되셨나요? 트로이 전쟁이 일어나게 된 배경이?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>너무 황당하잖아. 남의 부인을 뺏어다가 다른 여자한테 준 게 너무 말이 안 돼. 신들도</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>진짜 신들이다. 그리고 봐봐. 실제로 그래서 파리스가 고른 게 제일 아름다운 여신을 고른 게 아니에요. 자기한테 제일 좋은 걸 준 사람을 고른 거예요. 일종의</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>뇌물 청탁을 받은 거잖아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>뇌물을 다 주겠다고 해서, 세 명 다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아, 세 명 다 뇌물을 준다고 했어. 그 뇌물끼리 비교를 한 게 아닐까? 뇌물끼리 비교해서 여자를 고른</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>거예요. 그러니까 아름다워서 고른 게 아니라 뇌물이 좋아서 고른 거잖아요. 뇌물이 아름다워서. 아름다워서 고른 거죠. 아름다운 여자를 고른 거죠. 그런 게 아니잖아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아프로디테 준다는 여자가 좋아서 고른 거다? 응.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 그게 왜? 그러니까 신들이 너무 멍청한 거야, 내 입장에서. 그러니까 "아름다운 여자잖아, 내가. 날 뽑아"가 아니라 "내가 니가 좋아하는 걸 줄게" 해서 뽑았잖아요. 그럼 사실은 파리스가 그 사과를 줬다고 한들 자기는 아름다운 여신이라서 받은 게 아니란 말이에요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>나의 아름다움은 증명하지 못했다. 증명하지</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>못했는데 그게 다 받고 싶구나, 약간 이런 생각이 들었잖아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>어, 당연하지. 왜냐하면 그 세계에서 그 증거 자체가, 그 욕망을 갖고 싶은 거잖아요. 그냥 그 사과만 가지고 있는 거예요. 사과를</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>가졌다는 게 즉 그런 의미이기</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>때문에</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>나를 고른 이유가 뭐든 상관없는 거구나. 그치 그치 그치.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이를테면 "나 팀장 줘" 그냥 이러면, "나 팀장 주면은 100시간 일할게" 하는 애랑 "나 팀장 주면은 뭐 소개팅 시켜줘" 어, 뭐 이렇게 거는 거지. 그래서 난 팀장이 됐으면 되는 거. 내가 일자리<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 팀장 된 게 아니고 아니어도 상관없는 거지, 가졌으니까. 진짜 웃겨. 여기 안에 되게 인간의 그런 욕망과 이런 것들이 다 녹아져 있고, 신들 또한 그런 것을 가지고 있다라는 것이 이 그리스 로마 신화의 핵심 희귀점<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>인 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>결핍이 있고. 그것도 너무 웃겨. 엉뚱하게 남의 잘 살고 있는 유부녀를.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러니까 아킬레우스도 신의 아들이란 말이에요. 자기 애들이 벌인 일 때문에 자기의 아들을 잃게 되는 거예요. 결국에는 그들도 뭔가 이렇게 되갚음을 받는 거죠. 그리고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그런 생각도 들었어요. 만약에 이게 사람들이 도대체 전쟁이 왜 일어났을까? 우리는 왜 싸워야 될까? 이런 의미를 가지고 이야기를 만들어낸다고 생각했을 때, 그런데 그게 "신들의 장난이었어" 같은 것으로 해석하고 싶었던 거지. 그냥 헬레네가 젊은 남자랑 바람나서 간 거면 전쟁을 못하지만, 신들의 장난으로 하는 거면 전쟁을 할 수 있는 거죠.</p></article>
+</section>
+<section id='s11' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>영화 &lt;트로이&gt; — 같이 묶어 보기</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1745' href='https://youtu.be/2n6xMHTjVA0?t=1745' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>29:05<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>신으로 신 탓하는 거 되게 좋네요. 모든 명분이 된다. 영화 트로이 보셨나요? 저는 제가 신화에 빠졌을 때 찾다가 보게 된 영화였는데, 2004년에 개봉했고 브래드 피트가 아킬레우스 역할을 하고 올랜드 블룸이 파리스 역할을 하는, 아주 걸출한 대작이네? 네. 두 배우가 나오는</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아요. 저는 그땐 안 봤는데, 아직 젊은 브래드 피트, 그리고 진짜 어린 올랜드 블룸 나오고. 헬레나가 세기의 미녀잖아요. 근데 아름답긴 하거든요. 근데 이 전쟁을 일으킬 만큼 아름다운가? 왜냐하면 세상에서 제일 아름다운 여성이잖아요. 보게 되는 거예요. 다시 캐스팅한다면? 캐서린 제타존스. 그 시절의 캐서린 제타존스. 정도 가야 된다라고 생각합니다. 그렇구나.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>젊은 시절의 브래드 피트 좋아하시잖아요. 그러니까 저는 이 영화를 그 이후로 여러 번 봤는데, 아 진짜? 그냥 자주 틀어놓고 봤는데, 이게 너무 뭔가 육감적이고, 좀 되게 뭐라 그래야 되지? 이 영화만의 무드가 있어요. 봐야겠다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이 영화는 그 당시에 좋은 평가를 받았나? 관객은 얼마나 그렇나? 이런 걸 봤더니, 오디세이같이 성공한 영화는 아니고 평가도 좀 갈린다고 하더라고요. 평단의 평가가 그렇게 좋지는 않았던 영화. 예를 들면 수상도 거의 없고 평점도 그렇게 높지 않아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그렇구나. 그러면 그런 점은 재밌다. 물론 시대적 차이도 있겠지만, 그리스 신화를 영화화한다고 해서 모든 작품이 잘 되는 건 아닌 거네요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>오디세이는 지금 거의 신드롬이 된 것과 비교했을 때는 그렇지는 않다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 확실히 그런 게, 저는 제가 이 신화를 궁금해서 더 알고 싶은데 이걸 책으로 보기는 싫은 거예요. 그냥 콘텐츠로 자연스럽게 재밌게 접하고 싶어가지고, 그냥 넷플릭스에 제가 알고 있는 여러 가지 신들 이름을 검색하면서 관련된 콘텐츠를 되게 여러 개를 봤거든요. 근데 재미없는 것도 진짜 많아요. 그리고 되게 파격적인 시도를 한 것도 있거든요. 그냥 레알 인간들이 연기하고 막 하는 것이 있어요, 현대적으로. 그런 게 되게 재미없어요. 얘기만 들었을 땐 되게 재미있어요. 그러게. 발상 자체는 되게 재미있는데. 그래서 다 잘 되는 건 정말 아니고, 정말 크리스토퍼 놀란 감독이 자기만의 시선으로 잘 만들어서 잘 됐다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아, 그럼 그냥 원천 소스를 얼마만큼 잘 해석하냐가 중요한 거네.</p></article>
+</section>
+<section id='s12' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>일진 게임 — 아킬레우스와 오디세우스, 누구랑 싸우고 누구 밑에 갈까</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1905' href='https://youtu.be/2n6xMHTjVA0?t=1905' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>31:45<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그쵸, 그쵸. 그러면은 영화 트로이까지 얘기를 했으니 신화 얘기는 그만하고, 아킬레우스랑 오디세우스를 좀 현실화해가지고 이 두 캐릭터를 얘기해보면 좋을 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>어, 장단점을 좀 얘기하면 좋을 것 같은데, 이제 이걸 전장이라고 생각하면 좀 어려우니까, 이제 일진이야. 어떤 동네 일진이라서 일짱을 학교별로 가려야 돼. A학교는 아킬레우스야, B학교는 오디세우스야. 싸워야 돼. 한 학교를 골라서 그 학교랑 일단 이겨야 돼. 일단 한번 이기고 와야 돼.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>누구랑 싸울 거냐. 그럼 아킬레우스는 진짜 싸움을 엄청 잘하는, 피지컬로 싸움을 잘하는 애고, 치명적인 단점이 하나, 그 뭔지 모르겠고 근데 뭐 약간 그렇다고 알려지네. 그리고 오디세우스는 싸움을 뭐 그닥 잘하는 것 같진 않은데, 얘가 뭐 계속 영리하게 어떻게 이긴다, 계략을 써서 이긴다, 이런 얘기가 들려오는. 이 상황에서 누구를 골라서 먼저 이길까. 누구 고를래요 보람님?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 아킬레우스를 먼저 고를 것 같습니다. 오디세우스한테 지면 너무 빡칠 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 아킬레우스는 가면 100% 지는데도요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그게 좀 더 명예로울 수 있을 것 같아요. 어차피 얘는 우리 동네 일짱이잖아. 그러면 그냥 괜찮을 것 같아. 덜 자존심 상할 것 같은데, 그 오디세우스 걔는 잘 싸우는 애는 아닌데 내가 골탕을 먹어. 예를 들어 "야 싸우지 말자, 친하게 지내자" 했는데, 악수했는데 거기 막 모지<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 박혀있어서 뒤통수 쳐. 어, 막 뒤통수 쳐. 그럼 너무 빡칠 것 같아.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 오디세우스랑 싸울 것 같은데, 승률로 보면 아킬레우스는 제가 무조건 져요. 근데 오디세우스는 30%의 확률로 나도 이길 수 있고, 얘가 지저분하게 싸운다는 걸 내가 알고 있어요. 나도 전술을 세울 수가 있잖아요. 근데 그 전술과 상관없이 아킬레우스는 무조건 지는 거고. 얘가 지저분하게 나와? 그럼 나도 그 대비를 하고 갈 수 있다? 그래서 이길 확률이 더 있다? 이런 생각도 좀 드네요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>오히려 이 얘기를 들으니까 아킬레우스랑 싸우는 게 더 좋을 것 같다는 생각이 드는데. 아킬레우스는 어떻게 싸울지가 너무 눈에 훤해요. 걔는 싸움을 잘하니까 싸움으로 이기려고 하겠지. 그러면 나는 얘를 이기기 위해서 뭐를 준비해야 될지 좀 명확하잖아요. 내가 나도 더 싸움을 준비할 수도 있고, 아니면 걔가 육탄전 할 테니까 내가 오디세우스처럼 약간 어떻게 뒤통수를 쳐볼까 할 수 있을 것 같은데, 걔를 상대해야 될 때는 생각할 게 너무 많을 것 같아요. 나 육탄전도 준비하고, 그 계략에 맞서는 또 계략도, 또 막 계략의 계략의 계략을 막 생각해야 되고. 어려울 것 같아요. 아킬레우스를 내 계략으로 이겨버리면 어떨까.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러면 만약에 이제 내가 둘 사람 중에 누구 밑으로 들어가야 돼. 이제 나는 일짱까지는 아니고 이짱으로, 나의 일짱을 골라야 돼. 누구 밑에 들어갈 거예요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 오디세우스는 부하 직원들 한 명도 살아서 돌아오게 하지 못한다. 리더로서 전쟁은 전투만 있는 것이 아니라 귀환하는 것까지가 프로젝트의 끝이라고 하면 프로젝트를 실패한 리더입니다. 반면에 트로이에서 아킬레우스는 나를 지켜주는 리더인 거예요. 생존 확률은 아킬레우스 밑에 있을 때가 더 높을 것 같다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>어렵네. 저는 어쨌든 2026년의 사람이니까 육탄전보다 지략전이 더 고차원적이라는 생각이 들어가지고, 승률이 뭔가 오디세우스한테 있을 것 같다는 생각이 들어요. 그래서 내 편할 사람은 오디세우스. 집에 돌아가는 것은 제가 한번 잘해보겠습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 그런 얘기도 있잖아요. "강한 자가 살아남은 것이 아니라 살아남은 자가 강한 것이다" 라고 했을 때는, 오디세우스는 어쨌든 살아남아서 귀환에 성공하고, 아킬레스는 아무리 뛰어난 장수라고 하지만 죽습니다. 라고 했을 때는 이 이야기 속에서는 오디세우스가 승자인 거죠. 많네요. 재밌다.</p></article>
+</section>
+<section id='s13' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>오디세우스는 중간관리자다 — 책임지려는 것도 오만</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2179' href='https://youtu.be/2n6xMHTjVA0?t=2179' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>36:19<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>너무 재밌다. 그 오디세우스의 리더십에 관련해서 조금 얘기를 하고 싶은데, 저는 현대인의 관점으로 이 오디세우스가 너무 중간관리자 같다라는 느낌을 많이 받았어요. 팀장 정도? 팀장, 실장 정도? 그 위는 누구야? 아가멤논. 그런 느낌을 왜 받았냐면, 이 사람이 아가멤논에 대한 묘사를 자기 와이프한테 해요. "아가멤논은 자기가 원하는 것은 다 갖는 사람이야. 자기가 원하는 것을 갖기 위해 자기 딸도 죽이는 사람이라고. 난 이 사람을 따라갈 수밖에 없어" 라고 하는, 그런 것들에 대해서 뭔가 상사의 압박. 그러네. "우리 상사 이거 숫자 안 맞으면 그냥 피도 눈물도 없는 사람이야" 라고 종종 느낄 때 있잖아요. 이거 누구 떠올린 거다, 그치? 여기</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이렇게 아는 눈물이<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span></p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>나지는 인내 있어<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 그런 느낌? 그치만 부하들을 이제 이끌어야 되는데, 부하들도 오지게 말은 안 듣습니다. MG<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>야 너무, 부하들이. MG<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>. 하지 말라는 건 말고. MG<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>. 그리고 "자꾸 이러시면 저희 반역합니다" 막 이러잖아요. 이 새끼들이. 그런데 그러다가 막 죽고 이래. 그럼 또 엄청 책임감 느낀단 말이야, 나는. "우리 애들도 못 지키고. 절반이 다 죽었는데 난 좋은 리더일까?" 이런단 말이죠. 그래서 뭔가 이 중간관리자, 그런 의혹을<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 굉장히 받았고. 그랬습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>본인이 중간관리자여서 더 와닿나 보다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 전 또 인상 깊었던 게, 부하들을 되게 챙기려고 하지만 잘 못 챙겨요. 그리고 자기의 오만함 때문에 자기를 위험에 스스로 빠뜨리기도 하지만, 부하들까지 위험에 빠뜨리는 행동을 되게 많이 해요. 미흡한 인간이에요. 근데 또 반성을 되게 많이 한단 말이에요. 부하들이 잘못된 게 다 내 탓이고, 다 거기에 대한 부채감을 엄청 느끼는데, 이제 아테네 여신이 "부하에 대한 모든 책임을 너가 다 지려고 하는 것도 약간 오만함이다" 라는 그런 뉘앙스의 이야기를 하거든요. "너가 뭐 신도 아닌데 다 책임져. 부하들도 부하들의 삶으로, 스스로의 선택들, 먹지 말라는 걸 먹고 하지 말라는 짓을 하면서 그 대가를 받은 건데, 너가 그것을 다 책임지려 하는 것도 오만함이다" 라는 얘기를 하는데, 그것도 새로운 느낌이었어요, 저한테. 한 인간이 무언가를 되게 책임지려 하는 것도 일종의 오만함입니다. 좀 인간이 잘 모르면 모를수록 내가 되게 큰 영향을 미칠 수 있다고 생각하는 것 같거든요. "내 프로젝트 잘못되면 이거 어떡해, 그럼 내가 막 책임지고 나가야 되는 거 아니야." 내가 책임질 수 있는 건 없어.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'><span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 내가</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'><span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 나간다고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'><span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 해도 책임이 져지지</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>않아요. 제가 "이거 제가 책임지고 나가겠습니다" 했더니, 우리 팀장님이 "너의 퇴사에는 그 정도의 무게가..." 그리고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>대리급한테 그 정도 책임질 프로젝트를 주지도 않아. 주지도 않지. 맞아요. 그러니까 이런 것들이 묘하게 역으로 위로가 되기도 한다, 라는 생각도 들었어요.</p></article>
+</section>
+<section id='s14' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>결함 있는 인물이 오래 남는 이유</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2360' href='https://youtu.be/2n6xMHTjVA0?t=2360' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>39:20<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>좀 다른 얘기로, 어쨌든 불완전한 인간이잖아요. 외눈박이 눈 찌르고. 이런 불완전함이 오히려 이야깃거리로 더 오래 남는 건 아닐까라는 생각을 하기도 하거든요. 되게 완벽한 영웅 서사보다 좀 결함이 있는 이야기들에 오히려 더 끌리나? 그래서 이 이야기가 삼천 년이 간 건가? 이런 생각도 좀 들어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그런 거 보면 이 그리스 신화라고 하는 건 그런 실수나 결핍들로 교훈을 얻는 것들이 더 많이 남는 것 같아요. 그러니까요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>어떤 캐릭터 하나를 설정할 때 꼭 치명적인 단점 같은 걸 하나를 넣으라고 하잖아요. 예를 들어 카카오의 라이언 캐릭터라고 하면 갈기가 없는 사자다. 이렇게 특이한 약점 같은 걸 하나를 넣는데, 그런 게 뭔가 이야깃거리를 만드나? 더 기억에 남게 하나? 이런 생각이 들어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그 결함은 어떤 면에서는 장점이 될 수도 있는, 그런 이중적인 결함을 인물이 가지고 있을 때 사건이나 이런 것들이 스펙타클해지고 이렇게 되는 거지. 이 오디세우스도 여기에서의 결점은 오만함인데, 어떨 때는 그것이 자신감이나 추진력 같은 걸로 보여질 수 있는, 이중의 해석이 가능한 결함인 거죠. 인간을 다채롭게 보는 시선이 재밌네요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 이게 스토리를 진척시키기 위한 결함의 측면으로 얘기한 거잖아요. 근데 혹시 그게 뭔가 사람들이 매력을 느끼는 데도 작용을 할까요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>어떤 인물은 진짜 매력 없이 진짜 찌질하게만도 그려지긴 하지만, 보통은 사랑스러운 구석이 있잖아요. 이 오만함도 카리스마로 보여질 수 있거나, 아니면 이 사람이 오만할 수 있었던 게 머리가 진짜 좋고 꾀돌이라서 이렇게 되는 것처럼. 이 결함 자체가 매력적이라기보다는 결함이 이 사람을 좀 더 인간답게 만드는 역할을 하는 거지. 그래서 그리스 로마 신화가 사랑받을 수 있는 것은 결함이 있는 신들이라서 그런가, 라는 생각이 들었어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>제가 이 질문을 왜 했냐면, 스토리의 추진력도 추진력이지만 뭔가 저는 좀 부족한 사람을 보면 저 마음이 가는 것을 종종 느끼거든요. 나와 닮은 점을 좀 발견하기도 하고, 그러면서 더 친밀감 같은 것이 생기기도 하고 해가지고. 혹시 그런 영향도 있나? <span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 완전 있는 것 같아.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이건 되게 오래된 이야기임에도 불구하고 입체적인 인물이 등장하고, 해석의 여지가 다양하고. 그래서</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>좋은 것 같아. 그래서</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>좋은가 하면 그럴 수 있는 것 같아요.</p></article>
+</section>
+<section id='s15' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>외전을 만든다면 — 페넬로페와 아가멤논</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2539' href='https://youtu.be/2n6xMHTjVA0?t=2539' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>42:19<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그럼 마지막 질문으로, 이 서사의 외전을 만든다고 하면 누구를 주인공으로 이야기를 만들어보고 싶은지에 대해서 좀 상상을 해보면 어떨까요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>학위사<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 각자 캐릭터나 소사<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>가 너무 뚜렷하니까 뭘 더 만들어도 되겠네.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>세영님 어떠세요? 누구의 이야기가 더 보고 싶으세요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 이번 영화에서 누가 제일 매력적이었냐라고 하면, 페넬로페가 제일 매력적이었거든요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아. 앤에스 어웨이<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>가 연기를 너무 잘하기도 했고, 페넬로페의 감정선이 이랬다 저랬다 하는 것이, 그러니까 남편이 돌아왔으면 좋겠는 마음, 남편을 기다리는 마음. 하지만 마음 한구석에는 남편이 죽었을 수도 있겠다는 그런 의심. 그리고 아들을 지키고자 하는 마음과, 근데 "왜 여자는 왕하면 안 돼?" 라고 하는 마음 같은 것이, 정말 대사 한 다섯 줄에 마음이 이랬다 저랬다 하는 것이 다 느껴져서 너무 좋았거든요. 연기 너무 잘하더라. 그래서 저는 오디세우스가 없는 20년 동안 페넬로페가 어떻게 통치했는지에 대한 외전을 만들어 보면 어떨까, 라는 생각을 해봅니다. 되게 잘했을 수도 있잖아요, 사실.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>잘했을 것 같아요. 20년 동안 안 망하고 있었잖아요. 그치 그치. 너무 아름다웠어. 저는 아가멤논의 이야기 궁금합니다. 아가멤논이 야심을 가지고 전쟁을 일으키기 위한 어떤 과정도 재밌을 것 같고요. 아가멤논이 기왕길을<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 돌아와서 아내에게 죽임을 당하는 장면이 나오는데, 아내가 죽인 이유가 배신이라기보다는 복수거든요. 아내의 미움을 산, 딸을 제물로 바치는 그런 이야기가 얼마나 드라마틱해요. 그런 이야기와, 쉽게 그냥 죽어버린 것처럼 나왔지만 그 죽음의 과정이라는 것도 굉장히 드라마틱한 이야기이기 때문에 되게 재미있는 이야기가 될 것 같다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그 욕망이 대단한 사람이잖아요. 욕망의 원천 같은 것도 파볼 수 있을 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이 사람도 어떤 이중적인 결함이 있는 게, 이 시대를 제패하고 있는 어떤 대단한 인물이지만 수신제가 치국평천하를 못한 것 같네요. 지점들이 또 인간적인 어떤 면으로 재밌게 그려줄 수 있을 것 같다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>재밌겠다. 만들어주십시오. 약간 3년에 한 번씩 보고 싶습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리스 로마 신화가 가지고 있는 이야기 소스들이 많으니까, 그거 다 진짜 놀란 감독님이 해주셨을 것 같아요.</p></article>
+</section>
+<section id='s16' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>클로징 — 개고생 얘기가 왜 3천 년을 갔나</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2695' href='https://youtu.be/2n6xMHTjVA0?t=2695' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>44:55<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러게, 할 게 많네. 너무 잘한 죄. 우리를 너무 설레게 한 죄. 좋습니다. 그럼 오늘의 이야기 여기서 마무리해보겠습니다. 오프닝 질문이 "개고생 얘기가 왜 3천 년이 갔을까"였는데요. 이 질문에 대해서 좀 답이 됐을까요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>개고생이 아니었으면 재미없었을 것 같아요. 그냥 개고생이어서 재밌다. 그리고 내가 개고생하는 게 아니고 남이 개고생한 얘기라 재밌다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아. 이 오디세우스가 멍청이라서 개고생한 게 아니잖아요. 뛰어난 인물인데 개고생을 했고, 그 고생들이 다채로워. 만나기도 하고, 어디 섬에 갇히기도 하고, 사랑도 하고. 그런 다채로운 이야기가 사람들의 마음을 사서 삼천 년이 갔고, 앞으로도 삼천 년 또 갈 수 있다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저희가 예전에 "실패담이 재밌다" 이런 얘기를 한 번 한 적이 있었는데, 실패담까지는 아니지만 어쨌든 남들이 우여곡절을 겪는 것들은 늘 재밌는 것 같고, 그 우여곡절이라서 삼천 년이 갈 만큼 재밌다. 오늘 저희 그리스 로마 신화에 대해서 여러 가지 이야기를 한번 해봤고, 또 그리스 로마 신화 관련된 콘텐츠들이 굉장히 많다는 것도 이렇게 또 알게 됐던 한 회였던 것 같아요. 보람님 좀 빠지어<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 드셨습니까?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#e8dec1] text-[#5b4910] text-xs flex items-center justify-center font-bold'><span>보</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>보람</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>네, 한 번 더 보고 싶다는 생각이 오늘 좀 더 들었습니다. 알고 보는 게 재밌을 것 같긴 해요. 근데 사실 많은 인플루언서들이 오디세우스에 대한 배경도 많이 얘기해주고 후기도 얘기해줬는데, 저 같은 비기너가 듣기에는 여전히 좀 어렵긴 했거든요. 이거를 막 우리가 현실로 가져와서 "이런 팀장은 없대", 뭐 "이런 애랑 싸우는 건 어때?"로 얘기하니까 확 더 캐릭터가 이해되는 느낌이었어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>거기에 좀 비약이 있을 수 있겠으나, 뭐 저희가 비기너의 입장에서 좀 갖고 놀아봤다 정도로 이해해주시면 좋을 것 같아요. 좋습니다. 그럼 오늘 여기서 마무리해보겠습니다. 오디세우스의 이야기가 더 필요하신가요? 네. 그러면 2주 뒤에 만나요. 안녕.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>다음 영상에서 만나요.</p></article>
+</section></div>
+
+<details class="notes my-space-xl bg-surface-container-low rounded-lg px-space-md py-space-sm text-on-surface-variant">
+<summary class="cursor-pointer font-label-md text-label-md font-semibold">받아쓰기 교정 노트</summary>
+<div class="mt-space-sm"><h2>교정 노트</h2>
+<h3>1. 단어 교정 (문맥상 확실한 받아쓰기 오류) — 41건</h3>
+<table>
+<thead>
+<tr>
+<th>받아쓰기 표기</th>
+<th>고친 표기</th>
+<th>근거</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>그리스 로마시나 / 그리스로가 신화 / 그리스로마 신화</td>
+<td>그리스 로마 신화</td>
+<td>같은 대본 다른 곳에서 &quot;그리스 로마 신화&quot;로 받아써짐. 회차 주제</td>
+</tr>
+<tr>
+<td>시내필</td>
+<td>시네필</td>
+<td>&quot;시네필이 아닌데도 불구하고 압도감…&quot; 문맥</td>
+</tr>
+<tr>
+<td>호람님 (1:25)</td>
+<td>보람님</td>
+<td>출연자 이름. &quot;보람님 얘기를 먼저 좀 해주세요&quot;</td>
+</tr>
+<tr>
+<td>접혀야 하지 (2:17)</td>
+<td>접해 보지</td>
+<td>&quot;그리스 로마 신화나 이런 것을 거의 접해 보지 않았어요?&quot; 문맥</td>
+</tr>
+<tr>
+<td>초니버스 (2:23)</td>
+<td>투니버스</td>
+<td>3:19 세영이 &quot;투니버스에서 해주는…&quot;이라고 말함</td>
+</tr>
+<tr>
+<td>계복 (2:37)</td>
+<td>계보</td>
+<td>&quot;최소의 계보, 핵심 사건들, 중요한 신들&quot; 나열 문맥</td>
+</tr>
+<tr>
+<td>크리스토퍼 널란 / 크리스퍼 놀란</td>
+<td>크리스토퍼 놀란</td>
+<td>1:07 &quot;크리스토퍼 놀란 감독의 오디세이&quot;</td>
+</tr>
+<tr>
+<td>국장 (5:23)</td>
+<td>극장</td>
+<td>&quot;극장에서는 이런 영화 보는 거다&quot; 문맥</td>
+</tr>
+<tr>
+<td>오디세우에요 (12:51)</td>
+<td>오디세우스예요</td>
+<td>등장인물 이름</td>
+</tr>
+<tr>
+<td>탈꾼 (13:10)</td>
+<td>약탈꾼</td>
+<td>&quot;전쟁을 일삼는 약탈꾼과 침략자&quot;, 직전 세영 발언의 &quot;약탈하고&quot;</td>
+</tr>
+<tr>
+<td>히르케 (13:21)</td>
+<td>키르케</td>
+<td>12:51 &quot;키르케 섬에 갔을 때부터&quot;</td>
+</tr>
+<tr>
+<td>제우수 (13:21)</td>
+<td>제우스</td>
+<td>10:28 &quot;제우스의 율법&quot;</td>
+</tr>
+<tr>
+<td>신하고 (14:43)</td>
+<td>신화고</td>
+<td>&quot;우리에게 굉장히 친숙한 신화고&quot; 문맥</td>
+</tr>
+<tr>
+<td>올림프스 카메라</td>
+<td>올림푸스 카메라</td>
+<td>브랜드명</td>
+</tr>
+<tr>
+<td>헤라 씬</td>
+<td>헤라 신</td>
+<td>&quot;헤라 신에서 따온 거고&quot; 문맥</td>
+</tr>
+<tr>
+<td>플레넬은 (18:04)</td>
+<td>헬레네는</td>
+<td>바로 뒤 &quot;아 헬레네는 명분이고&quot;</td>
+</tr>
+<tr>
+<td>무려트려서</td>
+<td>무너뜨려서</td>
+<td>&quot;트로이 성벽을 못 무너뜨려서&quot;</td>
+</tr>
+<tr>
+<td>친적 보내주지</td>
+<td>진작 보내주지</td>
+<td>&quot;7년 동안은 왜… 그럼 진작 보내주지&quot; 문맥</td>
+</tr>
+<tr>
+<td>해변을 거느리는</td>
+<td>해변을 거니는</td>
+<td>&quot;몽환적으로 해변을 거니는 모습&quot; 문맥</td>
+</tr>
+<tr>
+<td>아킬레오스 (21:14)</td>
+<td>아킬레우스</td>
+<td>등장인물 이름. 대본 대부분 &quot;아킬레우스&quot;</td>
+</tr>
+<tr>
+<td>앞으로 디테일 (23:46)</td>
+<td>아프로디테</td>
+<td>세 여신 중 &quot;가장 아름다운 여자를 주겠다&quot;고 한 여신. 23:04·23:22 &quot;아프로디테&quot;</td>
+</tr>
+<tr>
+<td>유분열을 (28:24)</td>
+<td>유부녀를</td>
+<td>23:46 &quot;헬레네는 유부녀였습니다&quot; + &quot;남의 잘 살고 있는 유부녀를&quot;</td>
+</tr>
+<tr>
+<td>힐리네 (28:41)</td>
+<td>헬레네</td>
+<td>등장인물 이름</td>
+</tr>
+<tr>
+<td>브랜드 미트 (29:57)</td>
+<td>브래드 피트</td>
+<td>29:05 &quot;브래드 피트가 아킬레우스 역할&quot;</td>
+</tr>
+<tr>
+<td>성단의 평가 (30:17)</td>
+<td>평단의 평가</td>
+<td>&quot;수상도 거의 없고 평점도…&quot; 문맥</td>
+</tr>
+<tr>
+<td>신인들 이름 (30:54)</td>
+<td>신들 이름</td>
+<td>&quot;제가 알고 있는 여러 가지 신들 이름을 검색&quot; 문맥</td>
+</tr>
+<tr>
+<td>1진 / 1장 / 일장 / 2장</td>
+<td>일진 / 일짱 / 이짱</td>
+<td>&quot;동네 일진&quot;, &quot;학교별로 일짱을 가려야&quot;, &quot;일짱까지는 아니고 이짱으로&quot; 문맥</td>
+</tr>
+<tr>
+<td>악리로스 (33:06)</td>
+<td>아킬레우스</td>
+<td>일진 게임의 두 후보 중 하나</td>
+</tr>
+<tr>
+<td>눈에 화내요 (34:04)</td>
+<td>눈에 훤해요</td>
+<td>&quot;어떻게 싸울지가 너무 눈에 훤해요&quot; 문맥</td>
+</tr>
+<tr>
+<td>그네를 (34:04)</td>
+<td>걔를</td>
+<td>&quot;걔를 상대해야 될 때는&quot; 문맥(오디세우스를 가리킴)</td>
+</tr>
+<tr>
+<td>6탄전 / 육탄점</td>
+<td>육탄전</td>
+<td>같은 블록의 &quot;걔가 육탄전 할 테니까&quot;</td>
+</tr>
+<tr>
+<td>오만화입니다 (38:36)</td>
+<td>오만함입니다</td>
+<td>앞 문장 &quot;책임지려 하는 것도 오만함이다&quot;</td>
+</tr>
+<tr>
+<td>불안전한 (39:20)</td>
+<td>불완전한</td>
+<td>바로 뒤 &quot;이런 불완전함이&quot;</td>
+</tr>
+<tr>
+<td>갈 기꺼 없는 사자 (40:08)</td>
+<td>갈기가 없는 사자</td>
+<td>&quot;특이한 약점&quot; 예시 문맥</td>
+</tr>
+<tr>
+<td>세용님 (42:36)</td>
+<td>세영님</td>
+<td>출연자 이름</td>
+</tr>
+<tr>
+<td>재패</td>
+<td>제패</td>
+<td>맞춤법</td>
+</tr>
+<tr>
+<td>수신제가 치유 평천화</td>
+<td>수신제가 치국평천하</td>
+<td>사자성어</td>
+</tr>
+<tr>
+<td>다 채로와 (45:25)</td>
+<td>다채로워</td>
+<td>바로 뒤 &quot;그런 다채로운 이야기가&quot;</td>
+</tr>
+<tr>
+<td>섭외 갇히기도 (45:25)</td>
+<td>섬에 갇히기도</td>
+<td>칼립소 섬 얘기(19:38) 문맥</td>
+</tr>
+<tr>
+<td>한화였던 것 같아요 (45:47)</td>
+<td>한 회였던 것 같아요</td>
+<td>회차 마무리 멘트</td>
+</tr>
+<tr>
+<td>논란감독님 (44:49)</td>
+<td>놀란 감독님</td>
+<td>감독 이름</td>
+</tr>
+</tbody></table>
+<h3>2. 미확인 — 원문 그대로 두고 <code>(?)</code> 표시 — 24건</h3>
+<table>
+<thead>
+<tr>
+<th>받아쓰기 표기</th>
+<th>위치</th>
+<th>비고</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>참을 못하겠는</td>
+<td>3:05</td>
+<td>&quot;거기에 (흥에) 참여를 못하겠는&quot;일 가능성 있으나 확인 안 됨</td>
+</tr>
+<tr>
+<td>예세가</td>
+<td>12:43</td>
+<td>뜻 불명</td>
+</tr>
+<tr>
+<td>해석권</td>
+<td>12:51</td>
+<td>&quot;해석이죠&quot; 등 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>파잡았거든요</td>
+<td>13:58</td>
+<td>&quot;찾아봤거든요/파봤거든요&quot; 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>일정에 영향</td>
+<td>14:43</td>
+<td>문맥상 흥행 얘기로 보이나 단어 확인 안 됨</td>
+</tr>
+<tr>
+<td>더 좁게 되는</td>
+<td>15:56</td>
+<td>뜻이 어긋남, 확인 안 됨</td>
+</tr>
+<tr>
+<td>눈물도 많기도 하고</td>
+<td>18:04</td>
+<td>&quot;인물도&quot;일 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>티의 관점</td>
+<td>18:58</td>
+<td>성격유형 T 얘기일 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>벼랑간</td>
+<td>18:58</td>
+<td>&quot;별안간&quot;일 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>왜 내 거 있었어</td>
+<td>18:58</td>
+<td>뜻 불명</td>
+</tr>
+<tr>
+<td>추년이라 대꽃을</td>
+<td>18:58</td>
+<td>뜻 불명</td>
+</tr>
+<tr>
+<td>애프로서</td>
+<td>18:58</td>
+<td>뜻 불명</td>
+</tr>
+<tr>
+<td>극중에서 없었</td>
+<td>20:14</td>
+<td>문장이 끊김</td>
+</tr>
+<tr>
+<td>일자리 팀장</td>
+<td>27:46</td>
+<td>뜻 불명</td>
+</tr>
+<tr>
+<td>희귀점</td>
+<td>28:05</td>
+<td>&quot;회귀점&quot; 등 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>모지 박혀있어서</td>
+<td>33:10</td>
+<td>악수할 때 손에 뭔가 박혀 있다는 비유. 단어 확인 안 됨</td>
+</tr>
+<tr>
+<td>이렇게 아는 눈물이 / 나지는 인내 있어</td>
+<td>37:11~37:14</td>
+<td>뜻 불명</td>
+</tr>
+<tr>
+<td>MG (3회)</td>
+<td>37:14</td>
+<td>세대 지칭 은어일 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>의혹을 굉장히 받았고</td>
+<td>37:14</td>
+<td>&quot;인상을/느낌을&quot; 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>학위사</td>
+<td>42:30</td>
+<td>뜻 불명</td>
+</tr>
+<tr>
+<td>소사가</td>
+<td>42:30</td>
+<td>&quot;서사가&quot;일 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>앤에스 어웨이</td>
+<td>42:45</td>
+<td>페넬로페 역 배우 이름으로 보이나 받아쓰기만으로 확인 불가 — 인용 금지</td>
+</tr>
+<tr>
+<td>기왕길을</td>
+<td>43:33</td>
+<td>&quot;귀향길/귀환길&quot; 가능성, 확인 안 됨</td>
+</tr>
+<tr>
+<td>빠지어 드셨습니까</td>
+<td>46:15</td>
+<td>&quot;빠져 드셨습니까&quot;일 가능성, 확인 안 됨</td>
+</tr>
+</tbody></table>
+<h3>3. 화자 경계 고침 (근거 확실) — 24곳</h3>
+<p>화자분리가 <strong>말하는 사람이 바뀌기 몇 단어 전에 라벨을 넘겨서</strong>, 앞 사람 문장의 끝이 뒷사람 블록에 붙는 일이 반복됐다. 한 문장이 두 블록에 걸쳐 끊긴 곳만 고쳤다.</p>
+<table>
+<thead>
+<tr>
+<th>위치</th>
+<th>옮긴 말</th>
+<th>원래 라벨 → 고친 라벨</th>
+<th>근거</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0:18</td>
+<td>있을 때가 더 높을 것 같다</td>
+<td>세영 → 혜진</td>
+<td>같은 말이 35:04 혜진 블록 안에 있음(티저는 이 구간을 앞에 붙인 것)</td>
+</tr>
+<tr>
+<td>0:26</td>
+<td>승률이</td>
+<td>보람 → 세영</td>
+<td>같은 말이 35:32 세영 블록 안에 있음</td>
+</tr>
+<tr>
+<td>1:25</td>
+<td>그 얘기를 좀 하고</td>
+<td>보람 → 세영</td>
+<td>세영의 &quot;그 전에 그리스 로마 신화가 왜 재밌는지&quot;에 이어지는 문장</td>
+</tr>
+<tr>
+<td>2:15</td>
+<td>영화였습니다. 저한테.</td>
+<td>세영 → 보람</td>
+<td>보람의 &quot;그래서 참... 어려운&quot;에 이어지는 문장</td>
+</tr>
+<tr>
+<td>2:17</td>
+<td>그럼</td>
+<td>보람 → 세영</td>
+<td>세영의 &quot;보람님은 어렸을 때…&quot; 질문의 첫 말</td>
+</tr>
+<tr>
+<td>2:17</td>
+<td>네.</td>
+<td>세영 → 보람</td>
+<td>세영 질문에 대한 답</td>
+</tr>
+<tr>
+<td>2:23</td>
+<td>그럼 혜진님은 그리스</td>
+<td>보람 → 세영</td>
+<td>세영 블록 &quot;로마 신화에 대한 사전 지식이 어느 정도였어요?&quot;로 이어짐</td>
+</tr>
+<tr>
+<td>2:32</td>
+<td>저는 신화의</td>
+<td>세영 → 혜진</td>
+<td>혜진 블록 &quot;이해라는 수업을 들었어요&quot;로 이어짐</td>
+</tr>
+<tr>
+<td>3:18</td>
+<td>느끼는 / 달랐겠죠</td>
+<td>세영 → 혜진</td>
+<td>혜진의 &quot;애니메이션을 보고 자란 세대와 … 감성은&quot;과 한 문장</td>
+</tr>
+<tr>
+<td>5:20</td>
+<td>저는</td>
+<td>세영 → 혜진</td>
+<td>혜진 블록 &quot;그 목마의 형태나…&quot;로 이어짐</td>
+</tr>
+<tr>
+<td>6:54</td>
+<td>게 무서웠어요</td>
+<td>보람 → 세영</td>
+<td>세영의 &quot;무당탕탕탕탕 오는&quot;에 이어지는 문장</td>
+</tr>
+<tr>
+<td>7:20</td>
+<td>있었어요?</td>
+<td>보람 → 세영</td>
+<td>세영의 &quot;보람님 인상 깊은 장면이&quot;에 이어지는 질문</td>
+</tr>
+<tr>
+<td>12:41</td>
+<td>그렇게 해석하나요? 저는</td>
+<td>세영 → 혜진</td>
+<td>혜진의 &quot;그걸&quot;에 이어지고, 혜진이 자기 해석(&quot;저는 진짜로…&quot;)을 이어 말함. 세영이 바로 반박</td>
+</tr>
+<tr>
+<td>23:19</td>
+<td>권력,</td>
+<td>혜진 → 세영</td>
+<td>세영 블록 &quot;명예, 사랑 중에 사랑입니까?&quot;와 한 문장</td>
+</tr>
+<tr>
+<td>28:17</td>
+<td>신화의 핵심 희귀점인 것 같아요</td>
+<td>보람 → 세영</td>
+<td>세영의 &quot;이 그리스 로마&quot;에 이어지는 문장</td>
+</tr>
+<tr>
+<td>28:24</td>
+<td>유부녀를</td>
+<td>세영 → 보람</td>
+<td>보람의 &quot;엉뚱하게 남의 잘 살고 있는&quot;에 이어지는 문장</td>
+</tr>
+<tr>
+<td>30:35</td>
+<td>않아요.</td>
+<td>보람 → 혜진</td>
+<td>혜진의 &quot;평점도 그렇게 높지&quot;에 이어지는 문장</td>
+</tr>
+<tr>
+<td>31:39</td>
+<td>아, / 중요한 거네.</td>
+<td>세영 → 보람</td>
+<td>보람의 &quot;그럼 그냥 원천 소스를 얼마만큼 잘 해석하냐가&quot;와 한 문장</td>
+</tr>
+<tr>
+<td>32:55</td>
+<td>누구 고를래요 보람님?</td>
+<td>보람 → 세영</td>
+<td>본인 이름을 부르는 질문. 세영의 상황 설명 끝</td>
+</tr>
+<tr>
+<td>35:54</td>
+<td>잘해보겠습니다</td>
+<td>혜진 → 세영</td>
+<td>0:27 티저에서 세영 블록 안 &quot;제가 한번 잘해보겠습니다&quot;</td>
+</tr>
+<tr>
+<td>37:52</td>
+<td>보다.</td>
+<td>세영 → 보람</td>
+<td>보람의 &quot;더 와닿나&quot;에 이어지는 문장</td>
+</tr>
+<tr>
+<td>40:32 / 41:11</td>
+<td>그 / 어떤</td>
+<td>세영 → 혜진</td>
+<td>혜진 블록 &quot;결함은…&quot;, &quot;인물은…&quot;의 첫 말</td>
+</tr>
+<tr>
+<td>46:15</td>
+<td>보람님 좀 빠지어 드셨습니까?</td>
+<td>보람 → 세영</td>
+<td>본인 이름을 부르는 질문. 세영의 마무리 멘트 끝</td>
+</tr>
+</tbody></table>
+<h3>4. 화자 확인 필요 — 고치지 않고 표시만 — 9곳</h3>
+<table>
+<thead>
+<tr>
+<th>위치</th>
+<th>발언</th>
+<th>현재 라벨</th>
+<th>근거</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1:25</td>
+<td>그리스 로마 신화 얘기부터 할까요?</td>
+<td>보람</td>
+<td>세영의 진행 멘트가 이어진 것일 수 있음</td>
+</tr>
+<tr>
+<td>1:25</td>
+<td>보람님 얘기를 먼저 좀 해주세요</td>
+<td>보람</td>
+<td>본인 이름을 부르므로 보람이 아님. 세영인지 혜진인지는 확정 못 함</td>
+</tr>
+<tr>
+<td>7:20</td>
+<td>CG가 아니라고요?</td>
+<td>보람</td>
+<td>바로 뒤에 보람이 &quot;아니라던데요?&quot;라고 답함 → 다른 사람의 반문</td>
+</tr>
+<tr>
+<td>15:04</td>
+<td>영화관에 가는 많은 세대들이 … 같거든요</td>
+<td>혜진</td>
+<td>문장이 세영 블록 끝(&quot;영화관에&quot;)에서 시작됨. 세영 발언일 수 있음</td>
+</tr>
+<tr>
+<td>19:30</td>
+<td>추년이라 대꽃을 안 쓰면 계속 먹이지</td>
+<td>보람</td>
+<td>보람의 의문에 대한 다른 사람의 대꾸로 보임</td>
+</tr>
+<tr>
+<td>25:58</td>
+<td>목마 사건 이전에 죽는 걸로 되어 있는데…</td>
+<td>혜진</td>
+<td>세영이 &quot;그러니까 정확하게는&quot;으로 자기 말을 고치던 중이라 세영 발언일 수 있음</td>
+</tr>
+<tr>
+<td>26:18</td>
+<td>이해가 되셨나요?</td>
+<td>혜진</td>
+<td>세영의 &quot;이 얘기 어떤...&quot;에 이어지는 말일 수 있음</td>
+</tr>
+<tr>
+<td>39:05~39:08</td>
+<td>내가 / 나간다고 / 해도 책임이 져지지 않아요</td>
+<td>보람·세영·보람·혜진</td>
+<td>한 문장이 세 사람에게 쪼개짐. 누구 말인지 확정 못 함</td>
+</tr>
+<tr>
+<td>42:05</td>
+<td>완전 있는 것 같아</td>
+<td>세영</td>
+<td>세영이 던진 질문에 대한 답이라 다른 사람일 수 있음</td>
+</tr>
+</tbody></table>
+<h3>5. 반복 환각</h3>
+<ul>
+<li>없음. 10:28 &quot;잘 대접해줘라. 잘 대접해줘라.&quot;는 두 번뿐이고 강조 반복으로 보여 그대로 둠.</li>
+<li>0:00<del>0:38 티저는 35:04</del>35:54 발언과 거의 같은 내용이지만, 받아쓰기 반복이 아니라 <strong>편집으로 앞에 붙인 하이라이트</strong>라서 양쪽 다 남김(세영 오프닝 멘트가 0:39에 따로 시작됨).</li>
+</ul>
+
+</div></details>
+
+<nav class="flex flex-col sm:flex-row gap-space-md my-space-lg"><div class='flex-1 p-space-md bg-surface-container-low rounded-lg flex flex-col  text-outline'><span class='font-label-sm text-label-sm'>이전 회차 (Ep17)</span><span class='text-sm mt-2'>대본 준비 중</span></div><div class='flex-1 p-space-md bg-surface-container-low rounded-lg flex flex-col text-right items-end text-outline'><span class='font-label-sm text-label-sm'>다음 회차 (Ep19)</span><span class='text-sm mt-2'>대본 준비 중</span></div></nav>
+<div class="text-center my-space-lg"><a class="font-label-md text-label-md text-secondary hover:text-primary" href="../index.html">← 회차 목록으로</a></div>
+</main>
+<footer class="bg-surface-container-low mt-space-xl"><div class="max-w-[45rem] mx-auto px-margin md:px-margin-tablet py-space-xl flex flex-col gap-space-xs">
+<span class="font-headline-sm text-headline-sm">&lt;이야기가 필요해&gt;</span>
+<p class="text-sm text-secondary">살다 보면 마음에 남는 질문이 있습니다. 그 질문에 콘텐츠로 답해보는 팟캐스트.</p>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary" href="https://www.youtube.com/channel/UCRQXu1PqRn_JZzDO_Os9jNA" target="_blank" rel="noopener noreferrer">YouTube</a></div></footer>
+<div class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 xl:top-20 z-50 w-[300px] sm:w-[340px] flex flex-col justify-end gap-3 pointer-events-none">
+<nav aria-label="목차" class="hidden xl:flex flex-col min-h-0 pointer-events-auto">
+<div class="px-1 pb-2 font-label-sm text-label-sm text-secondary font-semibold">목차 · 17개 구간</div>
+<ol class="px-1 flex flex-col gap-2 text-sm text-on-surface-variant overflow-y-auto min-h-0"><li><a class='flex gap-space-sm hover:text-primary' href='#s0'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>0:00</span><span>오프닝</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s1'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>0:39</span><span>자기소개</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s2'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>1:07</span><span>첫인상 — 고급지고 압도적인데 이해가 안 된다</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s3'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>2:17</span><span>각자의 그리스 로마 신화 사전 지식</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s4'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>4:39</span><span>돈값한 장면 — 목마, 트로이 성문, 외눈박이 거인</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s5'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>8:05</span><span>놀란의 재해석 — 이긴 다음의 이야기, 반전 영화</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s6'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>10:28</span><span>제우스의 율법과 바다의 민족 — 승자는 약탈자였다</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s7'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>13:58</span><span>한국은 왜 그리스 로마 신화를 좋아하나</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s8'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>17:09</span><span>모르고 보면 헷갈리는 지점 — 아가멤논, 10년 전쟁, 칼립소</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s9'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>21:14</span><span>트로이 전쟁은 어떻게 시작됐나 — 세영의 신화 설명</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s10'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>26:18</span><span>파리스의 선택은 뇌물 비교였다 — 신들의 욕망</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s11'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>29:05</span><span>영화 &lt;트로이&gt; — 같이 묶어 보기</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s12'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>31:45</span><span>일진 게임 — 아킬레우스와 오디세우스, 누구랑 싸우고 누구 밑에 갈까</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s13'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>36:19</span><span>오디세우스는 중간관리자다 — 책임지려는 것도 오만</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s14'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>39:20</span><span>결함 있는 인물이 오래 남는 이유</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s15'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>42:19</span><span>외전을 만든다면 — 페넬로페와 아가멤논</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s16'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>44:55</span><span>클로징 — 개고생 얘기가 왜 3천 년을 갔나</span></a></li></ol></nav>
+<aside id="pip" class="pointer-events-auto shrink-0 bg-white rounded-xl shadow-xl border border-outline-variant/40 overflow-hidden">
+<div class="px-3 py-2 bg-surface-container flex items-center justify-between select-none">
+<div class="flex items-center gap-1.5 min-w-0"><span class="w-2 h-2 rounded-full bg-primary shrink-0"></span><span class="font-label-sm text-[12px] font-semibold truncate">Ep18 전체 영상</span><span class="font-timestamp-num text-[11px] text-secondary shrink-0">47:29</span></div>
+<div class="flex items-center gap-1 shrink-0">
+<a href="https://youtu.be/2n6xMHTjVA0" target="_blank" rel="noopener noreferrer" title="유튜브에서 열기" class="text-secondary hover:text-primary p-0.5"><span class="material-symbols-outlined text-[16px]">open_in_new</span></a>
+<button type="button" id="pip-toggle" title="플레이어 접기/펼치기" class="text-secondary hover:text-on-surface p-0.5"><span class="material-symbols-outlined text-[16px]" id="pip-icon">expand_more</span></button>
+<button type="button" onclick="document.getElementById('pip').style.display='none'" title="플레이어 닫기" class="text-secondary hover:text-primary p-0.5"><span class="material-symbols-outlined text-[16px]">close</span></button></div></div>
+<div id="pip-body" class="relative w-full aspect-video bg-black"><iframe class="absolute inset-0 w-full h-full border-0" id="pip-frame" src="https://www.youtube.com/embed/2n6xMHTjVA0?rel=0&enablejsapi=1" title="Ep18 영상" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div></aside></div>
+<script>
+(function(){
+  var body=document.getElementById('pip-body'), icon=document.getElementById('pip-icon');
+  function set(open){ body.style.display=open?'':'none'; icon.textContent=open?'expand_more':'expand_less'; }
+  // 휴대폰에선 본문을 가리지 않게 접힌 채로 시작
+  set(window.innerWidth>=768);
+  document.getElementById('pip-toggle').onclick=function(){ set(body.style.display==='none'); };
+  // 시각을 누르면 새 창 대신 미니 플레이어를 그 장면으로 옮긴다. 플레이어가 준비 안 됐으면 원래 링크(유튜브)로 간다.
+  var player=null;
+  window.onYouTubeIframeAPIReady=function(){ player=new YT.Player('pip-frame'); };
+  var tag=document.createElement('script'); tag.src='https://www.youtube.com/iframe_api'; document.head.appendChild(tag);
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a.ts'); if(!a||!player||!player.seekTo) return;
+    e.preventDefault();
+    document.getElementById('pip').style.display=''; set(true);
+    player.seekTo(Number(a.dataset.t),true); player.playVideo();
+  });
+})();
+</script>
+</body></html>
