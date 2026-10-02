@@ -10,7 +10,7 @@ shopt -s nullglob
 SRC="$HOME/Documents/do-better-workspace-v2/20-operations/24-이야기가-필요해-팟캐스트"
 DST="$(cd "$(dirname "$0")" && pwd)"
 # 확장자 없이, 팟캐스트 폴더 기준 경로
-PRIVATE=("릴리즈-분석" "지표-로그" "에피소드-아이디어" "Ep13-15-분석" "scripts/Ep17-코스피특집")
+PRIVATE=("릴리즈-분석" "지표-로그" "에피소드-아이디어" "Ep13-15-분석" "scripts/Ep17-코스피특집" "research/Ep20-출연진-감상")
 
 PW=$(security find-generic-password -s we-need-iyagi-admin -w 2>/dev/null) || {
   echo "키체인에 비밀번호가 없다. 먼저 실행: security add-generic-password -s we-need-iyagi-admin -a admin -w"
