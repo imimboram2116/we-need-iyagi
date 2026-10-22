@@ -15,6 +15,11 @@
 - [scripts/Ep17-코스피특집](scripts/Ep17-코스피특집.html) (비밀번호 필요)
 - [research/Ep20-출연진-감상](research/Ep20-출연진-감상.html) (비밀번호 필요)
 
+## scripts
+
+- [Ep20-가능한-사랑](scripts/Ep20-가능한-사랑.md)
+- [Ep21-더커뮤니티2-후반부](scripts/Ep21-더커뮤니티2-후반부.md)
+
 ## transcripts
 
 - [Ep13-서울국제도서전-특집](transcripts/Ep13-서울국제도서전-특집.md)
@@ -27,7 +32,10 @@
 - [Ep18-화자분리](transcripts/Ep18-화자분리.md)
 - [Ep19-풀대본](transcripts/Ep19-풀대본.md)
 - [Ep19-화자분리](transcripts/Ep19-화자분리.md)
+- [Ep20-풀대본](transcripts/Ep20-풀대본.md)
+- [Ep20-화자분리](transcripts/Ep20-화자분리.md)
 
 ## research
 
 - [Ep20-가능한-사랑-자료](research/Ep20-가능한-사랑-자료.md)
+- [더커뮤니티2-5화이후-자료](research/더커뮤니티2-5화이후-자료.md)
