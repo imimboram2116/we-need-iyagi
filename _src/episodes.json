@@ -13,13 +13,53 @@
  },
  {
   "ep": 15,
-  "title": "소문난 잔치 특집 — 진짜 먹을 게 있었나?",
-  "youtube_id": "dZPinoq5R9c"
+  "title": "소문난 잔치 특집",
+  "youtube_id": "dZPinoq5R9c",
+  "uploaded": "2026-07-28",
+  "main_question": "소문난 잔치에 진짜 먹을 게 있었나?",
+  "question_time": "62:42",
+  "question_note": "본편에서 질문 형태로 꺼낸 대목은 없음. 유튜브 제목의 질문이고, 62:42 결론에서 혜진이 \"보통은 소문난 잔치집에 먹을 게 없다잖아요\"로 받아 답함",
+  "works": [
+   "영화 「호프」 (나홍진)",
+   "드라마 「김부장」",
+   "예능 「모태솔로지만 연애는 하고 싶어」 시즌2"
+  ],
+  "cast": [
+   "세영",
+   "혜진",
+   "보람"
+  ],
+  "duration": "1:05:47",
+  "transcript": "transcripts/Ep15-풀대본.md",
+  "section_titles": {
+   "00:00": "티저",
+   "00:06": "오프닝, 자기소개, 오늘의 잔치집 세 곳"
+  }
  },
  {
   "ep": 16,
   "title": "남일구경 특집 — 일 하는 거 보는 게 재밌어?",
-  "youtube_id": "O3obkZGP_Vk"
+  "youtube_id": "O3obkZGP_Vk",
+  "uploaded": "2026-08-15",
+  "main_question": "일하는 거 보는 게 재밌어?",
+  "question_time": "01:36",
+  "question_note": "오프닝 뒤 세영이 꺼낸 오늘의 질문 (49:28 클로징에서 \"남 일하는 거 보는 게 재밌어?\"로 다시 꺼냄). 유튜브 제목 앞머리와 같은 질문",
+  "works": [
+   "유튜브 「나영석vs막내피디」 (채널 십오야)",
+   "예능 「언더커버 셰프」",
+   "예능 「스트릿 레스토랑 파이터」"
+  ],
+  "cast": [
+   "세영",
+   "혜진",
+   "보람"
+  ],
+  "duration": "50:12",
+  "transcript": "transcripts/Ep16-풀대본.md",
+  "section_titles": {
+   "00:00": "티저",
+   "00:07": "오프닝, 자기소개"
+  }
  },
  {
   "ep": 17,
@@ -27,7 +67,24 @@
   "main_question": "돈 얘기, 보면 볼수록 불안하지 않아요?",
   "question_time": "44:55",
   "youtube_id": "7XlyYOQogbs",
-  "uploaded": "2026-08-31"
+  "uploaded": "2026-08-31",
+  "question_note": "10:26에 세영이 꺼낸 오늘의 질문 (44:55 클로징에서 다시 꺼냄)",
+  "works": [
+   "소설 「달까지 가자」 (장류진)",
+   "예능 「개미 김원훈」",
+   "웹툰 「샤MONEY즘」",
+   "영화 「빅쇼트」"
+  ],
+  "cast": [
+   "세영",
+   "혜진",
+   "보람"
+  ],
+  "duration": "46:45",
+  "transcript": "transcripts/Ep17-풀대본.md",
+  "section_titles": {
+   "0:00": "티저, 인사, 자기소개"
+  }
  },
  {
   "ep": 18,
