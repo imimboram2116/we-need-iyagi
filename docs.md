@@ -19,6 +19,7 @@
 
 - [Ep20-가능한-사랑](scripts/Ep20-가능한-사랑.md)
 - [Ep21-더커뮤니티2-후반부](scripts/Ep21-더커뮤니티2-후반부.md)
+- [Ep23-스위니토드](scripts/Ep23-스위니토드.md)
 
 ## transcripts
 
@@ -34,6 +35,8 @@
 - [Ep19-화자분리](transcripts/Ep19-화자분리.md)
 - [Ep20-풀대본](transcripts/Ep20-풀대본.md)
 - [Ep20-화자분리](transcripts/Ep20-화자분리.md)
+- [Ep21-풀대본](transcripts/Ep21-풀대본.md)
+- [Ep21-화자분리](transcripts/Ep21-화자분리.md)
 
 ## research
 
