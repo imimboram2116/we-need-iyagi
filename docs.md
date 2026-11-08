@@ -24,7 +24,9 @@
 ## transcripts
 
 - [Ep13-서울국제도서전-특집](transcripts/Ep13-서울국제도서전-특집.md)
+- [Ep13-풀대본](transcripts/Ep13-풀대본.md)
 - [Ep13-화자분리](transcripts/Ep13-화자분리.md)
+- [Ep14-풀대본](transcripts/Ep14-풀대본.md)
 - [Ep14-화자분리](transcripts/Ep14-화자분리.md)
 - [Ep15-풀대본](transcripts/Ep15-풀대본.md)
 - [Ep15-화자분리](transcripts/Ep15-화자분리.md)

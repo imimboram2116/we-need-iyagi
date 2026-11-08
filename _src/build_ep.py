@@ -19,6 +19,7 @@ SPEAKER_CHIP = {
     "세영": "diamond-chip bg-primary/10 text-primary",
     "혜진": "rounded-full bg-tertiary/15 text-tertiary",
     "보람": "rounded-sm bg-[#e8dec1] text-[#5b4910]",
+    "태경": "rounded-sm bg-[#dbe7df] text-[#2f5a40]",
 }
 
 
@@ -53,7 +54,7 @@ def parse(md):
         if m:
             sections.append({"time": m.group(1), "title": m.group(2), "lines": []})
             continue
-        m = re.match(r"^\*\*(세영|혜진|보람):\*\* (.+)$", line)
+        m = re.match(r"^\*\*(세영|혜진|보람|태경):\*\* (.+)$", line)
         if m and sections:
             sections[-1]["lines"].append((m.group(1), m.group(2)))
     return sections, ("## 교정 노트" + notes) if notes else ""

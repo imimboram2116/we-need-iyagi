@@ -1,0 +1,1992 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ep14 롱리스너 특집 — 이야기가 필요해 대본집</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{
+colors:{"primary":"#973313","primary-container":"#b84a29","primary-fixed":"#ffdbd1","tertiary":"#005c76","surface":"#fcf9f3","surface-container-low":"#f6f3ed","surface-container":"#f0eee8","surface-container-high":"#ebe8e2","on-surface":"#1c1c18","on-surface-variant":"#57423c","secondary":"#615e5a","outline":"#8b716b","outline-variant":"#dec0b8"},
+spacing:{"margin":"1.25rem","margin-tablet":"2.5rem","space-xs":"0.25rem","space-sm":"0.5rem","space-md":"1rem","space-lg":"1.75rem","space-xl":"3rem"},
+fontFamily:{"headline-hero":["Noto Serif KR","serif"],"headline-sm":["Noto Serif KR","serif"],"speaker-title":["Noto Serif KR","serif"],"body-md":["Pretendard Variable","Pretendard","sans-serif"],"label-sm":["Manrope","sans-serif"],"label-md":["Manrope","sans-serif"],"timestamp-num":["Manrope","sans-serif"]},
+fontSize:{"headline-hero":["2.5rem",{lineHeight:"3.5rem",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-hero-mobile":["1.75rem",{lineHeight:"2.625rem",fontWeight:"700"}],"headline-sm":["1.25rem",{lineHeight:"1.875rem",fontWeight:"600"}],"speaker-title":["0.9375rem",{lineHeight:"1.375rem",fontWeight:"700"}],"body-md":["1.0625rem",{lineHeight:"1.875rem"}],"label-sm":["0.75rem",{lineHeight:"1rem",letterSpacing:"0.05em",fontWeight:"500"}],"label-md":["0.8125rem",{lineHeight:"1.125rem",fontWeight:"500"}],"timestamp-num":["0.8125rem",{lineHeight:"1.125rem",letterSpacing:"0.06em",fontWeight:"600"}]}
+}}}</script>
+<style>
+#ep-side{width:3.5rem} #ep-side .side-label{opacity:0;transition:opacity .15s}
+#ep-side:hover,#ep-side.open{width:18rem;box-shadow:4px 0 16px rgba(0,0,0,.06)} #ep-side:hover .side-label,#ep-side.open .side-label{opacity:1}
+@media (max-width:767px){#ep-side{display:none} #ep-side.open{display:block}}
+.diamond-chip{border-radius:2px;transform:rotate(45deg) scale(.95)} .diamond-chip>span{transform:rotate(-45deg) scale(1.05)}
+::selection{background:#e6dccb;color:inherit}
+.mark-note{color:#8b716b;font-size:.8em} .notes table{display:block;overflow-x:auto;font-size:.85rem;margin:.75rem 0} .notes td,.notes th{border:1px solid #dec0b8;padding:4px 8px;vertical-align:top} .notes h2,.notes h3{font-weight:700;margin:1rem 0 .5rem} .notes ul{list-style:disc;padding-left:1.25rem} .notes p{margin:.5rem 0}</style>
+</head>
+<body class="bg-surface text-on-surface antialiased font-body-md md:pl-14 xl:pr-[380px]">
+<header class="sticky top-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+<div class="h-14 max-w-[45rem] mx-auto px-margin md:px-margin-tablet flex items-center justify-between">
+<a class="font-headline-sm text-headline-sm hover:text-primary" href="../">&lt;이야기가 필요해&gt;</a>
+<nav class="flex items-center gap-space-md font-label-md text-label-md text-on-surface-variant">
+<button type="button" class="hover:text-on-surface md:hidden" onclick="document.getElementById('ep-side').classList.toggle('open')">회차 목록</button>
+<a class="hover:text-on-surface hidden md:inline" href="../docs.html">전체 문서</a>
+<a class="hover:text-on-surface" href="https://www.youtube.com/channel/UCRQXu1PqRn_JZzDO_Os9jNA" target="_blank" rel="noopener noreferrer">유튜브</a></nav></div></header>
+
+<aside id="ep-side" class="fixed left-0 top-14 bottom-0 z-40 bg-surface-container-low overflow-hidden transition-all duration-200">
+<div class="px-2 pt-space-md pb-space-sm font-label-sm text-label-sm text-secondary flex items-center gap-space-sm"><span class="w-10 text-center material-symbols-outlined text-[18px]">menu_book</span><span class="side-label">회차 목록</span></div>
+<ul class="px-1 flex flex-col gap-0.5 text-sm overflow-y-auto h-full pb-24"><li><a class='flex items-center gap-space-sm h-14 px-2 rounded-md hover:bg-surface-container' href='21.html'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>21</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>타인을 사랑하는 것은 가능한가?</span></a></li>
+<li><a class='flex items-center gap-space-sm h-14 px-2 rounded-md hover:bg-surface-container' href='20.html'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>20</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>좋은 팀이란 무엇인가?</span></a></li>
+<li><a class='flex items-center gap-space-sm h-14 px-2 rounded-md hover:bg-surface-container' href='19.html'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>19</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>사상보다 실리가 중요한가?</span></a></li>
+<li><a class='flex items-center gap-space-sm h-14 px-2 rounded-md hover:bg-surface-container' href='18.html'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>18</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>개고생 얘기가 왜 3천 년이 갔을까?</span></a></li>
+<li><a class='flex items-center gap-space-sm h-14 px-2 rounded-md hover:bg-surface-container' href='17.html'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>17</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>돈 얘기, 보면 볼수록 불안하지 않아요?</span></a></li>
+<li><a class='flex items-center gap-space-sm h-14 px-2 rounded-md hover:bg-surface-container' href='16.html'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>16</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>일하는 거 보는 게 재밌어?</span></a></li>
+<li><a class='flex items-center gap-space-sm h-14 px-2 rounded-md hover:bg-surface-container' href='15.html'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>15</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>소문난 잔치에 진짜 먹을 게 있었나?</span></a></li>
+<li><span class='flex items-center gap-space-sm h-14 px-2 rounded-md bg-primary/10 text-primary font-semibold' aria-current='page'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>14</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>끝까지 들으시겠습니까?</span></span></li>
+<li><a class='flex items-center gap-space-sm h-14 px-2 rounded-md hover:bg-surface-container' href='13.html'><span class='w-10 shrink-0 text-center font-timestamp-num text-timestamp-num'>13</span><span class='side-label line-clamp-2 leading-snug min-w-[13rem]'>왜 이렇게 도서전에 열광할까?</span></a></li></ul></aside>
+<main class="max-w-[45rem] mx-auto px-margin md:px-margin-tablet py-space-xl">
+<div class="flex items-center justify-between flex-wrap gap-space-sm font-label-sm text-label-sm text-secondary">
+<div class="flex items-center gap-space-xs tracking-wider"><span class="text-primary font-semibold">Ep14</span><span>·</span><span>2026.07.18</span><span>·</span><span class="font-timestamp-num">56:43</span></div>
+<a class="flex items-center gap-1 text-primary font-semibold" href="https://youtu.be/lCZZRno1-NY" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined text-[17px]">play_circle</span>전체 영상 보기</a></div>
+
+<section class="my-space-xl flex flex-col items-center text-center">
+<div class="w-8 h-0.5 bg-primary mb-space-md opacity-80"></div>
+<span class="font-label-sm text-label-sm tracking-widest text-primary font-semibold mb-space-sm">오늘의 질문</span>
+<h1 class="font-headline-hero text-headline-hero-mobile sm:text-headline-hero max-w-[42rem]"><span class="text-outline-variant mr-1">“</span>끝까지 들으시겠습니까?<span class="text-outline-variant ml-1">”</span></h1>
+<div class="w-8 h-0.5 bg-outline-variant mt-space-md"></div></section>
+
+<div class="flex flex-col gap-space-sm">
+<div class="bg-surface-container-low px-5 py-4 rounded-lg text-[15px] leading-6 text-on-surface-variant flex flex-col gap-1.5">
+<div><span class="font-semibold text-on-surface">함께 나눈 콘텐츠</span> — 팟캐스트 「송은이 김숙의 비밀보장」 · 유튜브 「세문전 독서클럽」 (채널 민음사TV) · 팟캐스트 「여자 둘이 토크하고 있습니다」</div>
+<div><span class="font-semibold text-on-surface">대화하는 사람들</span> — 세영 · 혜진 · 태경</div></div></div>
+
+<details class="xl:hidden my-space-lg bg-surface-container-low rounded-lg px-space-md py-space-sm">
+<summary class="cursor-pointer font-label-md text-label-md font-semibold">목차 · 23개 구간</summary>
+<ol class="mt-space-sm flex flex-col gap-space-sm text-sm"><li><a class='flex gap-space-sm hover:text-primary' href='#s0'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>00:00</span><span>오프닝, 자기소개, 태경 복귀</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s1'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>01:48</span><span>팟캐스트는 언제 듣나</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s2'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>03:27</span><span>숏폼파와 롱폼파</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s3'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>06:48</span><span>롱폼은 집중해서 보나, 배속 이야기</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s4'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>09:46</span><span>팟캐스트는 왜 지금 뜨는가</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s5'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>14:19</span><span>남의 수다는 왜 재밌나, 우리 방송 냉정 진단</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s6'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>17:00</span><span>태경 픽 — 「비밀보장」</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s7'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>24:59</span><span>레전드화 — 475회 김중혁 작가 편</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s8'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>28:27</span><span>입문 추천화 400회, 그리고 영상편지</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s9'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>29:36</span><span>태경의 추가 추천</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s10'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>30:40</span><span>혜진 픽 — 민음사TV 「독서클럽」</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s11'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>33:19</span><span>「세일즈맨의 죽음」 편 — 편집자가 된 이야기</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s12'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>35:49</span><span>국문학도의 마이너 감성</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s13'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>37:15</span><span>민음사TV는 어떻게 성공했나</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s14'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>40:38</span><span>혜진의 추가 추천</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s15'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>41:48</span><span>세영 픽 — 「여둘톡」, 로고송을 지키는 고집</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s16'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>43:44</span><span>우리 방송의 사운드, 그리고 「은중과 상연」 편</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s17'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>45:46</span><span>과자, 아이스크림, 라면 특집</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s18'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>48:54</span><span>여둘톡은 무슨 장르인가</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s19'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>49:51</span><span>만들고 싶은 팟캐스트 1 — 망한 이야기</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s20'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>52:31</span><span>만들고 싶은 팟캐스트 2 — 출산과 육아</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s21'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>54:13</span><span>만들고 싶은 팟캐스트 3 — 케이팝 컴백 리뷰</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s22'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>55:30</span><span>클로징 — 끝까지 들으시겠습니까?</span></a></li></ol></details>
+
+<div class="flex flex-col gap-space-xl my-space-xl"><section id='s0' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>오프닝, 자기소개, 태경 복귀</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='0' href='https://youtu.be/lCZZRno1-NY?t=0' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>00:00<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>사람 사는 얘기 우리들의 얘기 하고 싶은 얘기 물어보고 싶은 얘기 우리 애기는<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 이야기가 필요해<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 살다 보면 마음에 남는 질문이 있습니다. 그 질문에 콘텐츠로 답해보는 팟캐스트 이야기가 필요해 입니다. 오늘도 마케터 셋이 함께 하고 있고요. 저는 숏 롱폼 중독자 강세영입니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>안녕하세요. 밥 친구, 청소 친구, 롱폼이랑 친구하는 혜진입니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>안녕하세요. 쇼폼의 도파민보다는 팟캐스트를 사랑하는 돌아온 제5의 멤버 태경입니다. 반갑습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>지난, 지지난화. 선미님<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>에 이어서 태경님이 돌아왔습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>왔습니다. 제가 1, 2화까지는 했다가 중간에 탈출을 하지 않았습니까? 근데 그 사이에 회사일이 진짜 너무 바빴고 저희 아이가 개학을 하면서 도저히 팟캐스트를 좀 함께할 수 없는 상황이 되어서 듣는 청취자로서 같이 함께했는데요. 그래서 뭐 한마디로 표현하자면 바빴다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>와주셔서 너무 감사합니다 태경님의 바쁜 게 끝나고 이제 또 보람님의 바쁜 게 시작돼서 오늘 보람님의 빈자리를 태경님이 채워주시게 되었습니다 태경님이 팟캐스트를 좋아한다고 해서 저희가 태경님 맞춤 주제로 또 준비를 했습니다 와 신난다<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 오늘의 특집은 롱 리스너 특집 끝까지 들으시겠습니까? 라는 주제로 준비를 해봤고요 한 시간 가량 되는 그 이상도 되는 팟캐스트를 이제 사람들을 왜 끝까지 들을까 이런 거에 대해서 이야기를 쭉 나눠보겠습니다.</p></article>
+</section>
+<section id='s1' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>팟캐스트는 언제 듣나</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='108' href='https://youtu.be/lCZZRno1-NY?t=108' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>01:48<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>팟캐스트 왜 많이 들으시는 거예요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 제일 많이 듣는 순간이 운전할 때이기는 하거든요. 원래는 사실 라디오파이기는 해요 제가. 근데 라디오의 단점, 맹점이죠. 광고가 너무 많이 나와요. 그래서 좀 집중할 수 없던 순간들이 있어서 그게 이제 팟캐스트가 그 부분을 완전히 시원하게 긁어주거든요. 아예 이야기에만 집중할 수 있는 그런 매력이 있어서 저는 운전하면서 팟캐스트에 입문하게 된 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저도 운전할 때 많이 듣고 뭔가 혼자 살 때 늘 틀어놨던 것 같아요. 그거를 좀 외로웠나 봐요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 한때는 산책하면서 들었고요. 그리고 저도 운전하면서 팟캐스트 많이 듣게 됐는데 오늘 나눌 이야기는 어떤 이야기인가요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>오늘 저희가 팟캐스트를 좋아하기도 하지만 저희만 좋아하는 거는 아닌 것 같아요. 요즘에 되게 많이 팟캐스트 방송들이 생기고 유튜브도 롱폼화되어간다는 걸 느껴가지고 왜 그런 트렌드가 생겼을까? 이런 얘기도 해보고 또 저희가 많이 듣는 거에 대해서 매력도 좀 소개해보면 좋겠다 싶습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아요. 요새 팟캐스트라는 어떤 오디오만 있는 형태보다는 팟캐스트 느낌이 나는 유튜브 영상?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아요. 유튜브 안에 그리고 팟캐스트라는 아예 섹션이 생기기도 했고 근데 이번 주제가 저희 방송이 팟캐스트지 않습니까? 그래서 이거를 들으시는 분들이 되게 재미있게 들을 수 있는 그런 특집이지 않을까라는 생각이 듭니다.</p></article>
+</section>
+<section id='s2' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>숏폼파와 롱폼파</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='207' href='https://youtu.be/lCZZRno1-NY?t=207' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>03:27<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>일단 두 분은 쇼폼파, 롱폼파 굳이 나누면 어떤 쪽에 가까우세요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>하나, 둘, 셋<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 롱</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 그때그때 다른데 쇼폼은 안 보려고 노력해요 그것은 저의 정신과 뇌를 해치는 것 같다는 생각이고 롱폼은 시덥지 않은 수다라고 할지라도 굉장히 정성과 기획에 들어간 결과물이라고 생각하거든요. 그래서 롱폼을 보려고 한다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 그냥 뭔가 너무 스트레스 받고 머릿속에 생각이 많을 때 쇼폼의 왁뿌볼이라고 왁스로 단단하게 만든 볼을 부시는 그런 것도 많이 보고 슬라임 이런 것도 많이 보고 그런 거 보다 보면 좀 이렇게 잡생각 없어지고 좀 멍해지는 느낌?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>정화의 시간으로 보는?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>정화인지 모르겠어요. 뇌가 좀 녹는 느낌이긴 한데 딴 생각은 안 하게 되는 그런 매력이 있어서.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>뇌가 녹는다는 게 어떤 느낌이에요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>너무 많은 정보가 들어가고 막 자극적이니까 영상이 안 좋다라는 느낌이 들어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그래서 제가 롱폼파이긴 하거든요. 혜진님과 비슷하게 쇼폼을 보면 그냥 나에게 너무 유해한 거를 집어넣는다는 느낌이 들어가지고 그래서 뭔가 도파민을 공격당하는 느낌이어서 좀 멀리하고 싶고 근데 직업상 어쩔 수 없이 좀 봐야 되긴 하잖아요. 그리고 심지어 쇼폼을 기획하기도 하는 입장이어서 너무 싫은데 그냥 어쩔 수 없이 보거나 기획해야 된다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 보지 말아야겠다고 생각하는 사람 중에선 제일 많이 볼 거예요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아이돌 좋아하면 안 볼 수 없잖아요 아 그쵸 저는 아이돌 춤 영상도 되게 많이 봐요 아일릿, 코르티스 진짜 엄청 여러 가지 버전으로 계속 보는 것 같아요 챌린지</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>보통 쇼폼을 어디서 소비하세요? 인스타? 저는 인스타랑 유튜브 둘 다<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 하나만</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>한다고요? 트위터에서도 엄청 봅니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러면은 시간으로 치자면 하루에 몇 분 정도를 보세요? 저 한 40분 보는 것 같아요.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span></p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>숏폼만요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 네. 컨텐츠의 소비 패턴을 좀 말씀드리면 일단 운전하면서 이렇게 팟캐스트를 듣다가 퇴근하고 집에 딱 도착해서 쇼파에 딱 앉아요. 그럼 진짜 아무 생각하고 싶지 않고 아무것도 하고 싶지 않고 사실 그냥 자고 싶은데 자기 너무 아직은 양심상 좀 일러 할 때 그냥 핸드폰 켜서 무한 스크롤링 이렇게 하면 30, 40분 훌쩍 가 있어요. 건강한 방법은 아닌 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>40분에 놀라셨는데 저는 2시간, 3시간도 봐서 인스타그램 지운 거예요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 그것을 쇼폼이라고 말해서 그렇지 그냥 인스타그램 피드, 피드를 올리는 것도 쇼폼과 비슷한 느낌이긴 하잖아요. 만만치 않은 것 같긴 한데 한 30분은 진짜 보는 것 같아요 금방 가죠 그게 진짜 쇼폼의 도파민 중독인 것 같아요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>너무 위험합니다 유해한 것 같습니다</p></article>
+</section>
+<section id='s3' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>롱폼은 집중해서 보나, 배속 이야기</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='408' href='https://youtu.be/lCZZRno1-NY?t=408' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>06:48<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이 유혹에 진짜 안 빠질 수 없을 것 같아요 이렇게 쇼폼이 중독적인 것과도 전혀 반대로 1시간짜리 1시간 반짜리 이런 롱폼이 되게 많이 생기고 있잖아요 그런 롱폼을 볼 때 그냥 틀어만 놓으세요? 아니면 진짜 집중해서 그거를 다 보세요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 보는 콘텐츠는 무조건 집중해서 보기는 하는 것 같은데요. 근데 다만 빨리 감기 중독이 되어버렸어요. 그러니까 제 속도로 못 보게 된... 아, 진짜요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 네. 저는 모자무싸도 다 빨리 감기로 보긴 했어요. 어머, 진짜로?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 네. 기본 세팅이 그냥 1 .5배속 정도였어요. 그리고 스킵도 많이 하면서 보기도 했고요. 팟캐스트 같은 컨텐츠뿐만 아니라 드라마나 영화에도 저는 좀 많이 적용이 돼가지고 빨리 감는 것들이 되게 안 좋은 습관이 된 거죠 되게 놀라시네요 다 정속으로 보셨어요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>한 번도 안 해봤어요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>오 그래요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그게 이제는 유튜브가 3배속까지 돼요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러면 사람들은 그렇게 봐요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 그러면 여둘톡 팟캐스트도 정속으로 들으세요? 네 너무 당연히<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 그거 무조건 1 .5배속이에요. 여둘톡도. 대박이다.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 각각 컨텐츠를 즐기는 어떤 속도가 달랐네요. 근데 그럼에도 불구하고 팟캐스트는 빨리 감더라도 끝까지 듣는 이유는 걔는 줄여버리면 재미가 없기는 해요. 소설이나 영화나 그런 드라마나 이런 것들은 줄거리만 요약해도 워낙 그 흐름이 있어서 재밌는데 제가 좋아하는 수다형의 팟캐스트는 줄여버리면 사실 남는 게 아무것도 없어서 그냥 그 자체를 듣는 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그럼 혜진님은 뭐 들으세요? 보세요? 뭐 어떻게 하세요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 그게 영상이면 뭐 자막이나 편집 이런 것까지도 다 재미의 요소라고 생각해서 좀 집중해서 보는 편인데요. 운전하면서는 영상을 집중해서 볼 수 없잖아요. 그럼 유튜브를 틀어놓고 운전을 하시는 건 거죠?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 그 팟캐스트 보이스만 들으면서 그래서 가끔 막 웃는데 그게 아마 자막으로는 처리가 된 것 같은데 나는 지금 모르겠네 라는 게 있긴 있지만 이 팟캐스트 형 유튜브 영상은 그래도 오디오 중심이라서 재미있게 들을 수 있어요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 되게 많이 틀어놔요 그냥 일상생활에도 쭉 계속 틀어놓고 뭐 야근할 때도 그냥 소리 1로 해놓고 틀어놓기도 하고 백색소음처럼? 틀어놓고 그리고 일을 시작하기에까지 시간이 좀 걸려요 마음을 먹기까지 그래서 그때 이렇게 틀어요 팟캐스트를 틀면은 좀 움직일 수 있게 된다 틀면서 아 해볼까 약간 이렇게</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 그럴 때 저는 보통 음악을 틀긴 하는데 팟캐스트를 트세요? 역시 이것도 다 취향에 따라 좀 다른가 봐요</p></article>
+</section>
+<section id='s4' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>팟캐스트는 왜 지금 뜨는가</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='586' href='https://youtu.be/lCZZRno1-NY?t=586' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>09:46<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>소비 방식이 다 진짜 다르네요 태경님이 아까 롱폼은 요약하지 않는 게 맛이다 막 이런 얘기도 했잖아요 팟캐스트 컨텐츠 왜 이렇게 인기 있게 됐을까 근데 생긴 게 되게 최근에 많거든요, 유튜브에서. 머니그라피도 그렇고 적수다, 민음사도 오래되기도 했고 근데 민음사도 유튜브 안에서 팟캐스트 형식이 생긴 지는 한 2, 3년 이렇게 됐을 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>트렌드인 것 같다는 생각이 지금 문득 들긴 하는데 일단 유튜브 플랫폼 자체에서 팟캐스트를 띄워주기 시작했어요. 팟캐스트 섹션을 빼면서 유튜브에서 팟캐스트를 많이 밀어주고 노출을 강화하려고 한다. 이런 걸 듣기도 했고. 두 번째는 코로나 때부터였을까요? 이건 제 추측이기는 한데 단절이 있으면서 뭔가 사람들이 진짜 우리처럼 이야기가 필요했나? 라는 생각이 이건 이제 저의 추측이니까.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 반대급부라고 생각하는데 사람들이 쇼폼에 너무 질려버려서 오히려 긴 거를 보는 것 같기도 하고 이건 진짜 뇌피셜인데 지금 유튜브가 그렇게 밀어주기 시작했다는 건 어떤 정책적인 변화잖아요. 회사의 전략적인 방향 변화인데 쇼폼이나 이런 것들로 인해서 청소년들 SNS 금지하는 나라들이 많이 생기고 있거든요. 미래의 먹을거리로 팟캐스트를 뒀나 이런 생각이 들었어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그랬을 수도 있고 결국은 우리는 플랫폼이 하라는 대로 그들의 전략대로 한때는 쇼폼이 확 했다가 또 한때는 이렇게 롱폼으로 밀렸다가 이렇게 흐름을 타고 있는 것일 수도 있겠네요. 그렇죠.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 밀기만 한다고 해서 무조건 되는 건 아니잖아요. 그러니까 뭔가 사람들이 거기에서 얻는 즐거움 같은 게 있을 것 같은데 약간 느슨한 연결 같은 거 아닐까라는 생각이 좀 드네요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 개인적으로 그 쇼폼보다 롱폼을 볼 때 되게 얻어가는 게 많다라는 느낌도 많이 받는데 예를 들어 출연자들이 어떤 특정 영역의 전문가인 분들이 되게 많이 출연하잖아요. 예를 들어 도서 전문가, 영화 전문가 아니면 음악 업계에서 몇 년 동안 일했던 어떻게 보면 그냥 밖에서 보면 일반인인데 유튜브 안에서 특정 영역의 전문가를 대변하는 위치로 나와서 그 업계 얘기를 막 떠들어주는 게 되게 재밌고 배운다? 얻는다는 느낌도 받는 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러게요. 그런 분들을 사실은 그냥 TV만 있었을 시대에는 마땅히 출연할 프로그램도 없었을 것 같은데 유튜브처럼 이렇게 생태계가 바뀌면서 그런 분들도 여러 채널에서 볼 수도 있고 그분과 사적으로 만나지 않으면 들을 수 없었던 얘기들을 이제 우리가 좀 많이 들을 수 있게 된 시대가 된 것 같아서 그런 건 진짜 좀 풍요로워진 것 같다는 생각이 듭니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>제가 어저께 피식대학에서 하는 팟캐스트가 있길래 여기서도 팟캐스트를 했네 피식대학 하면서 들어가 봤는데 인천 사람 얘기인 거예요 제가 인천 사람이잖아요 근데 거기에 저 같은 인천인 3명이 나와서 인천 얘기를 엄청 하는데 이걸 너무 친구들한테 얘기해주고 싶은 거예요 근데 약간 지금 팟캐스트에는 니치한 타겟? 그런 이야기들을 다양하게 들을 수 있는 채널인 것 같아요 왜냐하면 제작하는데 많은 공수와 돈이 들어가는 게 아니라 오히려 다양한 카테고리의 이야기를 할 수 있는 게 아닐까라는 생각이 들었어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그래서 유일하게 좀 연예인이 안 나와도 재밌는 콘텐츠인 것 같아요. 팟캐스트는.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 진짜 제작공수 얘기가 나와서 그런데 제작공수 덜 들이기 위해서도 만들지 않았을까요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>예를 들어서 민음사 TV에서 매번 편집에 공을 들였을 거잖아요. 그런데 팟캐스트는 그냥 출연자들이 마이크 하나 놓고 앉아서 그거 그냥 내보내는 것만으로도 조회가 나와. 그러면 제작하는 입장에서는 훨씬 수월하게 컨텐츠를 생성할 수 있는 거죠.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>민음사가 또 팟캐스트가 너무 잘 어울리는 게 가지고 있는 컨텐츠가 연기력이라든지 유명세 이런 게 아니잖아요. 통찰력, 책, 말발 이런 건데 그렇게 생각하면 너무 잘 맞는 포맷인 것 같아요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>민음사에 딱 맞는 포맷인 것 같아요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>부럽네요</p></article>
+</section>
+<section id='s5' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>남의 수다는 왜 재밌나, 우리 방송 냉정 진단</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='859' href='https://youtu.be/lCZZRno1-NY?t=859' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>14:19<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>수다에 대해서도 얘기를 해보고 싶어요 그냥 타인이 수다를 떠는 것 자체만으로도 보는 재미가 있지 않아요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>있죠 있죠 있죠 근데 저는 그 수다가 저랑 상관없으면 상대적으로 좀 덜 재밌는 것 같기는 하거든요. 아예 유명인사거나 아니면 아예 진짜 아까 얘기한 것처럼 전문 분야의 사람이어서 나에게 유익한 점이 있거나 근데 그게 아니라 그냥 진짜 단순한 수다라고 하면 예를 들어서 이야기가 필요해는 내 친구들이 하는 팟캐스트니까 일단 1화부터 재밌게 들었단 말이에요. 근데 잘 모르는 마케터 3명이서 그냥 팟캐스트 시작했어. 1화부터 들었을까? 그렇게 생각하면은 그 진행자와의 뭐 라포라던가 그런 것들이 없으면 확실히 재미는 좀 없어지지 않나? 싶긴 해요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>한편으로는 우리가 카페에 갔는데 옆자리에서 어떤 수다가 벌어지고 있는데 귀가 커질 때가 있잖아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>뭔가 인간은 늘 인간들한테 관심이 많은 것 같아서 남 이야기 듣는 것 자체만으로 좀 재미있나? 이런 생각을 하게 됐거든요. 그들 간의 관계라든가 이런 게 좀 읽히기 시작하면 더 재밌고 별 얘기 아닌 그냥 시시콜콜한 얘기도 계속 듣게 되고 이런 것도 있지 않나 싶어가지고 그러면 좀 냉정하게 우리의 팟캐스트 그러니까 이야기가 필요해는 사람들이 왜 들을까요? 사실 솔직하게 말하면 왜 많이 안 듣지가 궁금하긴 한데</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그것도 몰라서인 거 아니에요? 제가 아까 얘기한 것처럼 누군지 몰라. 근데 제가 생각하기에 이야기가 필요해 지금의 청취자분들은 어쨌든 접점은 있는 분들이 시작했을 가능성이 높다. 저도 그렇게 생각합니다. 인스타그램에서 먼 팔로워 관계에 더라도 그렇게 시작했는데 이들과 정이 들면 그 다음 무슨 얘기를 하든 일단은 듣게 되는</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아요. 라포 형성이 필요해요. 그래서 이걸 통해서 유명해져서 이런 생각해 본 적도 있지만 유명해져야 이걸 듣는다</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>알고보니 유명인들만 할 수 있는 콘텐츠였네</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이걸로 유명해지기 힘들 것 같긴 해요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그래도 쌓으면 언젠가는 될 수 있다 천회 봅니다 천회 천회요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 아직 제가 제일 좋아하는 비밀보장도 천회가 안 됐는데요 그럼 100회<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span></p></article>
+</section>
+<section id='s6' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>태경 픽 — 「비밀보장」</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1020' href='https://youtu.be/lCZZRno1-NY?t=1020' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>17:00<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러면은 저희가 좋아하는 팟캐스트에 대해서 소개를 해보겠습니다 본격 영업시간으로 좀 써보면 좋을 것 같은데 태경님이 가져온 팟캐스트는 뭐죠?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>네 저의 인생 팟캐스트는 바로 송은이 김숙의 비밀보장입니다 빠밤 비밀보장</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>약간 클래식? 터줏대감?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아요. 2015년부터 시작해서 11년째 이어오고 있는 팟캐스트고 사실은 송은이 씨랑 김숙 씨가 비밀보장을 시작하면서 제2의 전성기를 맞게 해준 방송이라서 그 두 분한테도 의미가 있고 제가 저희 아이를 다섯 살 때부터 매일 어린이집에 왔다 갔다 등하원을 했었거든요. 차로. 그때 매일매일 들을 수 있었던 팟캐스트여서 저한테도 되게 오래된 의미 있는 그런 팟캐스트 방송이에요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러면 그때는 아들이랑도 같이 들은 거예요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아들이랑도 듣기도 하고요. 사실은 리우도 땡땡이에요. 그래서 비밀보장의 로고송을 둘이서 같이 불러가지고 제보를 했어요. 그래서 그게 방송에 나왔어요. 맞아. 출연도 하신 적 있잖아요.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 그래서 이땡땡과 황땡땡이 부른 비밀보장 로고송입니다 하면서 송은이님이 직접 들려주셨죠.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>성덕이네요. 성덕. 맞습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 되게 많은 팟캐스트가 있는데 왜 이 팟캐스트에 입덕하시게 되신 거예요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>사실은 여러 가지 듣기는 해요. 제가 경제 관련된 것도 듣고 소설 관련된 것도 듣고 영어도 듣고 다양하게 듣긴 하는데 사소한 고민부터 무거운 고민까지 속 시원하게 풀어주는 그 컨셉이거든요. 김숙이 에레나쌤이라고 해가지고 그 고민 상담을 너무 기깔나게 재밌게 해주시거든요. 그래서 그런 거를 들으면서 뭔가 무겁지 않고 되게 재밌게 운전길을 만들어주는 그리고 내 고민도 같이 약간 해결되는 그런 느낌이 있어가지고 좀 재밌게 들어왔던 것 같아요. 세영님도 한 땡땡이 하시잖아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저도 완전 초기 땡땡인데 이 방송이 되게 특별했어요. 저한테는. 이 포맷과 이 형식이 왜냐하면 이 둘이 너무 편하게 방송을 막 하는 거예요. 예를 들어 몇 회 특집 이렇게 하면 그 숫자에 맞는 연예인한테 대뜸 전화를 걸었어요. 키죠 예를 들어 193회면 김연경이 193cm야 그래서 김연경한테 갑자기 전화해가지고 막무가내 방송을 하면서 되게 뜬금없는 재미들이 있었고 그리고 김숙의 친구들 그냥 일반인 친구들한테도 전화해가지고 전화통화를 중계하는 거예요 근데 그 친구 중에 되게 유명한 친구가 담배 꼴초인 친구예요 그래서 이 비밀보장 안에서는 담배녀라고 부르거든요 담배를 너무 좋아하는 여자가 결혼 후 담배를 어떻게 피는지에 대해서 몰래 피는 거예요? 몰래 어디까지 숨기면서 피느냐 이런 얘기를 하는데 그 얘기가 너무 자극적이에요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>옛날에는 훨씬 더 자극적이고 솔직하고 진짜 날것 그대로였던 것 같긴 해요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>기성 방송에서는 볼 수 없는 어떤 그런 게 진짜 신선했어</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>지금도 전화통화를 계속 하긴 하지만 그때는 뭔가 더 막 전화하는 느낌 섭외 없이 막</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그래서 진짜 안 받는 케이스도 많았고 요즘은 확실히 사전에 전화해놓고 하는 게 좀 느껴지긴 하는데 갑자기 전화하는 그 컨셉도 진짜 재밌었던 포인트인 것 같아요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 중간에 광고를 만들었는데 그거를 일반인이 광고하고 싶은 거를 만들어서 목소리를 보내면 틀어줬던 것 같아요 지금은 아니에요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 지금은 그런 건 없어요 노래 부르면서 이야기가 필요해 들어주세요 안녕 이렇게 하면 그걸 중간에 틀어주시는 거예요 그런 식으로 진짜 홈메이드 방송 같은 느낌이 너무 재밌고 너무 친구 같았어요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>청취자 참여가 많네요<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 모든 것이 사연이 베이스이기는 해요 고민이 컨셉이기 때문에 고민에서 시작돼서 고민에서 끝나서 사실상 대본이 대단히 필요한 것 같지는 않고 그래서 주제도 상대적으로 쉽지 않을까요? 사람들의 고민과 사연은 매일 새롭게 쌓이잖아요. 그거를 베이스로 하다 보니까 이렇게까지 롱런할 수 있었던 것 같다는 생각도 들고요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>우리도 그러면 살다 보면 마음에 남는 질문 한번 받아보는 거 어때요? 그러니까 좀 보내주세요. 이걸 보낼 판을 깔아줘야 되니까 인스타그램 같은데 무물 이런 거 해가지고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>여둘톡도 절반은 여둘톡 언니들의 얘기고 또 2부는 후기 같은 거 사연 같은 거 보내준 걸로 토크를 또 하시거든요. 이어지는 좀 동력이 되긴 하죠.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>우리도 어떤 고민을 하면 처방처럼 컨텐츠로 답해주는 그런 코너를 해서 처음에는 보내주시는 분은 없겠지만 이태경부터 보내주는 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러게요. 저는 생각났어요. 아들이 사춘기거든요. 사춘기를 주제로 다룬 이럴 때 보면 좋은 영화나 그런 드라마 같은 게 있으면 소개 좀 해주세요. 너무 어렵다.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span></p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>바로 대답하기는 어려우니까</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>인사이드 아웃 이런 거 좋을 것 같은데 감정을 주제로 내 안에 어떤 감정들이 있는지<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span></p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 토이스토리 바로바로 나오긴 하네요<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 왜냐하면 토이스토리 1부터 보면 주인공이 점점 크면서 그 남아있는 토이들의 이야기들이 나오거든요 그러니까 뭐 지금 어떤 문제를 해결하고 싶은지는 잘 모르겠지만 적어도 그것이 태경님에게만 벌어지는 일은 아니라는 것을 알게 되지 않을까</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>참고해서 집에 가서 보도록 하겠습니다</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>메인 코너 중에 하나가 버말버말이라고 있거든요 혜진님 모르시죠? 네 이건 몰라요<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 버릴까 말까 버릴까 말까 하는 건데 되게 사소하게 이 시계 보내고 이 시계 버릴까요 말까요 물어보면 버려라 말아라를 알려주는 거예요 근데 이게 진짜 재밌어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>예를 들어서 제가 이 잠옷을 20년 동안 입은 잠옷이고 나의 애착 잠옷이에요. 그래서 이거를 버리자니 진짜 너무 소중해서 버리기 아깝고 근데 또 입자니 너무 너덜너덜해. 버려요 말아요 이런 사연이 가요. 그리고 그들에게 사진이 가요. 그 잠옷에. 그러면 김숙이 보고 버려라! 이렇게 단칼에 결정을 해주는데 그것들이 그게 진짜 물건들이 너무 재밌지 않아요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 웃기잖아요. 너무 사소하잖아요. 하지만 그 사람은 혼자서는 결정을 못 하겠는 거죠. 그래서 인스타에 그런 사진들 보여주면 진짜 누더기같이</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그런 생각도 한번 해보셨어요? 나는 저거에 보낸다면 뭘 보낼까 이런 생각?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아 근데 저는 대답해 주는 입장으로 늘 상상했던 것이죠</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>버말버말 있고 살말 살말 있어요 살까 말까?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그건 우리 많이 보낼 수 있을 것 같은데</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이런 거에 해답을 주는 또 김숙의 통쾌함이 있어요 통찰력도 있고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>제가 기억났던 게 하루에 결혼식이 네 개인가? 해서 네 개를 모두 다 소화할 수 있는 법을 김숙 씨가 정리해 주시거든요 무릎을 탁 치는 그런 솔로몬과 같은</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>신부대기실에 갔다가 먼저 나오고 딴 데는 사진 찍고 나오고 저도 들었어</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 스토리로 반드시 갔던 걸 어필하고<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 이런 솔루션이 연륜이 주는 지혜다 라는 생각을 했어요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>숙이 언니만 할 수 있는 대답 진짜</p></article>
+</section>
+<section id='s7' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>레전드화 — 475회 김중혁 작가 편</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1499' href='https://youtu.be/lCZZRno1-NY?t=1499' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>24:59<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그 코너를 통해서 김숙의 호감도가 좀 올라간 것 같아요 진짜 좀 지혜로운 사람이고 위트도 있다 그럼 태경님이 꼽는 레전드화는 뭐예요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 질문을 받고 불현듯 생각나는 화가 있었어요. 비밀보장 475회 김중혁 작가님이 나와서 이야기하는 그런 코너였는데 그때 김중혁 작가님이 어떤 책에 구절을 읽어주셨거든요. 그 구절이 갑자기 불현듯 생각이 나가지고 제가 오늘 가지고 왔어요. 왜냐하면 그때 팟캐스트로 들었을 때 제 감정이 너무 좋았어서 듣고 계신 분들한테도 똑같이 저도 읽어드리고 싶은 거예요. 김중혁 작가님이 본인이 지금 읽고 있는 책의 한 구절을 들려드리고 싶다 하면서 소개를 해주셨고 이게 제목이 못해 그리고 안 할 거야 라는 제목의 책이에요. 김숙 씨가 뭐 하면은 나 못해 안 할 거야 이런 얘기를 많이 해서 어 나 지금 읽고 있는 책이 되게 김숙 씨랑 닮은 제목의 책이다 이렇게 하면서 추천을 해주셨고 한 편 한 편이 되게 짧게 끊어지는 그런 이야기들인데 제가 오늘 이야기가 필요해 청취자분들을 위해서 그때 제가 들었던 그것을 읽어드리겠습니다. 제목은 개털이에요. 두 분 다 모르시죠? (26:20~26:55 낭독 — 리디아 데이비스의 짧은 글 <span class='font-semibold'>「개털」</span> 전문. 책 본문이라 풀대본에는 옮기지 않았다. 교정 노트 6번) 이렇게 끝나요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>약간 슬픈데요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>네, 되게 먹먹해지죠? 제가 이거를 차 안에서 되게 무방비 상태로 들은 거예요 지금 세영님이 눈물을 글썽거리는데 제가 그래서 듣자마자 눈물이 주르륵 났어요 그때 출근길이었는데 너무 슬퍼가지고 이렇게 되게 짧은 글을 들으면서도 순식간에 감정을 동하게 할 수 있구나 너무 좋다 생각이 들어서 오늘 가지고 와봤습니다</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저희도 지금 무방비 상태로.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 책이 너무 좋아 보여요. 맞아요. 일단 제목도 너무 좋고.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그렇죠. 리디아 데이비스 이야기집이라는 책이고요. 이런 식의 가벼운 얘기들이 막 실려 있거든요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이 책을 김중혁 작가님 출연한 다음에 무슨 책이지? 하고 산 거예요. 맞아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아요. 그것이 바로 팟캐스트의 영향이다. 순기능. 그래서 우리 얘기들을 듣고도 사람들이 아마 컨텐츠를 많이 찾아서 보거나 듣지 않을까 싶어요. 이야기가 필요해에서 추천해 주신 작품들을 저도 들으면서 다시 보고 싶다. 이런 생각을 간간히 했었거든요. 그래요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러면 너무 좋을 것 같아요. 근데 비밀보장에서는 웃음도 주지만 이런 감동과 정보도 주는 거네요? 이런 일이 자주 일어나지는 않나요? 시작하시죠.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 땡땡이가 되시겠습니까?</p></article>
+</section>
+<section id='s8' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>입문 추천화 400회, 그리고 영상편지</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1707' href='https://youtu.be/lCZZRno1-NY?t=1707' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>28:27<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 비밀보장을 안 들어보신 분들께 처음 시작하기 좋은 화를 하나 추천하고 싶은데 400회 특집으로 유재석 님이 나온 적이 있어요 그게 되게 레전드 화거든요 그 화에서 송은이, 김숙이 왜 팟캐스트를 시작하게 됐는지 그때 유재석한테 어떤 도움을 받았는지 이런 얘기를 하기도 하고 그 셋의 관계성이 막 나와가지고 또 워낙 말을 잘하는 세 분이잖아요. 그러니까 이 입담과 그들의 관계성과 티키타카 이런 걸 듣는 재미가 있어서 추천하는 화입니다. 마지막으로 비밀보장 얘기 마무리하면서 벌써 끝나요 비밀보장 얘기?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 혹시 더 하고 싶으신가요? 영상편지 한 번 쓰세요. 송은이 김숙 언니께.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span></p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>언니들 사랑합니다. 언니들 매주 수요일만 기다리고 있고요 앞으로도 계속 지치지 말고 꼭 꾸준히 내주셨으면 좋겠습니다 왜 이렇게 말이 안 나오죠? 떨리네요 언니들 앞에 영상 편지라니 너무 진심이라서</p></article>
+</section>
+<section id='s9' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>태경의 추가 추천</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1776' href='https://youtu.be/lCZZRno1-NY?t=1776' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>29:36<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러니까요 마지막으로 태경님 비밀보장 말고 또 추천할 만한 팟캐스트 소개해 주세요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>제가 팟캐스트의 매니아로서 몇 가지 추천을 드리자면 지금은 박성태 뉴스쇼로 바뀌긴 했는데 시사나 상식들을 요즘 돌아가는 소식들 듣고 싶을 때는 예전에는 김현정의 뉴스쇼를 많이 들었고 혹은 손에 잡히는 경제도 경제 소식을 듣기에는 꽤나 괜찮은 채널이거든요. 그래서 이것도 추천드리고 그리고 문학 팟캐스트도 좀 듣는데요. 요즘 소설 이야기라고 지금은 사실은 시즌 1이 끝나긴 했어요. 근데 거기에 사실 저희 언니가 진행을 하는데 친언니요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 맞아요. 저희 언니고 소설가 이주영 작가랑 고요서사라는 책방의 주인이신 차경희 대표님 이렇게 두 분이 진행을 하시는데 소설을 하나씩 되게 좋은 거를 소개를 해주시고 두 분만의 인사이트를 막 주시거든요. 그래서 그것도 소설을 좋아하시는 분들께는 추천드립니다.</p></article>
+</section>
+<section id='s10' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>혜진 픽 — 민음사TV 「독서클럽」</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1840' href='https://youtu.be/lCZZRno1-NY?t=1840' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>30:40<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>자 그러면은 혜진님이 가져온 팟캐스트 얘기를 해볼까요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 민음사TV의 독서클럽이라는 팟캐스트를 가지고 왔습니다. 민음사TV는 여러 코너가 있는데요. 그 중에서 제가 제일 즐겁게 꾸준히 보고 있는 것이 바로 독서클럽이에요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>어떤 매력이 있는 코너예요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>우선 민음사TV도 꽤 오래된 채널인데 저는 작년에 세문전 월드컵으로 입문을 했고요. 소설 속에 등장하는 인물들로 월드컵 하는 게 너무 재밌어가지고 들어갔다가 그 코너를 진행하시던 박혜진 편집자, 김민경 편집자분이 독서클럽이라는 형식으로 코너를 하나 만드신 거예요. 책을 한 권을 네 명이서 같이 읽고 두 명의 게스트와 두 분의 호스트가 토론을 하는데요. 고전 같은 건 되게 어렵다고 생각하는데 그 책을 저 사람들이 어떻게 읽었고 소화했는지 굉장히 유쾌한, 쉽게 전달을 해서 책을 같이 읽고 토론하는 마음으로 보기도 하고요. 아니면 아직 안 읽은 책에 대한 소개로도 보기도 합니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러면 그것을 보고 책을 사서 보기도 하세요? 하기는 했다! 사기는 했다.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span></p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>민음사는 성공했네요 그쵸? 책도 팔았네</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>민음사TV 세문전 독서클럽의 어떤 형태로 진행이 되는지 제가 되게 재미있게 봤던 편으로 소개를 해볼게요 그건 세일즈맨의 죽음이라는 세계적인 고전 희곡 작품을 같이 읽고 나눈 이야기인데요 세일즈맨이라는 것은 직업이잖아요 직업과 일 이런 이야기로 문을 엽니다 출판계에 계신 분들이고 어떻게 해서 일을 하게 됐는지 지금 하고 있는 일에 대한 생각은 어떤지 이런 이야기들을 나누는데 그런 이야기들도 재미있고요. 그리고 책 이야기도 합니다. 인물에 대해서 어떻게 봤는지 그 사람은 왜 그런 행동을 했을 것 같은지에 대한 이야기들 좀 체계적인 질문을 가지고 하고 편집이 있기 때문에 굉장히 정제된 수다로 그 이야기가 전달이 되거든요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그 책을 전혀 읽지 않고 그래서 잘 모르는 사람도 그러면은 같이 동화돼서 좀 즐길 수 있는 콘텐츠인 거예요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>네, 왜냐하면은 저희처럼 줄거리도 소개를 하고요. 같이 나누고자 하는 주제를 왜 그 주제를 뽑았는지 이런 설명도 좀 들어가고 해서 책에 대해서 소개하는 좀 다른 방법이라고 생각할 수 있을 것 같아요.</p></article>
+</section>
+<section id='s11' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>「세일즈맨의 죽음」 편 — 편집자가 된 이야기</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='1999' href='https://youtu.be/lCZZRno1-NY?t=1999' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>33:19<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러면 세일즈맨의 죽음 편이 혜진님은 왜 좋으셨어요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저도 일을 하는 사람으로서의 정체성이 좀 센 편인데 여기에서 김민경 편집자랑 박혜진 편집자가 어떻게 해서 편집자가 됐는지에 대한 이야기를 하거든요. 박혜진 편집자는 공부를 더 할까? 이런 생각을 했는데 아버지가 네 바퀴로 굴러가는 자동차를 갖고 싶다라고 하셨대요. 무슨 소리냐면 그 가족이 엄마, 아빠 두 명의 자녀해서 네 명인데 네 명 다 모두 돈을 벌었으면 좋겠다라는 의미였다는 거예요. 그래서 어 그럼 나는 무슨 일을 해야 되지 하는데 어문학만 두 개 전공을 하셔서 출판사는 오히려 이게 장점이 될 수 있는 유일한 회사겠다라는 생각으로 하셨다고 하고 비슷하게 김민경 편집자는 언론고시를 준비를 하다가 말하자면 실패하고 포기하고 아무거나 하는 마음으로 출판학교라는 데를 갔는데 거기에서 평생 이걸 꿈꿔오던 친구들을 또 만난 거예요. 이걸 하고 싶어하고 이 일을 신나게 하는 사람들도 있는데 이런 마음으로 해도 되나? 이런 얘기를 했다고 하는데 저는 저를 길거리 출신 마케터, 육두품 마케터 이런 말을 제가 좀 하거든요. 저도 어쩌다 보니까 마케팅을 시작했는데 와봤더니 너무 이 일을 하고 싶어서 어렸을 때부터 꿈꿔온 사람들도 있는 거예요. 근데 하면서 이 일이 좋아지기도 하고 자부심이 생기기도 해서 이 민음사에서 되게 유명해진 편집자 두 명도 나는 이 일을 하게 될지 몰랐어. 하지만 난 지금은 좋아해. 이 일을 사랑하게 됐어라고 하는 그 포인트가 제가 일을 사랑하게 된 포인트랑 비슷해서 그런 이야기를 들으면서 재밌다라고 하면 듣는 거죠. 이런 거는 사실 책을 안 읽어도 재밌게 들을 수 있는 포인트니까요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러면 그 편에서는 과거 이야기들이 주를 이루었던 화예요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>출판사에 입문하게 됐는지 정도가 한 챕터로 있고 그 다음에 이제 책을 읽는 챕터가 있고 이런 식인데 세일즈맨의 죽음에서 나오는 그 아버지가 세일즈맨인데 세일즈를 하다 하다 잘 못하는 이야기예요. 그래서 직업에 대한 이야기, 아버지나 이런 얘기까지도 할 수도 있고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>약간 여타의 독서 모임이 그러하듯 독서를 빗대해서<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span> 자기 얘기를 하고 우리는 그 자기 얘기에 공감을 또 받아가지고 또 그 컨텐츠를 즐기게 되고 이런 느낌이겠네요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>일단 같이 보시죠, 태경님.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 오늘 밤에 진짜 당장 봐야겠다는 생각이 드네요.</p></article>
+</section>
+<section id='s12' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>국문학도의 마이너 감성</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2149' href='https://youtu.be/lCZZRno1-NY?t=2149' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>35:49<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 되게 재밌는 포인트가 태경님이랑 저는 국문학 전공자잖아요. 국문학도들이 갖는 마이너한 감성이 있다고 생각하거든요. 뭐냐면 난 취업이 안 될 거야 같은. 있죠, 있죠.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 있잖아요. 그 편에 문학 박사 수료하신 신입사원분이 나오시거든요. 그분이 뭐라고 하시냐면 문과 전공자들에게 박봉은 삶의 조건이라고 생각한다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>너무 슬픈데요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그래서 민음사나 출판계가 가지고 있는 박봉이라는 현실, 소문 이런 것들이 자긴 자연스러웠다. 이런 이야기인데 국문학도로서 되게 공감 가는 포인트가 있는 거예요. 저는 마케터로 자리 잡을 때까지 계속 그런 박봉의 삶에 두려움이 있었어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 국문학은 그 책을 통해서 거기 안에 인생이 있잖아요. 그런 거를 배우기 때문에 국문학을 잘 배우면 어느 직장에 가더라도 잘할 수 있는 씨앗이 되지 않나라는 생각이 있긴 있어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>약간 국문학과 출신 마케터, 뭔가 글 잘 쓸 것 같은데 약간 이런 느낌을 받았어요. 근데 뭐 다 떠나서 과 별로 안 중요하잖아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>전공 시절에는 그런 마음이 있어서 그걸 박사까지 수료한 출연진이 나와서 그 얘기를 할 때 공감이 됐다는 이야기였습니다.</p></article>
+</section>
+<section id='s13' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>민음사TV는 어떻게 성공했나</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2235' href='https://youtu.be/lCZZRno1-NY?t=2235' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>37:15<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>다시 좀 민음사로 돌아와서 사실 되게 대단한 프로인 게 스타들을 배출하는 프로그램입니다. 말도 안 돼요 진짜.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span></p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>회사원 중에 거의 제일 유명해요.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 그리고 저는 회사든 브랜드든 유튜브 시도를 워낙 많이 하잖아요. 유튜브 시대이기 때문에. 그것 중에서는 단연 1등이지 않나. 보통 브랜드들이 하다가 포기하는 경우도 많고 저희도 경험을 했고 진짜 쉽지 않은데 민음사가 유일무이하게 성공한 채널인 것 같아요. 진짜</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>너무 멋있어요. 이걸 뚝심 있게 해나가고 그래서 진짜 세일즈에 도움이 되고 스타를 배출한다니.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 이것도 진짜 아까도 쌓는 얘기를 했는데 민음사처럼 되고 싶은 브랜드들 너무 많잖아요. 근데 진짜 오래됐더라고요. 민음사 TV를 한지도 매주 쉬지 않고 꾸준히 컨텐츠를 내다보니 이렇게 팬도 쌓이고 이렇게 유명해질 수 있지 않았나 라는 생각이 들었어요. 하루아침에 되는 건 없다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 민음사TV에서 공중파에도 나올 수준인 분들이 3명 정도인데 나머지 분들도 보면은 자기의 컨텐츠가 있어요. 책을 다루시는 분들이고 책을 많이 읽는 분들이라서 그런지 언어가 굉장히 정제되어 있고 전달력이 좋달까?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 그분들도 다 매력적이기는 한데 솔직히 PD님이 대단하다고 생각은 들었어요. 브이로그들 보면 되게 신인 마케터 분들도 많이 띄워주시더라고요 그분들의 일상을 보면 밋밋할 수 있어요 근데 그거를 진짜 편집자가 기깔나게 편집하는 것 같고 질문도 정말 잘 뽑아내는 것 같아요 그래서 그것도 한몫한다 맞아요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>기획이 굉장히 탄탄하고 그리고 저는 이렇게 꾸준히 해내는 힘 세상을 설득시키는 힘 같은 것이 있었다고 생각합니다</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 되게 신기한 게 구성원들이 되게 스스럼없이 다들 출연하잖아요. 정말 많은 분들이 사실 얼굴이 노출되고 낱낱이 나와서 되게 뭐랄까 투명한 회사인 것 같기도 하고 다들 되게 열려있다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>진짜 여러모로 대단한 회사고 여러모로 대단한 채널인 것 같아요. 정말. 제 주위에도 책 잘 안 사는데 민음사 TV 보면서 그것 때문에 사서 책장에 민음사 책만 있다고 이렇게 얘기하는 사람들도 있거든요. 이게 진짜 매출에도 도움되고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 민음사가 민음사뿐만이 아니라 이 책 시장을 약간 다시 붐업시키는 역할까지도 하지 않았나 이번에 저희 도서전 티켓 구하는 것도 쉽지 않았잖아요. 그런 것들도 약간 그 영향에 한몫을 했다. 했다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 제가 다른 채널에서 봤는데 텍스트 힙으로 대변되는 어떤 시장 분석을 한 적이 있는데 민음사가 매출이 계속 오르고 있다 민음사는 한강 작가님 책이 없는데 그 와중에도 이렇게 해냈다</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그렇다면 대단하다<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 그리고 세문전 같은 경우는 그 작가들이 아마 독점적이지 않을 거고 그래서 굳이 민음사 책을 안 사도 되는 그러니까</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 그걸 어떻게 브랜딩을 잘해가지고 뭔가 세계문학 전집하면 그냥 민음사 이렇게 돼버렸잖아요 대단한 거 같아요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>말할수록 너무 대단한데? 존경합니다</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>사랑합니다</p></article>
+</section>
+<section id='s14' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>혜진의 추가 추천</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2438' href='https://youtu.be/lCZZRno1-NY?t=2438' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>40:38<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>더 나아가서 혜진님 유튜브에서 나오는 팟캐들에 대해서 조금 더 소개해 주실만한 채널들? 이런 것도 있을까요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>롱폼 팟캐스트 형 영상이 정말 유행이라는 생각이 드는 게 최근에 재밌게 본 채널들이 진짜 많은 거예요. 지금 우리가 계속 얘기 나눴던 김민경 편집자님이 호스트로 고아성 배우랑 찰스엔터 그리고 초대손님까지 해서 네 분이서 진행하는 도시여자대피소라는 팟캐스트예요. 여자들 이야기 많이 하거든요. 그래서 저도 이제 여성이니까 되게 공감하면서 들었고 그리고 머니그라피에서 경제 분석해주는 프로그램들이 주기적으로 올라오는데 그것도 전 자주 듣습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저도 머니그라피의 아주 빅팬입니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 적수다도 저 잘 듣고 있어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>적수다도 저도 많이 보고 있어요. 두 분이 되게 겹치시네요.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 아 근데 머니그라피도 토스에서 운영하는 채널이잖아요. 다른 회사들은 재무제표가 어떻게 구성되어 있는지 뜯어보는 그런 코너들로 너무 재밌었죠. 유튜브를 하는 것도 너무 재밌고 너무 잘하고 아 부럽네요. 잘한다 다들. 다들 잘해.</p></article>
+</section>
+<section id='s15' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>세영 픽 — 「여둘톡」, 로고송을 지키는 고집</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2508' href='https://youtu.be/lCZZRno1-NY?t=2508' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>41:48<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>마지막으로 제가 가져온 팟캐스트는 여자 둘이 토크하고 있습니다 여둘톡입니다 톡토로톡토로톡 이것도 너무 유명한 팟캐스트여가지고 좀 추천이 의미가 없을 것 같기도 한데 되게 많이 듣거든요 그래서 이 팟캐스트를 꼭 얘기하고 싶었고 나랑 가치관이 좀 비슷한 사람들의 대화를 들을 때 마음이 좀 편하다고 느끼거든요 이 팟캐스트를 운영하는 김하나 황선우 작가님의 그런 삶의 태도나 가치관이나 이런 것들이 제가 너무 추구하는 것과 비슷한 면이 있어가지고 공감도 많이 되고 저보다 한 발짝 앞서서 살고 계신 분들이니까 좀 조언을 받을 때도 있고 해서 편안함과 유익함 둘 다 있는 것 같아서 되게 많이 들어요. 근데 제가 너무 멋있다고 생각한 게 뭐냐면 그 톡까라<span class='mark-note' title='받아쓰기가 불확실한 곳'>(?)</span>라고 하잖아요. 이렇게 중간에 말하다가 톡토로톡톡톡 막 이렇게 하면서 파워 파워 파워 이걸 매회 하시거든요. 근데 이게. 입말로 하신다는 거예요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 입말로. 근데 이게 처음 들었을 때 조금 튀는 거예요. 왜냐하면 너무 조용한 팟캐스트에 갑자기 파워, 파워, 파워 이렇게 하니까 그래서 이걸 왜 넣으셨을까? 이런 생각이 저도 들었어요. 근데 사람들이 막 얘기를 한 거예요. 근데 언니들 그거는 빼는 게 어때요? 이런 후기들이 막 들어왔는데 그거를 다 읽으시면서 어쨌든 우리는 이건 할 거다. 근데 이게 만약에 안 맞으면 우리랑 안 맞는 사람이다. 그냥 이렇게 해버리고 그거를 아직까지 하시는 거예요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>어느 포인트에 그걸 하세요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그냥 처음에 인트로처럼 시작을 하고 본격적으로 들어가기 전에 이걸 하세요 매번 입말로 하는 것 같아요 그리고 시그널 송도 두 분이 연주하신 거잖아요</p></article>
+</section>
+<section id='s16' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>우리 방송의 사운드, 그리고 「은중과 상연」 편</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2624' href='https://youtu.be/lCZZRno1-NY?t=2624' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>43:44<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>우리도 팟캐스트 전환할 때 책 넘기는 소리를 쓴다든지 이런 소리가 있는데 이런 사운드를 우리가 개발하는 것도 아이덴티티에 좋겠다 이런 생각이 드네요. 개발합시다. 야기야기.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>오늘 되게 오랜만에 제가 왔는데 아이데이션을 되게 많이 하시네요. 아까부터 계속 혜진님이 뭔가 끝자락에 우리도 이거 하자. 모든 게 레퍼런스다. 다시 돌아가면 여둘톡에서 제가 진짜 인상 깊었던 편이 은중과 상연 편이기는 해요 그거 진짜 레전드 편이라고 생각하는데 저는 그렇게 컨텐츠를 딥하게 장면 하나하나 분석하면서 우리는 보지 못했던 그런 것들을 찾아내는 게 너무 신선하고 의미가 있었거든요 실제로 내가 드라마를 보는 것보다 그 분들이 설명하는 것들이 더 말 맛이 좋아가지고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저도 여둘톡을 거의 안 들어봤는데 은중과 상연을 보고 이걸 사람들은 어떻게 봤을까가 궁금하고 그걸 들었어요. 근데 말씀하신 것처럼 이 두 분이 콘텐츠를 꿰뚫어보는 눈이랄까? 진짜 인사이트 있고 내가 저거는 왜 넣었을까 했던 부분에 대한 본인들의 견해가 너무 설득력이 있는 거예요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아. 김하나 작가님이 은중과 상연을 설명하면서 단어들을 쓰시잖아요. 그 단어들이 너무 주옥같지 않았어요? 표현들이? 고급져요. 진짜 고급져요. 우린 막 너무 빡쳐 이렇게 설명할 것을 너무 멋있었다 이렇게 얘기하는 것을<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span></p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>거기서 너무 화나지 않았어요? 이렇게 얘기하는 것을 왜 화났는지에 대한 어떤 그런 심리적인 기저도 설명하고 하면서 이 컨텐츠를 더 깊게 이해하는 데 도움이 됐고 콘텐츠에 대해서 분석하고 같이 얘기하는 게 되게 재밌는 일이네라는 생각을 그때 했었어요.</p></article>
+</section>
+<section id='s17' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>과자, 아이스크림, 라면 특집</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2746' href='https://youtu.be/lCZZRno1-NY?t=2746' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>45:46<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>김하나 황선우 작가님의 장점 중에 하나가 사소한 것도 오목조목 설명을 너무 잘해줘요. 그게 진짜 두 분의 장점인 것 같아요. 제가 뽑은 레전드 편들이 있거든요. 여둘톡에. 지금 세 개를 딱 말씀드릴게요. 133화 과자 특집, 149화 아이스크림 특집, 183화 라면 특집. 너무 귀여운데요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 이 세 가지 편이 저는 진짜 제일 레전드 편이라고 생각을 하는데 어떤 내용이냐면 그냥 우리가 너무 흔하게 알고 있는 과자, 아이스크림, 라면을 옛날 과자부터 최근 과자까지 하나하나 다 설명을 해주는데 이것을 카테고리화 해가지고 막 얘기를 해요. 예를 들어 수산물계의 과자. 그러면서 거기에 이제 오징어 땅콩. 새우깡 이런 건가요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 새우깡 막 이렇게 해서 하나. 그리고 감자류. 막 이렇게 해서 감자칩, 감자깡 막 이런 식으로 막 오목조목 설명을 해주시는데 그게 너무 너무 재밌어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>아, 맛있겠다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 라면 얘기도 그런 해산물로 내는 육수 계열, 오징어 짬뽕 이런 계열과 사골 육수 계열 이렇게 나눠가지고 얘기를 막 해주시고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이렇게 다양한 과자들이 있다를 알려주고 싶어서 만드신 편인가?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그냥 계보를 읊는다, 약간 이런 느낌으로<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 과자의 역사 같은 느낌? 그래서 근데 지금 우리가 지금 딱 얘기만 해도 읊는 게 얼마나 재미가 없어요. 저것도 있고 이게 너무 재미없는데 그걸 이제 맛깔나게 재미있게 자기들만의 그 맛 해석과 카테고리와 계보와 얘가 어디서 시작했고 이런 것들을 얘기를 해주는게 너무 재밌고 저는 장거리 운전할 때 들었거든요 세 개를 다 너무 큰 버팀목이 되었다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>들어봐야겠네요. 결국 주제는 중요하지 않아. 스토리텔링을 얼마나 맛깔나게 하느냐</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이 과자, 오징어 땅콩이라는 과자 하나는 설명할 게 별로 없을 수 있지만 얘의 역사, 다른 오징어 땅콩과 어떻게 다르며 이 자갈치와는 무슨 관계가 있는지의 스토리 안에 두면 가치 있어지는 것처럼 그런 작업들을 잘하신다라는 거죠.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그렇죠. 그러니까 과자라는 게 너무나 친숙하고 그냥 아무 생각 없이 먹잖아요. 생각이 그냥 아예 없고. 근데 다 알긴 다 알아. 근데 뭐 얘가 감자류가 있고 파이 계열로 가면요. 이제 그렇게 초코파이계가 있고 그냥 과일계가 있는 거예요. 이런 식으로 얘기를 막 하니까 맞네, 맞네.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 그거를 기획하면서 구조화할 때 두 분이 너무 재밌었을 것 같아. 그 인사이트를 발견하면서.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>황선우 작가님의 특징 중에 하나가 먹고재비? 먹고재비라고 본인을 자칭하시거든요. 그래서 먹는 거에 너무 진심이고 그럼 먹는데 진짜 진심이겠다.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 할 말도 많고.</p></article>
+</section>
+<section id='s18' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>여둘톡은 무슨 장르인가</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2934' href='https://youtu.be/lCZZRno1-NY?t=2934' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>48:54<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>사실 뭐를 주제로 얘기하는지를 모르긴 하거든요. 예를 들면 비밀보장은 고민을 상담해준다. 민음사 독서클럽이다. 그러면 여둘톡은 그런 장르로 치자면 뭐예요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그냥 두 분이 하고 싶은 이야기 거리면 무엇이든 한다인 것 같아요. 예를 들어서 그 영화가 주제가 될 수도 있고 또 아니면 요즘 주식이 또 난리잖아요. 그러면 주식이 주제가 되어서 다루기도 하고. 그래서 정말 장르 불문의 재밌는 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그 이것도 두 분이 내공이 있어서 가능한 일이네요. 모든 주제에 대해서 한 시간 정도는 이야기할 수 있는 힘이 있는 거잖아요. 너무너무.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 그게 과자, 라면이어도.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>너무나. 그냥 두 분의 라이프 스타일과 인생을 따라가는 팟캐스트인 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>좋다. 그 자체가 콘텐츠인 거라 너무 멋있는 것 같아요.</p></article>
+</section>
+<section id='s19' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>만들고 싶은 팟캐스트 1 — 망한 이야기</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='2991' href='https://youtu.be/lCZZRno1-NY?t=2991' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>49:51<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>마무리로 이런 팟캐 좀 있으면 좋겠다 상상의 나래를 펼치면서 마무리해볼까 봐요 저는 옛날부터 이 얘기를 되게 많이 했었는데 성공한 이야기는 재미없어요 저는</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>맞아요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>성공한 다음에는 모든 것이 성공한 이유가 될 수 있거든요 그래서 약간 만들어지는 이야기라는 생각이 되게 강하고 저는 늘 뭔가 실수한 얘기, 좀 망한 얘기 이런 게 재밌고 이런 것을 더 많이 얘기해야 된다고 생각해요. 나만 실수한 건 아니구나라고 위로가 될 수도 있고 뭐 저렇게 하지 말아야지 하는 교훈이 될 수도 있고 그래서 이런 거 되게 자연스럽게 얘기할 수 있는 장이면 되게 좋겠다. 제가 지금 좀 깔아드릴 테니까 이번 주 망한 이야기 하나만 해주세요.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 이번 주는 없는데 근데 저는 일하면서 망하고 실수한 얘기가 진짜 많거든요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>뭘 망쳐봤나요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이게 좀 길어지면 괜찮아요? 짧은 거 없죠? 짧게? 롱스토리 쇼트로 하면은 저희가 이제 해외 사업에 일할 때 일본 사업을 했었는데 단위가 익숙하지가 않은 거예요. 왜냐하면 저희가 단위를 세 개를 썼어요. 원화를 쓰고 일본, 엔화를 쓰고 그 다음에 달러로도 이제 글로벌리 달러도 쓰고 그러니까 이게 막 세 개가 왔다 갔다 거리면서 헷갈려 있었는데 이제 에이전시한테 RFP를 보냈는데 제가 공 하나를 더 붙여가지고 보낸 적이 있어요. 그럼 거기서는 우와 대단한 RFP가 왔다. 대박 프로젝트가 시작됐다. 일본 시장에 한국의 대표적인 브랜드가 와가지고 돈을 팡팡 쓰고 간다더라 약간 이런 느낌으로</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 이 사건 알거든요 그 당시에 같이 일을 했었어가지고 그래서 세영님이 망했다</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>근데 사실 지금 이렇게 웃으면서 얘기하지만 제가 그때 기절을 했었어요 그래서 어떻게 수습했어요?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span></p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>정정 메일 보냈나요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>제가 수습해야 할 것은 내가 저지른 실수를 명명백백히 솔직한 버전으로 리더들에게 공유하는 것이 저의 첫 번째 업무였어요. 이거는 빨리 알려야 한다 해가지고 어디서부터 어떻게 잘못됐는지 어디까지 이게 나갔는지 주말에 메일을 써가지고</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>꼭 수습은 리더 분이 하셨대요.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 근데... 리더? 네.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>수습도 제가 했잖아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이런 얘기들이 많아요. 동그라미 하나 빼먹는 건 진짜 많은 것 같아요. 그런 일은 있을 수 있죠.</p></article>
+</section>
+<section id='s20' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>만들고 싶은 팟캐스트 2 — 출산과 육아</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='3151' href='https://youtu.be/lCZZRno1-NY?t=3151' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>52:31<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>재밌네요. 혹시 태경님은 만들고 싶은 팟캐스트?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 이제 엄마지 않습니까? 그래서 출산과 육아 이야기를 다루면 좋겠다는 생각이 들었는데 사실은 이런 얘기들도 전문가들이 하는 팟캐스트는 있어요. 소아과 전문의가 알려주는 출산 이야기라든가 임신 과정에 대한 얘기라든가. 근데 사실은 임신, 출산 과정도 사람들마다 다 다르고 진짜 정답이 없는 영역이거든요. 그래서 그런 전문가들 얘기 말고 진짜 내가 해봤더니 이렇더라. 이렇게 해도 애가 키워진다. 이런 얘기들을 솔직하게 나누는 방송이 있어도 엄마, 아빠들이 들으면서 위로도 받고 나도 괜찮구나. 이런 공감도 하고 할 것 같아요. 재밌을 것 같지 않습니까?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>출산, 육아가 나랑 관련 없는 얘기인데 근데 재미있을 것 같아요. 궁금해요. 왜냐면 별세계라서.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저는 육아의 과정은 궁금하거든요. 조카도 있기도 하고 준 육아인으로서 관심이 있다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그리고 사실은 SNS에 비춰지는 거는 귀여운 영상 그리고 육아에서의 행복한 순간들 위주로 다뤄지잖아요. 근데 현실 육아가 아닌 거는 사실 다들 알죠? 알지만 비춰지지 않는 것들이 있어서 그런 것들이 이제 팟캐스트로 구현이 되면은 정말 좀 진솔하게 다 까놓고 민낯을 보여주고 얘기할 수 있지 않을까 하는 그런 기대도 있습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이건 뭐 당장 코니에서 하시면 되겠네요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>일이 너무 많아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저희가 얘기한 거를 듣고 다른 육아 브랜드에서 하면 어떡해요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>코니에서 먼저 해야겠네요. 기대하겠습니다.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 혜진님도 궁금한데요.</p></article>
+</section>
+<section id='s21' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>만들고 싶은 팟캐스트 3 — 케이팝 컴백 리뷰</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='3253' href='https://youtu.be/lCZZRno1-NY?t=3253' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>54:13<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>제가 한 달에 한두 번씩 케이팝 댄스를 배우러 다니거든요. 컴백을 하면 이번에는 좀 배울만한 춤인가 이런 걸 본단 말이에요. 그래서 전문가가 아니라 케이팝 고인물 정도의 일반인으로 컴백 기대, 그 다음에 컴백했을 때의 기획 리뷰 같은 거 하면 재밌을 것 같다는 생각이 좀 들었어요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>재밌겠다. 근데 저 지금 무슨 생각이 스쳤냐면 까와 빠가 미칠 것 같다. 라는 생각이 들었어요. 너무 좋아하는 사람들도 있을 것 같고 혹시 내가 좋아하는 아이돌에 대한 곡해한 해석이 있다고 하면 또 이럴 것 같다. 반응이 뜨거울 것 같다. 재밌겠다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저도 듣고 보니까 그런 분들의 회사 얘기를 다루는 콘텐츠도 없잖아요. 민음사TV가 출판계는 어떻게 일하지? 그런 거를 막 소상히 보여줘서 좀 재밌었는데 그런 엔터에서 일하는 사람들의 얘기들은 되게 좀 꽁꽁 쌓여있는 것 같은 느낌이 들어요. 그쵸? 그러네요.<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 궁금하다. 궁금하다. 해주세요. 하이브. 저희가 소스 드렸습니다.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>보고 계시죠?<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 저는 하이브 SM 이런 데서는 하기 오히려 어려울 수 있고 회사가 덩치가 크니까 중소의 기적 이런 데서도 시작할 수 있다.</p></article>
+</section>
+<section id='s22' class='scroll-mt-24 flex flex-col gap-space-lg'><div class='flex items-baseline justify-between gap-space-sm border-b border-outline-variant/40 pb-space-xs'><h2 class='font-headline-sm text-headline-sm font-bold text-on-surface'>클로징 — 끝까지 들으시겠습니까?</h2><a class='ts font-timestamp-num text-timestamp-num text-secondary hover:text-primary flex items-center gap-0.5 shrink-0' data-t='3330' href='https://youtu.be/lCZZRno1-NY?t=3330' target='_blank' rel='noopener noreferrer' title='이 장면부터 재생'>55:30<span class='material-symbols-outlined text-[13px]'>arrow_outward</span></a></div>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러네요. 그럼 오늘 끝까지 들으시겠습니까? 라는 질문으로 시작했는데 그럼 두 분은 끝까지 롱폼을 들으시겠습니까? 앞으로도? 앞으로도</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>당연하죠</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저도요 네, 저도요<span class='mark-note' title='화자분리 라벨이 문맥과 안 맞아 보이는 곳'>(화자 확인 필요)</span> 생각보다 되게 심플한 질문이었네요</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>어떤 컨텐츠를 끝까지 볼 거야? 라는 거는 좀 다른 대답을 할 수 있을 것 같은데 롱폼이라는 포맷을 끝까지 좋아할 거야? 라고 하면 뭐 예스, 예스죠.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>저도요. 배속을 빨리 하는 한이 있더라도 끝까지는 볼 것 같아요. 질리지 않을 것 같아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-full bg-tertiary/15 text-tertiary text-xs flex items-center justify-center font-bold'><span>혜</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>혜진</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>얘기 너무 재밌잖아요.</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 diamond-chip bg-primary/10 text-primary text-xs flex items-center justify-center font-bold'><span>세</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>세영</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>그러니까. 좋습니다. 그러면 마무리 질문을 뭘로 할까요? 태경님 하실래요?</p></article>
+<article class='flex flex-col gap-space-xs'><div class='flex items-center gap-space-sm'><span class='w-6 h-6 rounded-sm bg-[#dbe7df] text-[#2f5a40] text-xs flex items-center justify-center font-bold'><span>태</span></span><span class='font-speaker-title text-speaker-title text-on-surface'>태경</span></div><p class='pl-space-lg font-body-md text-body-md text-on-surface'>이야기가 끝나도 또 다른 이야기가 필요하신가요? 2주 뒤에 만나요. 안녕!</p></article>
+</section></div>
+
+<details class="notes my-space-xl bg-surface-container-low rounded-lg px-space-md py-space-sm text-on-surface-variant">
+<summary class="cursor-pointer font-label-md text-label-md font-semibold">받아쓰기 교정 노트</summary>
+<div class="mt-space-sm"><h2>교정 노트</h2>
+<h3>1. 단어 교정 (확실한 받아쓰기 오류만)</h3>
+<p>근거의 &quot;자막 m:ss&quot;는 영상에 입힌 자막이 그 시각 화면에 나온 문구다. 받아쓰기와 같은 자리에서 낱말만 다르게 나온 곳을 고쳤다.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>시각</th>
+<th>받아쓰기 표기</th>
+<th>고친 표기</th>
+<th>근거</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>0:30</td>
+<td>친구와는</td>
+<td>친구하는</td>
+<td>자막 0:32 &quot;롱폼이랑 친구하는 혜진입니다&quot;</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0:33</td>
+<td>제5회 멤버</td>
+<td>제5의 멤버</td>
+<td>자막 0:40 &quot;돌아온 제 5의 멤버 태경입니다&quot;</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0:45</td>
+<td>계약을 하면서</td>
+<td>개학을 하면서</td>
+<td>자막 1:00 &quot;저희 아이가 개학을 하면서&quot;</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1:52</td>
+<td>라디오 파기는</td>
+<td>라디오파이기는</td>
+<td>자막 1:58 &quot;원래는 사실 라디오파이기는 해요&quot;</td>
+</tr>
+<tr>
+<td>5</td>
+<td>2:41</td>
+<td>농포마 되어간다는</td>
+<td>롱폼화되어간다는</td>
+<td>자막 2:51</td>
+</tr>
+<tr>
+<td>6</td>
+<td>3:10</td>
+<td>R 섹션이</td>
+<td>아예 섹션이</td>
+<td>자막 3:14 &quot;아예 섹션이 생기기도 했고&quot;</td>
+</tr>
+<tr>
+<td>7</td>
+<td>4:00</td>
+<td>왁부볼</td>
+<td>왁뿌볼</td>
+<td>자막 4:08</td>
+</tr>
+<tr>
+<td>8</td>
+<td>4:24</td>
+<td>보인다.</td>
+<td>보는?</td>
+<td>자막 4:24 &quot;정화의 시간으로 보는?&quot; — 바로 뒤 세영 &quot;정화인지 모르겠어요&quot;가 대답</td>
+</tr>
+<tr>
+<td>9</td>
+<td>4:42</td>
+<td>롱폰 파긴</td>
+<td>롱폼파이긴</td>
+<td>자막 4:42 &quot;그래서 제가 롱폼파이긴 하거든요&quot;</td>
+</tr>
+<tr>
+<td>10</td>
+<td>4:42</td>
+<td>혜지님과</td>
+<td>혜진님과</td>
+<td>출연자 이름. 자막 4:44</td>
+</tr>
+<tr>
+<td>11</td>
+<td>4:42</td>
+<td>도파인을</td>
+<td>도파민을</td>
+<td>자막 4:53, 같은 회차 0:33 &quot;도파민&quot;</td>
+</tr>
+<tr>
+<td>12</td>
+<td>5:16</td>
+<td>아일리</td>
+<td>아일릿</td>
+<td>자막 5:24 &quot;아일릿. 코르티스&quot;</td>
+</tr>
+<tr>
+<td>13</td>
+<td>5:38</td>
+<td>총봅니다</td>
+<td>트위터에서도 엄청 봅니다</td>
+<td>자막 5:39 &quot;저는 트위터에서도 엄청 봅니다&quot; (화면 직접 확인)</td>
+</tr>
+<tr>
+<td>14</td>
+<td>5:49</td>
+<td>쇼폰만요</td>
+<td>숏폼만요</td>
+<td>자막 5:50 &quot;숏폼만요? 네&quot;</td>
+</tr>
+<tr>
+<td>15</td>
+<td>5:49</td>
+<td>양심상 일일러</td>
+<td>양심상 좀 일러</td>
+<td>자막 6:09 &quot;아직은 좀 양심상 좀 일러 할 때&quot;</td>
+</tr>
+<tr>
+<td>16</td>
+<td>6:26</td>
+<td>금방 거죠</td>
+<td>금방 가죠</td>
+<td>자막 6:41 &quot;진짜 금방 가죠&quot;</td>
+</tr>
+<tr>
+<td>17</td>
+<td>7:08</td>
+<td>모자무사도</td>
+<td>모자무싸도</td>
+<td>자막 7:20</td>
+</tr>
+<tr>
+<td>18</td>
+<td>7:53</td>
+<td>여둘 독도</td>
+<td>여둘톡도</td>
+<td>자막 8:03, 같은 블록 &quot;여둘톡 팟캐스트도&quot;</td>
+</tr>
+<tr>
+<td>19</td>
+<td>9:37</td>
+<td>성의</td>
+<td>소비</td>
+<td>자막 9:46 &quot;소비 방식이 다 진짜&quot; (화자 경계도 옮김, 2번 표 14)</td>
+</tr>
+<tr>
+<td>20</td>
+<td>9:46</td>
+<td>믿음사도 (2곳)</td>
+<td>민음사도</td>
+<td>자막 10:06, 10:10</td>
+</tr>
+<tr>
+<td>21</td>
+<td>10:17</td>
+<td>이건 제일 추측이기는</td>
+<td>이건 제 추측이기는</td>
+<td>자막 10:37 &quot;이건 제 추측이기는 한데&quot;</td>
+</tr>
+<tr>
+<td>22</td>
+<td>12:50</td>
+<td>리치한 타겟</td>
+<td>니치한 타겟</td>
+<td>자막 13:09</td>
+</tr>
+<tr>
+<td>23</td>
+<td>13:32</td>
+<td>얘기가 나서</td>
+<td>얘기가 나와서</td>
+<td>자막 13:34</td>
+</tr>
+<tr>
+<td>24</td>
+<td>13:58</td>
+<td>말빨</td>
+<td>말발</td>
+<td>자막 14:07</td>
+</tr>
+<tr>
+<td>25</td>
+<td>15:22</td>
+<td>왜 많이 안 듣지? 이거 궁금하지 않은데</td>
+<td>왜 많이 안 듣지가 궁금하긴 한데</td>
+<td>자막 15:53 &quot;왜 많이 안 듣지가 궁금하긴 한데&quot; (화면 직접 확인). 받아쓰기는 뜻이 반대로 됨</td>
+</tr>
+<tr>
+<td>26</td>
+<td>16:43</td>
+<td>싸우면</td>
+<td>쌓으면</td>
+<td>자막 16:44 &quot;그래도 쌓으면 쌓으면&quot;</td>
+</tr>
+<tr>
+<td>27</td>
+<td>16:43</td>
+<td>비밀부장도</td>
+<td>비밀보장도</td>
+<td>프로그램 이름. 자막 16:53</td>
+</tr>
+<tr>
+<td>28</td>
+<td>17:13, 17:24, 17:59, 28:27</td>
+<td>송은희</td>
+<td>송은이</td>
+<td>자막 17:15 &quot;송은이 김숙의 비밀보장&quot;, 17:31, 18:18, 28:43, 유튜브 설명란 &quot;송은이 김숙의 비밀보장&quot; (5곳)</td>
+</tr>
+<tr>
+<td>29</td>
+<td>17:59</td>
+<td>비밀보자의</td>
+<td>비밀보장의</td>
+<td>자막 18:04</td>
+</tr>
+<tr>
+<td>30</td>
+<td>18:28</td>
+<td>운전기를</td>
+<td>운전길을</td>
+<td>자막 18:55</td>
+</tr>
+<tr>
+<td>31</td>
+<td>20:39</td>
+<td>부러졌던 것 같아요</td>
+<td>틀어줬던 것 같아요</td>
+<td>자막 20:47 &quot;만들어서 목소리를 보내면 틀어줬던 거 같아요&quot;</td>
+</tr>
+<tr>
+<td>32</td>
+<td>20:39</td>
+<td>이야기필요해</td>
+<td>이야기가 필요해</td>
+<td>방송 이름. 자막 20:55</td>
+</tr>
+<tr>
+<td>33</td>
+<td>21:44</td>
+<td>이분은</td>
+<td>2부는</td>
+<td>자막 21:47 &quot;또 2부는 후기 같은 거&quot;</td>
+</tr>
+<tr>
+<td>34</td>
+<td>22:21</td>
+<td>사이드 아웃</td>
+<td>인사이드 아웃</td>
+<td>자막 22:23 &quot;&lt;인사이드 아웃&gt; 이런 거 좋을 것 같은데&quot;</td>
+</tr>
+<tr>
+<td>35</td>
+<td>22:27</td>
+<td>감정이들이</td>
+<td>감정들이</td>
+<td>자막 22:28</td>
+</tr>
+<tr>
+<td>36</td>
+<td>23:02</td>
+<td>범할 범할</td>
+<td>버말버말</td>
+<td>자막 23:05, 같은 대화 24:11 &quot;버말버말&quot;</td>
+</tr>
+<tr>
+<td>37</td>
+<td>23:02</td>
+<td>말하라를</td>
+<td>말아라를</td>
+<td>자막 23:17 &quot;버려라 말아라를&quot;</td>
+</tr>
+<tr>
+<td>38</td>
+<td>23:19</td>
+<td>김신숙이 보고 말해라!</td>
+<td>김숙이 보고 버려라!</td>
+<td>자막 23:39 &quot;그러면 김숙이 보고 버려라&quot;</td>
+</tr>
+<tr>
+<td>39</td>
+<td>24:27</td>
+<td>이제 기억났던 게</td>
+<td>제가 기억났던 게</td>
+<td>자막 24:28</td>
+</tr>
+<tr>
+<td>40</td>
+<td>24:27</td>
+<td>응해주시거든요</td>
+<td>정리해 주시거든요</td>
+<td>자막 24:35</td>
+</tr>
+<tr>
+<td>41</td>
+<td>24:27</td>
+<td>그룹을 탁치는</td>
+<td>무릎을 탁 치는</td>
+<td>자막 24:37, 관용 표현</td>
+</tr>
+<tr>
+<td>42</td>
+<td>24:41</td>
+<td>저도 들어서</td>
+<td>저도 들었어</td>
+<td>자막 24:45</td>
+</tr>
+<tr>
+<td>43</td>
+<td>26:58</td>
+<td>눈물이 불쌍거리는데</td>
+<td>눈물을 글썽거리는데</td>
+<td>자막 27:06</td>
+</tr>
+<tr>
+<td>44</td>
+<td>27:27</td>
+<td>그 상태로.</td>
+<td>저희도 지금 무방비 상태로.</td>
+<td>자막 27:26 (화면 직접 확인), 바로 앞 26:58 태경 &quot;무방비 상태로 들은 거예요&quot;</td>
+</tr>
+<tr>
+<td>45</td>
+<td>27:48</td>
+<td>순기는</td>
+<td>순기능</td>
+<td>자막 27:50</td>
+</tr>
+<tr>
+<td>46</td>
+<td>27:48</td>
+<td>이야기가 필요해서</td>
+<td>이야기가 필요해에서</td>
+<td>자막 28:02 &quot;&lt;이야기가 필요해&gt;에서 추천해 주신 작품들을&quot;</td>
+</tr>
+<tr>
+<td>47</td>
+<td>28:10</td>
+<td>이런 일 자질하는 건가요?</td>
+<td>이런 일이 자주 일어나지는 않나요?</td>
+<td>자막 28:19</td>
+</tr>
+<tr>
+<td>48</td>
+<td>28:27</td>
+<td>유재성 (2곳)</td>
+<td>유재석</td>
+<td>자막 28:35, 28:47</td>
+</tr>
+<tr>
+<td>49</td>
+<td>29:12</td>
+<td>하고 싶으시네.</td>
+<td>하고 싶으신가요?</td>
+<td>자막 29:12</td>
+</tr>
+<tr>
+<td>50</td>
+<td>29:12</td>
+<td>영상편지 한번 보세요</td>
+<td>영상편지 한 번 쓰세요</td>
+<td>자막 29:14</td>
+</tr>
+<tr>
+<td>51</td>
+<td>29:12</td>
+<td>김석</td>
+<td>김숙</td>
+<td>자막 29:17 &quot;송은이, 김숙 언니께&quot;</td>
+</tr>
+<tr>
+<td>52</td>
+<td>29:12~29:21</td>
+<td>언니들 사랑하시게 / 해서</td>
+<td>언니들 사랑합니다. 언니들</td>
+<td>자막 29:19 &quot;언니들 사랑합니다. 언니들&quot; (화자 경계도 옮김, 2번 표 40)</td>
+</tr>
+<tr>
+<td>53</td>
+<td>29:21</td>
+<td>영상 편지라는 진실이라서</td>
+<td>영상 편지라니 너무 진심이라서</td>
+<td>자막 29:33 &quot;언니들 앞에 영상 편지라니&quot;, 29:35 &quot;너무 진심이라서&quot;</td>
+</tr>
+<tr>
+<td>54</td>
+<td>29:43</td>
+<td>김연정의 뉴스쇼</td>
+<td>김현정의 뉴스쇼</td>
+<td>자막 29:57</td>
+</tr>
+<tr>
+<td>55</td>
+<td>29:43</td>
+<td>진행을 하는데 이주영 맞아요</td>
+<td>진행을 하는데 친언니요? 맞아요</td>
+<td>자막 30:14 &quot;저희 언니가 진행을 하는데 친언니요?&quot; (화면 직접 확인, 다른 색 글자). 같은 블록 뒤에 &quot;소설가 이주영 작가랑&quot;이 따로 나옴</td>
+</tr>
+<tr>
+<td>56</td>
+<td>31:01</td>
+<td>네 명에서</td>
+<td>네 명이서</td>
+<td>자막 31:26</td>
+</tr>
+<tr>
+<td>57</td>
+<td>31:01</td>
+<td>고정 같은 건</td>
+<td>고전 같은 건</td>
+<td>자막 31:33 &quot;우리가 세계문학이나 고전같은 건&quot;</td>
+</tr>
+<tr>
+<td>58</td>
+<td>33:23</td>
+<td>두 명의 자녀에서</td>
+<td>두 명의 자녀해서</td>
+<td>자막 33:44</td>
+</tr>
+<tr>
+<td>59</td>
+<td>34:08</td>
+<td>육두푼</td>
+<td>육두품</td>
+<td>자막 34:28</td>
+</tr>
+<tr>
+<td>60</td>
+<td>34:08</td>
+<td>와왔더니</td>
+<td>와봤더니</td>
+<td>자막 34:37</td>
+</tr>
+<tr>
+<td>61</td>
+<td>34:08</td>
+<td>어렸을 때보다</td>
+<td>어렸을 때부터</td>
+<td>자막 34:40</td>
+</tr>
+<tr>
+<td>62</td>
+<td>34:08</td>
+<td>위름사에서</td>
+<td>민음사에서</td>
+<td>자막 34:46</td>
+</tr>
+<tr>
+<td>63</td>
+<td>34:53</td>
+<td>제가 이를</td>
+<td>제가 일을</td>
+<td>자막 34:53 &quot;그 포인트가 제가 일을&quot;</td>
+</tr>
+<tr>
+<td>64</td>
+<td>36:52</td>
+<td>꽤 별로</td>
+<td>과 별로</td>
+<td>자막 37:03 &quot;과 별로 안 중요하잖아요?&quot; — 같은 발언 앞 &quot;국문학과 출신&quot;</td>
+</tr>
+<tr>
+<td>65</td>
+<td>37:15</td>
+<td>또 안 돼요</td>
+<td>말도 안 돼요</td>
+<td>자막 37:22</td>
+</tr>
+<tr>
+<td>66</td>
+<td>37:23</td>
+<td>거의 젤룡이 명이에요</td>
+<td>거의 제일 유명해요</td>
+<td>자막 37:23 &quot;회사원 중에 거의 제일 유명해요, 지금&quot; (화면 직접 확인)</td>
+</tr>
+<tr>
+<td>67</td>
+<td>37:23</td>
+<td>당연히 1등이지</td>
+<td>단연 1등이지</td>
+<td>자막 37:32</td>
+</tr>
+<tr>
+<td>68</td>
+<td>38:13</td>
+<td>비눔삽TV에서</td>
+<td>민음사TV에서</td>
+<td>자막 38:13</td>
+</tr>
+<tr>
+<td>69</td>
+<td>38:28</td>
+<td>윗밋할</td>
+<td>밋밋할</td>
+<td>자막 38:44</td>
+</tr>
+<tr>
+<td>70</td>
+<td>39:04</td>
+<td>서스름 없이</td>
+<td>스스럼없이</td>
+<td>낱말. 자막 39:05도 &quot;서스럼 없이&quot;라 자막이 아니라 표준 표기를 근거로 고침</td>
+</tr>
+<tr>
+<td>71</td>
+<td>40:08</td>
+<td>세문점</td>
+<td>세문전</td>
+<td>자막 40:10, 같은 회차 31:01 &quot;세문전 월드컵&quot;</td>
+</tr>
+<tr>
+<td>72</td>
+<td>40:47</td>
+<td>호스트루</td>
+<td>호스트로</td>
+<td>자막 40:57</td>
+</tr>
+<tr>
+<td>73</td>
+<td>40:47</td>
+<td>찰센터</td>
+<td>찰스엔터</td>
+<td>자막 41:00</td>
+</tr>
+<tr>
+<td>74</td>
+<td>42:32</td>
+<td>독트로 톡톡톡</td>
+<td>톡토로톡톡톡</td>
+<td>자막 42:47, 같은 발언 앞 41:48 &quot;톡토로톡토로톡&quot;</td>
+</tr>
+<tr>
+<td>75</td>
+<td>44:00</td>
+<td>아이덴이션을</td>
+<td>아이데이션을</td>
+<td>낱말. 자막 44:03</td>
+</tr>
+<tr>
+<td>76</td>
+<td>44:00</td>
+<td>혜지님이</td>
+<td>혜진님이</td>
+<td>출연자 이름. 자막 44:06</td>
+</tr>
+<tr>
+<td>77</td>
+<td>44:00</td>
+<td>레퍼런트다</td>
+<td>레퍼런스다</td>
+<td>자막 44:13</td>
+</tr>
+<tr>
+<td>78</td>
+<td>44:49</td>
+<td>은준과 상연을</td>
+<td>은중과 상연을</td>
+<td>자막 44:51, 같은 회차 44:00 &quot;은중과 상연&quot;</td>
+</tr>
+<tr>
+<td>79</td>
+<td>45:11</td>
+<td>우리를 막 너무 빡쳐</td>
+<td>우린 막 너무 빡쳐</td>
+<td>자막 45:22</td>
+</tr>
+<tr>
+<td>80</td>
+<td>46:30</td>
+<td>오징어탕</td>
+<td>오징어 땅콩</td>
+<td>자막 46:38, 같은 회차 47:55 &quot;오징어 땅콩이라는 과자&quot;</td>
+</tr>
+<tr>
+<td>81</td>
+<td>46:56</td>
+<td>오징어잡봉</td>
+<td>오징어 짬뽕</td>
+<td>자막 47:01</td>
+</tr>
+<tr>
+<td>82</td>
+<td>47:14</td>
+<td>마태석과</td>
+<td>맛 해석과</td>
+<td>자막 47:29 &quot;자기들만의 그 맛 해석과&quot;</td>
+</tr>
+<tr>
+<td>83</td>
+<td>47:14</td>
+<td>이 세계를 다</td>
+<td>세 개를 다</td>
+<td>자막 47:43, 같은 화자 45:46 &quot;세 개를 딱 말씀드릴게요&quot;</td>
+</tr>
+<tr>
+<td>84</td>
+<td>47:14</td>
+<td>보팀목</td>
+<td>버팀목</td>
+<td>자막 47:44</td>
+</tr>
+<tr>
+<td>85</td>
+<td>47:55</td>
+<td>스토리 안에 들면은 같이 있어지는</td>
+<td>스토리 안에 두면 가치 있어지는</td>
+<td>자막 48:06, 48:07</td>
+</tr>
+<tr>
+<td>86</td>
+<td>48:11</td>
+<td>초코파이 개가, 과일 개가</td>
+<td>초코파이계가, 과일계가</td>
+<td>자막 48:24, 48:27, 같은 화자 46:30 &quot;수산물계의 과자&quot;</td>
+</tr>
+<tr>
+<td>87</td>
+<td>48:54</td>
+<td>이눔사 독서클럽</td>
+<td>민음사 독서클럽</td>
+<td>자막 49:01</td>
+</tr>
+<tr>
+<td>88</td>
+<td>49:05</td>
+<td>이야기 꺼리면</td>
+<td>이야기 거리면</td>
+<td>자막 49:07</td>
+</tr>
+<tr>
+<td>89</td>
+<td>49:51</td>
+<td>파케</td>
+<td>팟캐</td>
+<td>자막 49:51, 같은 회차 40:38 &quot;팟캐들에 대해서&quot;</td>
+</tr>
+<tr>
+<td>90</td>
+<td>50:50</td>
+<td>롱스토리 쇼스로</td>
+<td>롱스토리 쇼트로</td>
+<td>자막 50:56</td>
+</tr>
+<tr>
+<td>91</td>
+<td>50:50</td>
+<td>N화를</td>
+<td>엔화를</td>
+<td>자막 51:06 &quot;원화를 쓰고 일본 엔화를 쓰고&quot;</td>
+</tr>
+<tr>
+<td>92</td>
+<td>51:52</td>
+<td>정정 매일</td>
+<td>정정 메일</td>
+<td>자막 51:53</td>
+</tr>
+<tr>
+<td>93</td>
+<td>52:35</td>
+<td>문희가 알려주는</td>
+<td>소아과 전문의가 알려주는</td>
+<td>자막 52:48 &quot;뭐 소아과 전문의가 알려주는&quot; (화면 직접 확인)</td>
+</tr>
+<tr>
+<td>94</td>
+<td>54:07</td>
+<td>혜지님도</td>
+<td>혜진님도</td>
+<td>출연자 이름. 자막 54:11</td>
+</tr>
+<tr>
+<td>95</td>
+<td>54:13</td>
+<td>고인무</td>
+<td>고인물</td>
+<td>자막 54:23</td>
+</tr>
+<tr>
+<td>96</td>
+<td>54:32</td>
+<td>고쾌한 해석이</td>
+<td>곡해한 해석이</td>
+<td>자막 54:46</td>
+</tr>
+<tr>
+<td>97</td>
+<td>54:52</td>
+<td>소상히 보여줘도</td>
+<td>소상히 보여줘서</td>
+<td>자막 55:02</td>
+</tr>
+</tbody></table>
+<ul>
+<li>띄어쓰기와 문장부호는 위 목록에 넣지 않았다(&quot;1 .5배속&quot;, &quot;쇼폼&quot;과 &quot;숏폼&quot;이 섞인 표기, &quot;컨텐츠&quot;와 &quot;콘텐츠&quot;가 섞인 표기 등은 받아쓰기 그대로).</li>
+<li>자막이 말을 줄이거나 어순을 바꾼 곳, 조사 하나만 다른 곳(&quot;사람들을 왜&quot;, &quot;쭉 나눠보겠습니다&quot; 등)은 받아쓰기 그대로 두었다.</li>
+</ul>
+<h3>2. 화자 경계 옮김 (근거가 확실한 것만)</h3>
+<p>자동 블록 경계가 한두 단어씩 어긋나 문장 끝이 다음 화자에게, 또는 문장 첫머리가 앞 화자에게 붙어 있던 곳. 한 문장이 문법상 이어지는 조각을 옮겼고, 어느 쪽으로 붙일지는 자막 줄 나눔과 음성 비교로 정했다. <strong>35번, 76번은 음성 비교만으로 화자를 정한 곳이다.</strong></p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>원본 시각</th>
+<th>조각</th>
+<th>원본 라벨 → 옮긴 화자</th>
+<th>근거</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>0:33</td>
+<td>&quot;혜진입니다.&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 0:32 한 줄 &quot;롱폼이랑 친구하는 혜진입니다&quot;. <code>Ep14-화자분리.md</code> 머리말 메모. 음성 비교 0:33~0:35 혜진</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0:45</td>
+<td>&quot;지난, 지지난화. 선미님에 이어서 태경님이 돌아왔습니다.&quot;</td>
+<td>태경 → 세영</td>
+<td><code>Ep14-화자분리.md</code> 머리말 메모(세영의 말). 태경을 3인칭으로 부름. 음성 비교 0:46~0:50 세영</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1:50</td>
+<td>&quot;많이&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 질문 &quot;팟캐스트 왜 / 많이 / 들으시는 / 거예요?&quot;(자막 1:49 한 줄). 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1:52</td>
+<td>&quot;거예요?&quot;</td>
+<td>태경 → 혜진</td>
+<td>위와 같음</td>
+</tr>
+<tr>
+<td>5</td>
+<td>4:00</td>
+<td>&quot;그래서 롱폼을 보려고 한다.&quot;</td>
+<td>세영 → 혜진</td>
+<td>혜진 발언 &quot;…결과물이라고 생각하거든요&quot;의 결론. 자막 4:00 따로 한 줄. 음성 비교 4:00~4:03 혜진</td>
+</tr>
+<tr>
+<td>6</td>
+<td>4:42 끝</td>
+<td>&quot;저는&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 5:10 &quot;저는 보지 말아야겠다고 생각하는 사람 중에서는&quot;</td>
+</tr>
+<tr>
+<td>7</td>
+<td>6:20</td>
+<td>&quot;같아요.&quot;</td>
+<td>혜진 → 세영</td>
+<td>세영 문장 &quot;건강한 방법은 아닌 것 / 같아요&quot;(자막 6:19 한 줄)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>6:26 끝</td>
+<td>&quot;너무&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 6:46 &quot;너무 위험합니다&quot;</td>
+</tr>
+<tr>
+<td>9</td>
+<td>6:48 끝</td>
+<td>&quot;저는&quot;</td>
+<td>세영 → 태경</td>
+<td>자막 7:08 &quot;저는 보는 콘텐츠는&quot;</td>
+</tr>
+<tr>
+<td>10</td>
+<td>7:08 끝</td>
+<td>&quot;한&quot;</td>
+<td>태경 → 세영</td>
+<td>단어 중간에서 끊김(&quot;한 / 번도 안 해봤어요&quot;). 자막 7:49</td>
+</tr>
+<tr>
+<td>11</td>
+<td>7:50</td>
+<td>&quot;그게 이제는&quot;</td>
+<td>태경 → 혜진</td>
+<td>한 문장 &quot;그게 이제는 / 유튜브가 / 3배속까지 돼요&quot;(자막 7:52 한 줄)의 가운데 조각이 혜진 라벨. 음성 비교 7:51~7:56 혜진</td>
+</tr>
+<tr>
+<td>12</td>
+<td>7:53</td>
+<td>&quot;3배속까지 돼요&quot;</td>
+<td>태경 → 혜진</td>
+<td>위와 같음</td>
+</tr>
+<tr>
+<td>13</td>
+<td>9:11 끝</td>
+<td>&quot;근데&quot;</td>
+<td>세영 → 태경</td>
+<td>자막 9:37 &quot;근데 그럴 때&quot;</td>
+</tr>
+<tr>
+<td>14</td>
+<td>9:37 끝</td>
+<td>&quot;성의&quot;(고친 표기 &quot;소비&quot;)</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;소비 / 방식이 다 진짜 다르네요&quot;(자막 9:46 한 줄)</td>
+</tr>
+<tr>
+<td>15</td>
+<td>10:17</td>
+<td>&quot;것&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;됐을 / 것 / 같아요&quot;</td>
+</tr>
+<tr>
+<td>16</td>
+<td>10:17 끝</td>
+<td>&quot;저는&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 10:48 &quot;저는 반대 급부라고 생각하는데&quot;</td>
+</tr>
+<tr>
+<td>17</td>
+<td>11:19</td>
+<td>&quot;이런 생각이 들었어요.&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 문장 &quot;미래의 먹을거리로 / 팟캐스트를 뒀나 / 이런 생각이 들었어요&quot;(자막 11:14, 11:19). 사이에 낀 태경 &quot;그랬을 수도 있고&quot;(11:16)는 겹쳐 말한 맞장구로 보고 혜진 문장 뒤로 보냈다(말 순서가 원본과 다름). 음성 비교 11:19~11:21 혜진</td>
+</tr>
+<tr>
+<td>18</td>
+<td>11:19 끝</td>
+<td>&quot;근데&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 문장 &quot;근데 / 밀기만 한다고 해서&quot;(자막 11:32)</td>
+</tr>
+<tr>
+<td>19</td>
+<td>12:24 끝</td>
+<td>&quot;제가 어저께&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 12:49 &quot;제가 어저께 피식대학에서 하는 팟캐스트가 있길래&quot;. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>20</td>
+<td>13:32</td>
+<td>&quot;팟캐스트는.&quot;</td>
+<td>태경 → 세영</td>
+<td>자막 13:30 &quot;재밌는 콘텐츠인 것 같아요… 팟캐스트는&quot; 한 줄. 음성 비교 세영</td>
+</tr>
+<tr>
+<td>21</td>
+<td>15:57</td>
+<td>&quot;그것도&quot;</td>
+<td>혜진 → 태경</td>
+<td>자막 15:57 &quot;그것도 몰라서인 거 아니에요?&quot; 한 줄</td>
+</tr>
+<tr>
+<td>22</td>
+<td>15:58 끝</td>
+<td>&quot;맞아요.&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 16:21 &quot;맞아요…라포 형성이 필요해요&quot; 한 줄. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>23</td>
+<td>18:28</td>
+<td>&quot;거예요?&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 질문 &quot;입덕하시게 되신 / 거예요?&quot;(자막 18:25 한 줄)</td>
+</tr>
+<tr>
+<td>24</td>
+<td>19:03</td>
+<td>&quot;세영님도 한 땡땡이 하시잖아요.&quot;</td>
+<td>세영 → 태경</td>
+<td>세영 블록 안에서 세영을 이름으로 부름. 음성 비교 19:03~19:06 태경</td>
+</tr>
+<tr>
+<td>25</td>
+<td>19:48 끝</td>
+<td>&quot;옛날에는 훨씬 더&quot;</td>
+<td>세영 → 태경</td>
+<td>태경 문장 &quot;옛날에는 훨씬 더 / 자극적이고&quot;(자막 20:09). 음성 비교 태경</td>
+</tr>
+<tr>
+<td>26</td>
+<td>20:39 끝</td>
+<td>&quot;청취자&quot;</td>
+<td>세영 → 태경</td>
+<td>&quot;청취자 / 참여가 많네요&quot;(자막 21:07 한 줄). 음성 비교로는 이 문장이 혜진에 가까워 3번 표 17에도 적음</td>
+</tr>
+<tr>
+<td>27</td>
+<td>21:31 끝</td>
+<td>&quot;여둘톡도&quot;</td>
+<td>혜진 → 태경</td>
+<td>자막 21:43 &quot;여둘톡도 절반은&quot;</td>
+</tr>
+<tr>
+<td>28</td>
+<td>22:04</td>
+<td>&quot;이태경부터 보내주는 것 같아요.&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 문장 &quot;처음에는 보내주시는 분은 없겠지만 / 이태경부터 보내주는&quot;(자막 22:02, 22:05). 음성 비교 22:04~22:07 혜진</td>
+</tr>
+<tr>
+<td>29</td>
+<td>22:21</td>
+<td>&quot;대답하기는 어려우니까&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 &quot;바로 / 대답하기는 어려우니까&quot;(자막 22:19 한 줄). 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>30</td>
+<td>22:21~22:26</td>
+<td>&quot;사이드 아웃&quot;(고친 표기 &quot;인사이드 아웃&quot;), &quot;이런 거 좋을 것 같은데&quot;, &quot;감정을&quot;, &quot;주제로&quot;</td>
+<td>태경, 혜진 → 세영</td>
+<td>한 문장 &quot;인사이드 아웃 이런 거 좋을 것 같은데 감정을 주제로 내 안에 어떤 감정들이 있는지&quot;(자막 22:23<del>22:28)가 라벨 넷으로 쪼개져 있었음. 가장 긴 조각의 라벨(세영)과 음성 비교(22:24, 22:28</del>22:31 세영)에 맞춤. 3번 표 19에도 적음</td>
+</tr>
+<tr>
+<td>31</td>
+<td>22:27 끝</td>
+<td>&quot;저는 토이스토리&quot;</td>
+<td>세영 → 혜진</td>
+<td>바로 뒤 혜진 블록이 &quot;왜냐하면 토이스토리 1부터 보면&quot;으로 추천 이유를 설명. 음성 비교 22:31~22:33 혜진</td>
+</tr>
+<tr>
+<td>32</td>
+<td>22:56</td>
+<td>&quot;않을까&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 문장 &quot;알게 되지 / 않을까&quot;(자막 22:56 한 줄)</td>
+</tr>
+<tr>
+<td>33</td>
+<td>23:19</td>
+<td>&quot;진짜 재밌어요.&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;근데 이게 / 진짜 재밌어요&quot;(자막 23:19 한 줄). 음성 비교 세영</td>
+</tr>
+<tr>
+<td>34</td>
+<td>23:48 끝</td>
+<td>&quot;그런&quot;</td>
+<td>세영 → 혜진</td>
+<td>혜진 질문 &quot;그럼 그런 생각도 한번 해보셨어요?&quot;(자막 24:05 한 줄)</td>
+</tr>
+<tr>
+<td>35</td>
+<td>24:02 끝, 24:11</td>
+<td>&quot;아 근데&quot;(혜진), &quot;저는 대답해 주는 입장으로 늘 상상했던 것이죠&quot;(태경)</td>
+<td>혜진, 태경 → 세영</td>
+<td>&quot;근데 / 저는 대답해 주는 입장으로&quot;가 한 문장(자막 24:10). <strong>음성 비교만으로</strong> 화자를 정함(24:11~24:14 세영, 6창 연속)</td>
+</tr>
+<tr>
+<td>36</td>
+<td>24:19</td>
+<td>&quot;것&quot;(세영), &quot;같은데&quot;(태경)</td>
+<td>세영, 태경 → 혜진</td>
+<td>혜진 문장 &quot;보낼 수 있을 / 것 / 같은데&quot;(자막 24:18 한 줄)</td>
+</tr>
+<tr>
+<td>37</td>
+<td>24:41 끝</td>
+<td>&quot;그리고 스토리로&quot;</td>
+<td>세영 → 혜진</td>
+<td>문장 &quot;그리고 스토리로 / 반드시 갔던 걸 어필하고&quot;(자막 24:47 한 줄). 문장이 더 많이 걸친 쪽(혜진)에 붙임. 3번 표 22에도 적음</td>
+</tr>
+<tr>
+<td>38</td>
+<td>24:55</td>
+<td>&quot;했어요&quot;</td>
+<td>세영 → 혜진</td>
+<td>혜진 문장 &quot;~라는 생각을 / 했어요&quot;(자막 24:55 한 줄). 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>39</td>
+<td>27:33</td>
+<td>&quot;좋고.&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;일단 제목도 너무 / 좋고&quot;(자막 27:32). 음성 비교 세영</td>
+</tr>
+<tr>
+<td>40</td>
+<td>29:12 끝</td>
+<td>&quot;언니들 사랑하시게&quot;(고친 표기 &quot;언니들 사랑합니다.&quot;)</td>
+<td>세영 → 태경</td>
+<td>단어 중간에서 끊김(&quot;사랑하시게 / 해서&quot; = 자막 29:19 &quot;언니들 사랑합니다. 언니들&quot;). 영상편지는 태경이 이어감. 음성 비교 29:19~29:21 태경</td>
+</tr>
+<tr>
+<td>41</td>
+<td>29:43</td>
+<td>&quot;주세요&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;소개해 / 주세요&quot;(자막 29:41 한 줄)</td>
+</tr>
+<tr>
+<td>42</td>
+<td>30:44</td>
+<td>&quot;얘기를 해볼까요?&quot;</td>
+<td>혜진 → 세영</td>
+<td>세영 문장 &quot;가져온 팟캐스트 / 얘기를 해볼까요?&quot;(자막 30:43). 음성 비교 세영</td>
+</tr>
+<tr>
+<td>43</td>
+<td>31:52 끝</td>
+<td>&quot;민음사는&quot;</td>
+<td>태경 → 세영</td>
+<td>자막 32:01 &quot;민음사는 성공했네요&quot; 한 줄. 음성 비교 세영</td>
+</tr>
+<tr>
+<td>44</td>
+<td>32:51 끝</td>
+<td>&quot;그&quot;</td>
+<td>혜진 → 세영</td>
+<td>세영 질문 &quot;그 책을 전혀 읽지 않고&quot;(자막 32:57)</td>
+</tr>
+<tr>
+<td>45</td>
+<td>32:57 끝</td>
+<td>&quot;네,&quot;</td>
+<td>세영 → 혜진</td>
+<td>자막 33:05 &quot;네 왜냐하면은&quot; 한 줄. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>46</td>
+<td>35:12 끝</td>
+<td>&quot;약간&quot;</td>
+<td>혜진 → 세영</td>
+<td>자막 35:31 &quot;약간 여타의 독서 모임이 그러하듯&quot;</td>
+</tr>
+<tr>
+<td>47</td>
+<td>36:37</td>
+<td>&quot;있었어요.&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 문장 &quot;박봉의 삶에 두려움이 / 있었어요&quot;(자막 36:34 한 줄). 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>48</td>
+<td>37:51</td>
+<td>&quot;배출한다니.&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;스타를 / 배출한다니&quot;(자막 37:50). 음성 비교 세영</td>
+</tr>
+<tr>
+<td>49</td>
+<td>37:51 끝</td>
+<td>&quot;그리고&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 38:13 &quot;그리고 민음사TV에서&quot;</td>
+</tr>
+<tr>
+<td>50</td>
+<td>38:28</td>
+<td>&quot;좋달까?&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 문장 &quot;전달력이 / 좋달까?&quot;(자막 38:28)</td>
+</tr>
+<tr>
+<td>51</td>
+<td>39:20</td>
+<td>&quot;열려있다.&quot;</td>
+<td>세영 → 태경</td>
+<td>태경 문장 &quot;다들 되게 / 열려있다&quot;(자막 39:19). 음성 비교 태경</td>
+</tr>
+<tr>
+<td>52</td>
+<td>39:20 끝</td>
+<td>&quot;저는&quot;</td>
+<td>세영 → 태경</td>
+<td>자막 39:39 &quot;저는 민음사가 민음사 뿐만이 아니라&quot;</td>
+</tr>
+<tr>
+<td>53</td>
+<td>39:39 끝</td>
+<td>&quot;그리고&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 39:55 &quot;그리고 제가 다른 채널에서 봤는데&quot;</td>
+</tr>
+<tr>
+<td>54</td>
+<td>41:24</td>
+<td>&quot;저 잘 듣고 있어요.&quot;</td>
+<td>세영 → 혜진</td>
+<td>자막 41:22 &quot;그리고 적수다도 저 잘 듣고 있어요&quot; 한 줄. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>55</td>
+<td>43:17 끝, 43:28</td>
+<td>&quot;어느 포인트에&quot;(세영), &quot;그걸 하세요?&quot;(태경)</td>
+<td>세영, 태경 → 혜진</td>
+<td>한 질문 &quot;어느 포인트에 / 그걸 하세요?&quot;(자막 43:27 한 줄). 음성 비교 43:26~43:30 혜진. 혜진은 44:49에서 여둘톡을 거의 안 들어봤다고 함</td>
+</tr>
+<tr>
+<td>56</td>
+<td>43:44 끝</td>
+<td>&quot;오늘 되게&quot;</td>
+<td>혜진 → 태경</td>
+<td>자막 43:59 &quot;오늘 되게 오랜만에 제가 왔는데&quot;</td>
+</tr>
+<tr>
+<td>57</td>
+<td>44:45</td>
+<td>&quot;저도 여둘톡을&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 문장 &quot;저도 여둘톡을 / 거의 안 들어봤는데&quot;(자막 44:47 한 줄). 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>58</td>
+<td>45:23, 45:25</td>
+<td>&quot;이렇게&quot;, &quot;이렇게 얘기하는&quot;</td>
+<td>혜진 → 태경</td>
+<td>&quot;이렇게 / 설명할 것을&quot;, &quot;이렇게 얘기하는 / 것을&quot;이 각각 한 구절(자막 45:24, 45:25). 한두 단어씩 라벨이 번갈아 붙은 겹쳐 말하기 구간. 3번 표 36에도 적음</td>
+</tr>
+<tr>
+<td>59</td>
+<td>47:47 끝</td>
+<td>&quot;이 과자,&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 47:54 &quot;그러니까 이 과자,&quot;, 47:55 &quot;오징어 땅콩이라는 과자 하나는&quot;. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>60</td>
+<td>47:55 끝</td>
+<td>&quot;그렇죠. 그러니까&quot;</td>
+<td>혜진 → 세영</td>
+<td>자막 48:11 &quot;그렇죠. 그러니까 과자라는 게&quot; 한 줄</td>
+</tr>
+<tr>
+<td>61</td>
+<td>48:11 끝</td>
+<td>&quot;근데 그거를&quot;</td>
+<td>세영 → 태경</td>
+<td>자막 48:33 &quot;근데 그거를 기획하면서 구조화할 때&quot;</td>
+</tr>
+<tr>
+<td>62</td>
+<td>49:05</td>
+<td>&quot;치자면 뭐예요?&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 질문 &quot;그런 장르로 / 치자면 뭐예요?&quot;(자막 49:04 한 줄). 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>63</td>
+<td>49:05 끝</td>
+<td>&quot;그 이것도 두 분이&quot;</td>
+<td>태경 → 혜진</td>
+<td>자막 49:26 &quot;이것도 두 분이 내공이 있어서 가능한 일이네요&quot; 한 줄. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>64</td>
+<td>49:36</td>
+<td>&quot;과자, 라면이어도.&quot;</td>
+<td>세영 → 혜진</td>
+<td>혜진 문장 &quot;그게 / 과자, 라면이어도&quot;(자막 49:36 한 줄). 음성 비교 49:36~49:38 혜진</td>
+</tr>
+<tr>
+<td>65</td>
+<td>50:50</td>
+<td>&quot;망쳐봤나요?&quot;</td>
+<td>세영 → 태경</td>
+<td>질문 &quot;뭘 / 망쳐봤나요?&quot;(자막 50:50 한 줄). 음성 비교 태경</td>
+</tr>
+<tr>
+<td>66</td>
+<td>51:38 끝</td>
+<td>&quot;근데 사실 지금&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;근데 사실 지금 이렇게 웃으면서 얘기하지만&quot;(자막 51:44 한 줄). 음성 비교 세영</td>
+</tr>
+<tr>
+<td>67</td>
+<td>51:54 끝</td>
+<td>&quot;꼭 수습은&quot;</td>
+<td>세영 → 태경</td>
+<td>문장 &quot;꼭 수습은 / 리더 분이 하셨대요&quot;(자막 52:19 &quot;수습은 리더분이 하셨다&quot; 한 줄). 문장이 더 많이 걸친 쪽(태경)에 붙임. 3번 표 44에도 적음</td>
+</tr>
+<tr>
+<td>68</td>
+<td>52:23</td>
+<td>&quot;제가&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;수습도 / 제가 / 했잖아요&quot;(자막 52:23 &quot;수습도 제가 했죠&quot; 한 줄). 음성 비교 세영</td>
+</tr>
+<tr>
+<td>69</td>
+<td>52:31</td>
+<td>&quot;있죠.&quot;</td>
+<td>혜진 → 태경</td>
+<td>태경 문장 &quot;그런 일은 있을 수 / 있죠&quot;</td>
+</tr>
+<tr>
+<td>70</td>
+<td>53:18</td>
+<td>&quot;관련&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;나랑 관련 없는 얘기인데&quot;(자막 53:17 한 줄). 음성 비교 세영</td>
+</tr>
+<tr>
+<td>71</td>
+<td>53:28</td>
+<td>&quot;육아인으로서 관심이 있다.&quot;</td>
+<td>태경 → 혜진</td>
+<td>단어 중간에서 끊김(&quot;준 / 육아인으로서&quot;). 자막 53:28 &quot;준 육아인으로서 관심이 있다&quot;. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>72</td>
+<td>53:56</td>
+<td>&quot;뭐 당장 코니에서 하시면&quot;</td>
+<td>태경 → 세영</td>
+<td>세영 문장 &quot;이건 / 뭐 당장 코니에서 하시면 / 되겠네요&quot;(자막 53:56 한 줄). 음성 비교 세영</td>
+</tr>
+<tr>
+<td>73</td>
+<td>54:02 끝</td>
+<td>&quot;코니에서&quot;</td>
+<td>세영 → 태경</td>
+<td>문장 &quot;코니에서 / 먼저 해야겠네요&quot;(자막 54:06 한 줄). 음성 비교 54:07~54:09 태경</td>
+</tr>
+<tr>
+<td>74</td>
+<td>54:12</td>
+<td>&quot;궁금한데요.&quot;</td>
+<td>혜진 → 태경</td>
+<td>태경 문장 &quot;혜진님도 / 궁금한데요&quot;(자막 54:11 한 줄). 혜진을 이름으로 부르는 말. 음성 비교 태경</td>
+</tr>
+<tr>
+<td>75</td>
+<td>54:13</td>
+<td>&quot;제가&quot;</td>
+<td>태경 → 혜진</td>
+<td>혜진 문장 &quot;제가 / 한 달에 한두 번씩&quot;(자막 54:13 한 줄)</td>
+</tr>
+<tr>
+<td>76</td>
+<td>55:53</td>
+<td>&quot;되게 심플한 질문이었네요&quot;</td>
+<td>혜진 → 세영</td>
+<td>문장 &quot;생각보다 / 되게 심플한 질문이었네요&quot;(자막 55:52 한 줄). <strong>음성 비교만으로</strong> 화자를 정함(55:53~55:55 세영, 5창 연속)</td>
+</tr>
+</tbody></table>
+<ul>
+<li>같은 화자의 연속 블록은 합쳤다. 단 41:24와 41:48 세영 블록은 소제목을 나누려고 따로 두었다.</li>
+</ul>
+<h3>3. 화자 확인 필요 — 라벨은 그대로 둠</h3>
+<p>&quot;음성 비교&quot;는 그 몇 초의 목소리 특징값이 어느 출연자 평균에 가장 가까웠는지다. 1~2초짜리 짧은 맞장구는 판정이 흔들리므로 근거로만 적고 라벨은 고치지 않았다.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>원본 시각</th>
+<th>근거</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>0:00</td>
+<td>&quot;사람 사는 얘기 … 이야기가 필요해&quot; — 0:00~0:13은 자막 없이 로고 화면이고 음성 비교도 판정이 안 됨(배경음악). 시그널송 가사로 보임</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1:10</td>
+<td>&quot;와 신난다&quot; — 세영 소개 중간의 반응. 음성 비교 1:29~1:31 태경, 혜진</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3:34</td>
+<td>&quot;하나, 둘, 셋&quot; — 질문한 세영이 센 말일 가능성. 음성 비교 3:34~3:35 세영</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5:29</td>
+<td>&quot;저는 인스타랑 유튜브 둘 다&quot; — 태경 질문에 대한 대답. 음성 비교 5:34~5:37 세영</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5:41</td>
+<td>&quot;저 한 40분 보는 것 같아요.&quot; — 태경 질문 뒤의 대답. 음성 비교 세영. 이어서 세영이 &quot;30, 40분 훌쩍 가 있어요&quot;, 6:20 혜진이 &quot;40분에 놀라셨는데&quot;</td>
+</tr>
+<tr>
+<td>6</td>
+<td>5:49</td>
+<td>&quot;숏폼만요?&quot; — 세영 블록 첫머리의 질문. 음성 비교 태경</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7:08</td>
+<td>&quot;아, 진짜요?&quot; — 태경 블록 안의 반응</td>
+</tr>
+<tr>
+<td>8</td>
+<td>7:08</td>
+<td>&quot;어머, 진짜로?&quot; — 태경 블록 안의 반응</td>
+</tr>
+<tr>
+<td>9</td>
+<td>7:53</td>
+<td>&quot;그러면 사람들은 그렇게 봐요?&quot; — 음성 비교 7:56~7:58 세영</td>
+</tr>
+<tr>
+<td>10</td>
+<td>7:53</td>
+<td>&quot;네 너무 당연히&quot; — &quot;여둘톡 팟캐스트도 정속으로 들으세요?&quot;에 대한 대답. 음성 비교 세영</td>
+</tr>
+<tr>
+<td>11</td>
+<td>7:53</td>
+<td>&quot;대박이다.&quot; — 음성 비교 세영</td>
+</tr>
+<tr>
+<td>12</td>
+<td>8:40</td>
+<td>&quot;그럼 유튜브를 틀어놓고 운전을 하시는 건 거죠?&quot; — 혜진 블록 안의 질문. 음성 비교 8:52~8:55 태경</td>
+</tr>
+<tr>
+<td>13</td>
+<td>16:43</td>
+<td>&quot;천회요?&quot; — 음성 비교 세영</td>
+</tr>
+<tr>
+<td>14</td>
+<td>16:43</td>
+<td>&quot;그럼 100회&quot; — 음성 비교 세영</td>
+</tr>
+<tr>
+<td>15</td>
+<td>17:59</td>
+<td>&quot;맞아. 출연도 하신 적 있잖아요.&quot; — 태경 블록 안에서 태경에게 하는 말. 음성 비교 세영</td>
+</tr>
+<tr>
+<td>16</td>
+<td>20:39</td>
+<td>&quot;지금은 아니에요?&quot; — 세영 블록 안의 질문. 자막 20:51 &quot;지금은 안 해요?&quot;. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>17</td>
+<td>21:07</td>
+<td>&quot;청취자 참여가 많네요&quot; — 음성 비교 21:07~21:09 혜진 (2번 표 26)</td>
+</tr>
+<tr>
+<td>18</td>
+<td>22:04</td>
+<td>&quot;너무 어렵다.&quot; — 음성 비교 세영</td>
+</tr>
+<tr>
+<td>19</td>
+<td>22:21~22:27</td>
+<td>&quot;인사이드 아웃 … 어떤 감정들이 있는지&quot; — 라벨 넷으로 쪼개져 있던 문장 (2번 표 30)</td>
+</tr>
+<tr>
+<td>20</td>
+<td>22:34</td>
+<td>&quot;바로바로 나오긴 하네요&quot; — 혜진 블록 안의 반응. 음성 비교 태경</td>
+</tr>
+<tr>
+<td>21</td>
+<td>23:02</td>
+<td>&quot;네 이건 몰라요&quot; — 세영이 &quot;혜진님 모르시죠?&quot;라고 물은 데 대한 대답. 음성 비교로는 태경</td>
+</tr>
+<tr>
+<td>22</td>
+<td>24:48</td>
+<td>&quot;그리고 스토리로 반드시 갔던 걸 어필하고&quot; — 24:41 세영이 나열하던 해법의 이어짐일 가능성 (2번 표 37)</td>
+</tr>
+<tr>
+<td>23</td>
+<td>24:59</td>
+<td>&quot;그럼 태경님이 꼽는 레전드화는 뭐예요?&quot; — 태경 블록 안에서 태경을 부르는 질문. 음성 비교 25:07~25:10 세영</td>
+</tr>
+<tr>
+<td>24</td>
+<td>28:10</td>
+<td>&quot;시작하시죠.&quot; — 음성 비교 태경</td>
+</tr>
+<tr>
+<td>25</td>
+<td>28:27</td>
+<td>&quot;벌써 끝나요 비밀보장 얘기?&quot; — 세영 블록 안의 반문. 음성 비교 태경</td>
+</tr>
+<tr>
+<td>26</td>
+<td>29:12</td>
+<td>&quot;송은이 김숙 언니께.&quot; — 영상편지 첫머리. 편지는 태경이 이어감. 음성 비교로는 세영</td>
+</tr>
+<tr>
+<td>27</td>
+<td>29:43</td>
+<td>&quot;친언니요?&quot; — 태경 블록 안의 질문. 자막도 다른 색 글자로 표시</td>
+</tr>
+<tr>
+<td>28</td>
+<td>31:52</td>
+<td>&quot;하기는 했다! 사기는 했다.&quot; — 태경 질문 뒤의 대답. 혜진 대답일 가능성</td>
+</tr>
+<tr>
+<td>29</td>
+<td>35:44</td>
+<td>&quot;일단 같이 보시죠, 태경님.&quot; — 태경 블록 안에서 태경을 부르는 말. 음성 비교 세영</td>
+</tr>
+<tr>
+<td>30</td>
+<td>35:49</td>
+<td>&quot;있죠, 있죠.&quot; — 혜진 발언 중간의 반응. 음성 비교 태경</td>
+</tr>
+<tr>
+<td>31</td>
+<td>37:15</td>
+<td>&quot;말도 안 돼요 진짜.&quot; — 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>32</td>
+<td>37:23</td>
+<td>&quot;회사원 중에 거의 제일 유명해요.&quot; — 음성 비교 37:23~37:26 혜진</td>
+</tr>
+<tr>
+<td>33</td>
+<td>40:08</td>
+<td>&quot;그렇다면 대단하다&quot; — 혜진 발언(&quot;그 와중에도 이렇게 해냈다&quot;)의 이어짐일 가능성. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>34</td>
+<td>41:24</td>
+<td>&quot;두 분이 되게 겹치시네요.&quot; — 세영 블록 안에서 혜진과 세영을 &quot;두 분&quot;으로 부름. 음성 비교 태경</td>
+</tr>
+<tr>
+<td>35</td>
+<td>42:32</td>
+<td>&quot;입말로 하신다는 거예요?&quot; — 세영 설명 중의 질문. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>36</td>
+<td>45:11</td>
+<td>&quot;우린 막 너무 빡쳐 … 이렇게 얘기하는 것을&quot; — 겹쳐 말하기 구간 (2번 표 58)</td>
+</tr>
+<tr>
+<td>37</td>
+<td>45:46</td>
+<td>&quot;너무 귀여운데요?&quot; — 세영 블록 안의 반응</td>
+</tr>
+<tr>
+<td>38</td>
+<td>46:30</td>
+<td>&quot;새우깡 이런 건가요?&quot; — 세영 블록 안의 질문. 음성 비교 태경</td>
+</tr>
+<tr>
+<td>39</td>
+<td>47:14</td>
+<td>&quot;그냥 계보를 읊는다, 약간 이런 느낌으로&quot; — 47:08 태경 질문의 이어짐일 가능성. 음성 비교 47:14~47:17 태경</td>
+</tr>
+<tr>
+<td>40</td>
+<td>48:40</td>
+<td>&quot;그럼 먹는데 진짜 진심이겠다.&quot; — 음성 비교 태경</td>
+</tr>
+<tr>
+<td>41</td>
+<td>49:27</td>
+<td>&quot;너무너무.&quot; — 음성 비교 세영</td>
+</tr>
+<tr>
+<td>42</td>
+<td>50:06</td>
+<td>&quot;제가 지금 좀 깔아드릴 테니까 이번 주 망한 이야기 하나만 해주세요.&quot; — 바로 뒤 &quot;이번 주는 없는데&quot;가 대답으로 읽힘. 음성 비교 50:40~50:44 혜진</td>
+</tr>
+<tr>
+<td>43</td>
+<td>51:44</td>
+<td>&quot;그래서 어떻게 수습했어요?&quot; — 세영 블록 끝의 질문. 음성 비교 혜진</td>
+</tr>
+<tr>
+<td>44</td>
+<td>52:19</td>
+<td>&quot;꼭 수습은 리더 분이 하셨대요.&quot; — 세영 실수담 중간에 끼어든 말 (2번 표 67)</td>
+</tr>
+<tr>
+<td>45</td>
+<td>54:07</td>
+<td>&quot;기대하겠습니다.&quot; — 음성 비교 세영</td>
+</tr>
+<tr>
+<td>46</td>
+<td>54:52</td>
+<td>&quot;그러네요.&quot; — 태경 블록 안의 맞장구. 음성 비교 세영</td>
+</tr>
+<tr>
+<td>47</td>
+<td>55:21</td>
+<td>&quot;보고 계시죠?&quot; — 음성 비교 태경</td>
+</tr>
+<tr>
+<td>48</td>
+<td>55:47</td>
+<td>&quot;저도요 네, 저도요&quot; — 음성 비교 태경과 혜진이 섞임</td>
+</tr>
+</tbody></table>
+<h3>4. 미확인 — 원문 그대로 두고 <code>(?)</code> 표시</h3>
+<table>
+<thead>
+<tr>
+<th>받아쓰기</th>
+<th>시각</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>우리 애기는</td>
+<td>0:00</td>
+<td>시그널송 가사. &quot;우리 얘기는&quot;일 가능성. 자막 없음</td>
+</tr>
+<tr>
+<td>선미님</td>
+<td>0:45</td>
+<td>자막 0:46도 &quot;선미님&quot;. <code>Ep14-화자분리.md</code> 머리말과 <code>Ep13-풀대본.md</code>는 직전 게스트를 &quot;선민&quot;으로 적음. 고치지 않음</td>
+</tr>
+<tr>
+<td>빗대해서</td>
+<td>35:30</td>
+<td>&quot;빗대서&quot;일 가능성. 자막 글자 인식이 &quot;빈대서&quot;로 나와 판독 불확실</td>
+</tr>
+<tr>
+<td>톡까라</td>
+<td>42:32</td>
+<td>자막 글자 인식 &quot;톡가라&quot;. 여둘톡 로고송을 부르는 말로 보이나 확인 안 됨</td>
+</tr>
+</tbody></table>
+<h3>5. 작품, 인물 이름</h3>
+<ul>
+<li>작품명은 유튜브 설명란(&quot;송은이 김숙의 비밀보장&quot;, &quot;민음사TV 세문전 독서클럽&quot;, &quot;여둘톡&quot;)과 자막을 대조했다.</li>
+<li>「은중과 상연」은 받아쓰기(44:00)와 자막(44:22, 44:51, 45:13) 표기가 같다. <code>Ep13-15-요약.md</code>는 &quot;은중과 상현&quot;으로 적었다.</li>
+<li>태경이 추천한 문학 팟캐스트 이름은 받아쓰기와 자막(30:10 &quot;&lt;요즘 소설 이야기&gt;라고&quot;) 모두 &quot;요즘 소설 이야기&quot;다. <code>Ep13-15-요약.md</code>는 「소설 이야기」로 적었다.</li>
+<li>인명 중 자막과 받아쓰기가 같은 것: 김숙, 김연경, 김중혁, 리디아 데이비스, 박성태, 이주영, 차경희, 박혜진, 김민경, 고아성, 김하나, 황선우, 한강. 송은이, 유재석, 김현정, 김숙(29:12)은 1번 표에서 고쳤다.</li>
+<li>&quot;리우&quot;(17:59)는 받아쓰기와 자막 18:02 &quot;리우도 땡땡이에요&quot; 표기가 같다. 누구를 가리키는지 확인 안 됨.</li>
+<li>&quot;찰스엔터&quot;(40:47)는 자막 41:00 표기를 따랐다.</li>
+<li>책 제목 &quot;못해 그리고 안 할 거야&quot;, &quot;리디아 데이비스 이야기집&quot;(25:43, 27:33)은 자막 25:47, 27:35와 같다. 출연자가 말한 대로 두고 「」를 붙이지 않았다.</li>
+</ul>
+<h3>6. 낭독 생략과 반복 환각</h3>
+<ul>
+<li><strong>26:20~26:55 낭독 생략</strong>: 태경이 리디아 데이비스의 짧은 글 「개털」을 처음부터 끝까지 읽는다(자막 26:14 &quot;제목은 개털이에요&quot; ~ 26:51). 남의 책 본문 전체라 풀대본에 옮기지 않고 그 자리에 괄호로 표시했다. 앞뒤 발언(책 소개, &quot;이렇게 끝나요&quot;, 감상)은 모두 남겼다.</li>
+<li>같은 문장이 기계적으로 되풀이되는 받아쓰기 환각은 찾지 못했다. &quot;있죠 있죠 있죠&quot;, &quot;궁금하다. 궁금하다.&quot;, &quot;했다. 했다.&quot;, &quot;버릴까 말까 버릴까 말까&quot;는 실제 말버릇이나 흉내로 보고 남겼다.</li>
+<li>31:52 &quot;하기는 했다! 사기는 했다.&quot;는 자막에 &quot;사기는 했다&quot;만 있다. 앞말을 고쳐 말한 것인지 받아쓰기가 겹친 것인지 확인 안 돼 둘 다 남겼다.</li>
+</ul>
+<h3>7. 받아쓰기에 빠진 말을 자막으로 채운 곳</h3>
+<table>
+<thead>
+<tr>
+<th>시각</th>
+<th>채운 말</th>
+<th>근거</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1:10</td>
+<td>&quot;한 시간&quot; (가량 되는)</td>
+<td>자막 1:39 &quot;한 시간 가량 되는&quot;</td>
+</tr>
+<tr>
+<td>8:40</td>
+<td>&quot;나는 지금 모르겠네 라는 게&quot;</td>
+<td>자막 9:01 &quot;나는 지금 모르겠네 라는 게 있긴 있지만&quot;</td>
+</tr>
+<tr>
+<td>16:32</td>
+<td>&quot;유명해져야&quot; (이걸 듣는다)</td>
+<td>자막 16:31 &quot;유명해져야 이걸 듣는다&quot;</td>
+</tr>
+<tr>
+<td>41:48</td>
+<td>&quot;마음이 좀 편하다고 느끼거든요&quot;</td>
+<td>자막 42:14. 받아쓰기는 &quot;대화를 들을 때 / 이 팟캐스트를 운영하는&quot;으로 문장이 끊겨 있었음</td>
+</tr>
+<tr>
+<td>53:18</td>
+<td>&quot;출산, 육아가 나랑&quot;</td>
+<td>자막 53:17 &quot;출산, 육아가 나랑 관련 없는 얘기인데&quot;</td>
+</tr>
+</tbody></table>
+<h3>참고 — 다른 정리 문서와 다른 점</h3>
+<ul>
+<li><code>Ep13-15-요약.md</code>는 3:34 &quot;하나, 둘, 셋 — 롱&quot;을 혜진으로 적었으나 라벨은 태경이다(3번 표 3).</li>
+<li><code>Ep13-15-요약.md</code>는 4:42 &quot;직업상 숏폼을 봐야 하고 기획도 하는 입장&quot;을 세영으로 적었으나 라벨과 음성 비교 모두 태경이다. 같은 발언 첫머리 &quot;그래서 제가 롱폼파이긴 하거든요&quot;도 3:34 태경 &quot;롱&quot;과 맞는다.</li>
+<li><code>Ep13-15-요약.md</code>는 5:16 아이돌 챌린지 영상 반복 시청을 혜진으로 적었으나 라벨과 음성 비교 모두 세영이다.</li>
+<li><code>Ep13-15-요약.md</code>는 15:22 &quot;인간은 늘 인간한테 관심이 많다&quot;를 혜진으로 적었으나 라벨과 음성 비교 모두 세영이다.</li>
+<li><code>Ep13-15-요약.md</code>는 56:05 &quot;배속을 빨리 하는 한이 있더라도 끝까지는 볼 것&quot;을 세영으로 적었으나 라벨은 태경이다. 세영은 7:49에서 배속을 &quot;한 번도 안 해봤어요&quot;라고 했다.</li>
+<li>작품명 차이는 5번에 적었다.</li>
+</ul>
+
+</div></details>
+
+<nav class="flex flex-col sm:flex-row gap-space-md my-space-lg"><a class='flex-1 p-space-md bg-surface-container-low hover:bg-surface-container rounded-lg flex flex-col ' href='13.html'><span class='flex items-center gap-1 font-label-sm text-label-sm text-secondary'><span class='material-symbols-outlined text-sm'>west</span>이전 회차 (Ep13)</span><span class='font-headline-sm text-sm text-on-surface font-semibold mt-2'>왜 이렇게 도서전에 열광할까?</span></a><a class='flex-1 p-space-md bg-surface-container-low hover:bg-surface-container rounded-lg flex flex-col text-right items-end' href='15.html'><span class='flex items-center gap-1 font-label-sm text-label-sm text-secondary'>다음 회차 (Ep15)<span class='material-symbols-outlined text-sm'>east</span></span><span class='font-headline-sm text-sm text-on-surface font-semibold mt-2'>소문난 잔치에 진짜 먹을 게 있었나?</span></a></nav>
+<div class="text-center my-space-lg"><a class="font-label-md text-label-md text-secondary hover:text-primary" href="../">← 회차 목록으로</a></div>
+</main>
+<footer class="bg-surface-container-low mt-space-xl"><div class="max-w-[45rem] mx-auto px-margin md:px-margin-tablet py-space-xl flex flex-col gap-space-xs">
+<span class="font-headline-sm text-headline-sm">&lt;이야기가 필요해&gt;</span>
+<p class="text-sm text-secondary">살다 보면 마음에 남는 질문이 있습니다. 그 질문에 콘텐츠로 답해보는 팟캐스트.</p>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary" href="https://www.youtube.com/channel/UCRQXu1PqRn_JZzDO_Os9jNA" target="_blank" rel="noopener noreferrer">YouTube</a></div></footer>
+<div class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 xl:top-20 z-50 w-[300px] sm:w-[340px] flex flex-col justify-end gap-3 pointer-events-none">
+<nav aria-label="목차" class="hidden xl:flex flex-col min-h-0 pointer-events-auto">
+<div class="px-1 pb-2 font-label-sm text-label-sm text-secondary font-semibold">목차 · 23개 구간</div>
+<ol class="px-1 flex flex-col gap-2 text-sm text-on-surface-variant overflow-y-auto min-h-0"><li><a class='flex gap-space-sm hover:text-primary' href='#s0'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>00:00</span><span>오프닝, 자기소개, 태경 복귀</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s1'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>01:48</span><span>팟캐스트는 언제 듣나</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s2'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>03:27</span><span>숏폼파와 롱폼파</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s3'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>06:48</span><span>롱폼은 집중해서 보나, 배속 이야기</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s4'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>09:46</span><span>팟캐스트는 왜 지금 뜨는가</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s5'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>14:19</span><span>남의 수다는 왜 재밌나, 우리 방송 냉정 진단</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s6'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>17:00</span><span>태경 픽 — 「비밀보장」</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s7'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>24:59</span><span>레전드화 — 475회 김중혁 작가 편</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s8'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>28:27</span><span>입문 추천화 400회, 그리고 영상편지</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s9'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>29:36</span><span>태경의 추가 추천</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s10'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>30:40</span><span>혜진 픽 — 민음사TV 「독서클럽」</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s11'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>33:19</span><span>「세일즈맨의 죽음」 편 — 편집자가 된 이야기</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s12'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>35:49</span><span>국문학도의 마이너 감성</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s13'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>37:15</span><span>민음사TV는 어떻게 성공했나</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s14'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>40:38</span><span>혜진의 추가 추천</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s15'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>41:48</span><span>세영 픽 — 「여둘톡」, 로고송을 지키는 고집</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s16'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>43:44</span><span>우리 방송의 사운드, 그리고 「은중과 상연」 편</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s17'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>45:46</span><span>과자, 아이스크림, 라면 특집</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s18'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>48:54</span><span>여둘톡은 무슨 장르인가</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s19'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>49:51</span><span>만들고 싶은 팟캐스트 1 — 망한 이야기</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s20'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>52:31</span><span>만들고 싶은 팟캐스트 2 — 출산과 육아</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s21'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>54:13</span><span>만들고 싶은 팟캐스트 3 — 케이팝 컴백 리뷰</span></a></li>
+<li><a class='flex gap-space-sm hover:text-primary' href='#s22'><span class='font-timestamp-num text-timestamp-num text-secondary w-12 shrink-0'>55:30</span><span>클로징 — 끝까지 들으시겠습니까?</span></a></li></ol></nav>
+<aside id="pip" class="pointer-events-auto shrink-0 bg-white rounded-xl shadow-xl border border-outline-variant/40 overflow-hidden">
+<div class="px-3 py-2 bg-surface-container flex items-center justify-between select-none">
+<div class="flex items-center gap-1.5 min-w-0"><span class="w-2 h-2 rounded-full bg-primary shrink-0"></span><span class="font-label-sm text-[12px] font-semibold truncate">Ep14 전체 영상</span><span class="font-timestamp-num text-[11px] text-secondary shrink-0">56:43</span></div>
+<div class="flex items-center gap-1 shrink-0">
+<a href="https://youtu.be/lCZZRno1-NY" target="_blank" rel="noopener noreferrer" title="유튜브에서 열기" class="text-secondary hover:text-primary p-0.5"><span class="material-symbols-outlined text-[16px]">open_in_new</span></a>
+<button type="button" id="pip-toggle" title="플레이어 접기/펼치기" class="text-secondary hover:text-on-surface p-0.5"><span class="material-symbols-outlined text-[16px]" id="pip-icon">expand_more</span></button>
+<button type="button" onclick="document.getElementById('pip').style.display='none'" title="플레이어 닫기" class="text-secondary hover:text-primary p-0.5"><span class="material-symbols-outlined text-[16px]">close</span></button></div></div>
+<div id="pip-body" class="relative w-full aspect-video bg-black"><iframe class="absolute inset-0 w-full h-full border-0" id="pip-frame" src="https://www.youtube.com/embed/lCZZRno1-NY?rel=0&enablejsapi=1" title="Ep14 영상" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div></aside></div>
+<script>
+(function(){
+  var body=document.getElementById('pip-body'), icon=document.getElementById('pip-icon');
+  function set(open){ body.style.display=open?'':'none'; icon.textContent=open?'expand_more':'expand_less'; }
+  // 휴대폰에선 본문을 가리지 않게 접힌 채로 시작
+  set(window.innerWidth>=768);
+  document.getElementById('pip-toggle').onclick=function(){ set(body.style.display==='none'); };
+  // 시각을 누르면 새 창 대신 미니 플레이어를 그 장면으로 옮긴다. 플레이어가 준비 안 됐으면 원래 링크(유튜브)로 간다.
+  var player=null;
+  window.onYouTubeIframeAPIReady=function(){ player=new YT.Player('pip-frame'); };
+  var tag=document.createElement('script'); tag.src='https://www.youtube.com/iframe_api'; document.head.appendChild(tag);
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a.ts'); if(!a||!player||!player.seekTo) return;
+    e.preventDefault();
+    document.getElementById('pip').style.display=''; set(true);
+    player.seekTo(Number(a.dataset.t),true); player.playVideo();
+  });
+})();
+</script>
+</body></html>
